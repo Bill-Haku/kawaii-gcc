@@ -18,10 +18,10 @@ Everyone is welcomed to add more fun messages!
     sudo apt-get install language-pack-ja language-pack-gnome-ja language-pack-ja-base language-pack-gnome-ja-base
     ```
 
-- Install `gcc` and `gettext`.
+- Install `gcc` ,  `gettext` and `g++`.
 
     ```bash
-    sudo apt-get install gcc gettext
+    sudo apt-get install gcc gettext g++
     ```
 
 - Install `gcc locales`
@@ -59,8 +59,8 @@ Everyone is welcomed to add more fun messages!
     vim ~/.bashrc
     
     # Add the following lines
-    export LANG="ja.UTF-8"
-    export LANGUAGE="ja.UTF-8"
+    export LANG="ja_JP.UTF-8"
+    export LANGUAGE="ja_JP.UTF-8"
     # Save it in Vim
 
     source ~/.bashrc
