@@ -60,7 +60,7 @@ Everyone is welcomed to add more fun messages!
     
     # Add the following lines
     export LANG="ja.UTF-8"
-export LANGUAGE="ja.UTF-8"
+    export LANGUAGE="ja.UTF-8"
     # Save it in Vim
 
     source ~/.bashrc
@@ -72,6 +72,7 @@ export LANGUAGE="ja.UTF-8"
 
     ```bash
     gcc test.cc -Wall
+    # -Wall makes GCC output all the warning messages.
     ```
 
 ### macOS & Windows
