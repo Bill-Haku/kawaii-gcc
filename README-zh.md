@@ -45,7 +45,7 @@
     ```bash
     git clone https://github.com/Bill-Haku/kawaii-gcc
     cd kawaii-gcc
-    msgfmt gcc.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
+    msgfmt gcc-zh.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
     ```
 
     关于文件名：
@@ -72,7 +72,7 @@
 
     ```bash
     gcc test.cc -Wall
-    # -Wall makes GCC output all the warning messages.
+    # -Wall 表示让GCC输出所有警告信息
     ```
 
 ### macOS & Windows

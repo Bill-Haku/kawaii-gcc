@@ -1323,7 +1323,7 @@ msgid "%qD was declared here"
 msgstr "%qD在此声明"
 
 msgid "%qD was not declared in this scope"
-msgstr "%qD在此作用域中尚未声明"
+msgstr "%qD不声明就想用？你以为别的女孩子也会像我一样这样提醒你吗？"
 
 msgid "%qD was used with no declaration before its definition"
 msgstr "使用%qD时先前既没有声明也没有定义"
@@ -7474,7 +7474,7 @@ msgid "declarator-id missing; using reserved word %qD"
 msgstr "缺少声明标识符：使用了保留字%qD"
 
 msgid "declared here"
-msgstr "在此声明"
+msgstr "在…在这里声明了这个呢～"
 
 msgid "decrement of constant field %qD"
 msgstr "令只读字段%qD自减"
@@ -10543,7 +10543,7 @@ msgid "no register in address"
 msgstr "地址中无寄存器"
 
 msgid "no return statement in function returning non-void"
-msgstr "在有返回值的函数中未发现 return 语句"
+msgstr "有返回值的函数却没有return？变…变态！"
 
 msgid "no semicolon at end of struct or union"
 msgstr "结构或联合后没有分号"
@@ -12360,6 +12360,9 @@ msgstr "给予函数的实参太多"
 
 msgid "too many arguments to function %qE"
 msgstr "提供给函数%qE的实参太多"
+
+msgid "too many arguments to function %q#D"
+msgstr "函数%q#D的参数、不…不能再多了！"
 
 msgid "too many braces around initializer for %qT"
 msgstr "%qT的初始值设定周围花括号太多"
