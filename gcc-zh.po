@@ -37,7 +37,7 @@ msgid ""
 "Go ahead? (y or n) "
 msgstr ""
 "\n"
-"继续？(y 或 n) "
+"要...要继续吗？(y 或 n) "
 
 msgid ""
 "\n"
@@ -7065,7 +7065,7 @@ msgid "compilation terminated due to -fmax-errors=%u.\n"
 msgstr "编译中止因为 -fmax-errors=%u。\n"
 
 msgid "compilation terminated.\n"
-msgstr "编译中断。\n"
+msgstr "好唉！编译中断。\n"
 
 msgid "complex arguments must have floating-point type"
 msgstr "复数实参必须具有浮点类型"
@@ -7147,7 +7147,7 @@ msgid "constant argument out of range for %qs"
 msgstr "常量实参超过%qs的范围"
 
 msgid "constant refers to itself"
-msgstr "常数指向自身"
+msgstr "常数指向自身,对此咱无法评价"
 
 msgid "constructor for alien class %qT cannot be a member"
 msgstr "其他类%qT的构造函数不能用作成员"
@@ -7474,7 +7474,7 @@ msgid "declarator-id missing; using reserved word %qD"
 msgstr "缺少声明标识符：使用了保留字%qD"
 
 msgid "declared here"
-msgstr "在…在这里声明了这个呢～"
+msgstr "在这里声明的呢"
 
 msgid "decrement of constant field %qD"
 msgstr "令只读字段%qD自减"
@@ -10375,22 +10375,22 @@ msgid "need %<typename%> before %qE because %qT is a dependent scope"
 msgstr "%qE之前需要%<typename%>，因为%qT是一个有依赖的作用域"
 
 msgid "need explicit conversion"
-msgstr "需要显式转换"
+msgstr "需要显式转换，才不会帮你进行呢"
 
 msgid "need explicit conversion; missing method %s%s%s"
 msgstr "需要显式转换；缺少方法%s%s%s"
 
 msgid "negative insn length"
-msgstr "指令长度为负"
+msgstr "指令长度为负，好离谱喵～"
 
 msgid "negative integer implicitly converted to unsigned type"
-msgstr "负整数隐式转换为无符号类型"
+msgstr "负整数隐式转换为无符号类型，咱也很困扰～"
 
 msgid "negative nesting depth of region %i"
-msgstr "区域 %i 的嵌套深度为负"
+msgstr "区域 %i 的嵌套深度为负，对此麦克阿瑟放弃评价"
 
 msgid "negative shift count"
-msgstr "移位次数为负"
+msgstr "移位次数为负，咱不知道该说什么"
 
 msgid "negative width in bit-field %q+D"
 msgstr "位段%q+D宽度为负"
@@ -10453,7 +10453,7 @@ msgid "no %qs getter found"
 msgstr "找不到 %qs 的取值器"
 
 msgid "no arguments"
-msgstr "没有参数"
+msgstr "没有参数，寄了！"
 
 msgid "no arguments for spec function"
 msgstr "spec 函数没有参数"
@@ -10486,10 +10486,10 @@ msgid "no immediate_use list"
 msgstr "没有 immediate_use 列表"
 
 msgid "no input files"
-msgstr "没有输入文件"
+msgstr "没有输入文件，寄！"
 
 msgid "no input files; unwilling to write output files"
-msgstr "没有输入文件；不能写入输出文件"
+msgstr "没有输入文件；不能写入输出文件，总之就是寄"
 
 msgid "no integral type can represent all of the enumerator values for %qT"
 msgstr "没有一个整数类型可以表示%qT的所有枚举值"
@@ -10657,7 +10657,7 @@ msgid "not configured with sysroot headers suffix"
 msgstr "没有配置 sysroot 头文件后缀"
 
 msgid "not enough arguments"
-msgstr "实参太少"
+msgstr "实参和你的头发一样少"
 
 msgid "not enough perfectly nested loops"
 msgstr "不够完美的嵌套循环"
@@ -10675,10 +10675,10 @@ msgid "note: "
 msgstr "才...才不会告诉你...："
 
 msgid "null pointer"
-msgstr "空指针"
+msgstr "和你的内心一样空虚的指针（简称空指针）"
 
 msgid "number must be 0 or 1"
-msgstr "数字必须是 0 或 1"
+msgstr "数字必须是 0 或 1（屏幕前的你必须是0，逃...）"
 
 msgid "number of arguments doesn%'t match built-in prototype"
 msgstr "实参个数与内建原型不符"
@@ -10693,7 +10693,7 @@ msgid "number of results does not match number of values"
 msgstr "返回值的数量不匹配值的数量"
 
 msgid "object is not a method"
-msgstr "对象不是一个方法"
+msgstr "对象不是一个方法（这都不会，还想找对象？杂鱼～）"
 
 msgid "object missing in use of %qE"
 msgstr "使用%qE时缺少对象"
@@ -10780,22 +10780,22 @@ msgid "optimization may eliminate reads and/or writes to register variables"
 msgstr "优化可能会去除对寄存器变量的读写"
 
 msgid "optional argument"
-msgstr "可选参数"
+msgstr "才，才不是可选参数呢"
 
 msgid "ordered comparison of pointer with integer zero"
-msgstr "指针与整数 0 比较大小"
+msgstr "指针与整数 0 比较大小，请对NULL道歉"
 
 msgid "original definition appeared here"
 msgstr "原始定义在此"
 
 msgid "originally defined here"
-msgstr "原先在这里定义"
+msgstr "原先是在这里定义的"
 
 msgid "originally indirect function call not considered for inlining"
 msgstr "原本间接的函数调用不被考虑内联"
 
 msgid "originally specified here"
-msgstr "原先在这里定义"
+msgstr "原先是在这里定义的："
 
 msgid "outer block of region %i is wrong"
 msgstr "区域 %i 的外围块错误"
@@ -10807,7 +10807,7 @@ msgid "output constraint %qc for operand %d is not at the beginning"
 msgstr "输出约束%qc(对操作数 %d)没有出现在开头"
 
 msgid "output filename specified twice"
-msgstr "输出文件名指定了两次"
+msgstr "输出文件名指定了两次，建议指定三次啊三次以获得“一个一个，一个一个输出文件”的buff"
 
 msgid "output number %d not directly addressable"
 msgstr "输出数 %d 不可直接寻址"
@@ -10825,19 +10825,19 @@ msgid "output_move_single:"
 msgstr "output_move_single："
 
 msgid "overflow in array dimension"
-msgstr "数组维数溢出"
+msgstr "数组维数溢...溢出来了!"
 
 msgid "overflow in constant expression"
-msgstr "常量表达式溢出"
+msgstr "常量表达式溢...溢出来了!"
 
 msgid "overflow in enumeration values"
-msgstr "枚举值溢出"
+msgstr "枚举值溢...溢出来了!"
 
 msgid "overflow in enumeration values at %qD"
-msgstr "%qD处枚举值溢出"
+msgstr "%qD处枚举值溢...溢出来了!"
 
 msgid "overflow in implicit constant conversion"
-msgstr "隐式常量转换溢出"
+msgstr "隐式常量转换溢...溢出来了!"
 
 msgid "overloaded function with no contextual type information"
 msgstr "被重载的函数缺少上下文信息"
@@ -11016,16 +11016,16 @@ msgid "path: "
 msgstr "路径："
 
 msgid "pedwarn"
-msgstr "保守警告"
+msgstr "保守起见咱还是警告下"
 
 msgid "pedwarn: "
-msgstr "保守警告："
+msgstr "保守起见咱还是警告下："
 
 msgid "permerror"
-msgstr "永久错误"
+msgstr "寄啦！永久错误"
 
 msgid "permerror: "
-msgstr "永久错误："
+msgstr "寄啦！永久错误："
 
 msgid ""
 "plugin %s is not licensed under a GPL-compatible license\n"
@@ -11487,10 +11487,10 @@ msgid "section of %q+D conflicts with previous declaration"
 msgstr "%q+D的节与早先的声明冲突"
 
 msgid "segmentation fault"
-msgstr "段错误"
+msgstr "喜报：段错误"
 
 msgid "segmentation fault (code)"
-msgstr "段错误（代码）"
+msgstr "喜报：段错误（代码）"
 
 msgid "selector must be an immediate"
 msgstr "选择子必须是立即数"
@@ -11550,7 +11550,7 @@ msgid "size of array is not an integral constant-expression"
 msgstr "数组大小不是一个整数常表达式"
 
 msgid "size of array is too large"
-msgstr "数组太大"
+msgstr "数组太大了，会撑坏内存的～"
 
 msgid "size of loop %d should be %d, not %d"
 msgstr "循环 %d 的大小应该为 %d，而不是%d"
@@ -11565,10 +11565,10 @@ msgid "size of unnamed array is negative"
 msgstr "无名数组的大小为负"
 
 msgid "size of unnamed array is too large"
-msgstr "无名数组太大"
+msgstr "无名数组太大，会撑坏内存的～"
 
 msgid "size of variable %q+D is too large"
-msgstr "变量%q+D的大小太大"
+msgstr "变量%q+D的大小太大，会撑坏内存的～"
 
 msgid "slice end must be integer"
 msgstr "切片结尾必须是整数"
@@ -11577,10 +11577,10 @@ msgid "soft-float and long-double-128 are incompatible"
 msgstr "soft-float 与 long-double-128 互不兼容"
 
 msgid "sorry, unimplemented"
-msgstr "对不起，尚未实现"
+msgstr "尚未实现，真是抱歉呢～"
 
 msgid "sorry, unimplemented: "
-msgstr "对不起，尚未实现："
+msgstr "真是抱歉呢，尚未实现："
 
 msgid "source is a pointer to incomplete type"
 msgstr "源是一个指向不完全类型的指针"
@@ -11683,7 +11683,7 @@ msgid "stackframe too big: %d bytes"
 msgstr "栈帧太大：%d 字节"
 
 msgid "statement has no effect"
-msgstr "语句不起作用"
+msgstr "你说的对，但是语句没有作用"
 
 msgid "statement marked for throw in middle of block"
 msgstr "语句在块中被标记为抛出"
@@ -11692,7 +11692,7 @@ msgid "statement marked for throw, but doesn%'t"
 msgstr "语句被标记为抛出异常，但实际上并未抛出"
 
 msgid "statement with no effect"
-msgstr "语句不起作用"
+msgstr "你说的对，但是语句不起作用"
 
 msgid ""
 "statement-expressions are not allowed outside functions nor in template-"
@@ -11807,34 +11807,34 @@ msgstr "strftime 格式字符串无法格式化实参"
 msgid ""
 "string length %qd is greater than the length %qd ISO C%d compilers are "
 "required to support"
-msgstr "字符串长%qd比%qd(ISO C%d 被要求支持的最大长度) 还要长"
+msgstr "字符串长%qd比%qd(ISO C%d 被要求支持的最大长度) 还要长，不可以的啊！！！"
 
 msgid "strong-cast assignment has been intercepted"
-msgstr "强转换的赋值被打断"
+msgstr "强转换的赋值被打断,呜呜呜～"
 
 msgid "strong-cast may possibly be needed"
-msgstr "可能需要强类型转换"
+msgstr "可能需要强类型转换，那种事，不要啊！！！"
 
 msgid "struct defined here"
-msgstr "结构在此定义"
+msgstr "结构在此定义～"
 
 msgid "struct has no members"
-msgstr "结构体没有成员"
+msgstr "结构体没有成员，你怎么写的代码啊喂！！！"
 
 msgid "struct has no named members"
-msgstr "结构不包含任何有名成员"
+msgstr "连一个有名成员都没有，是个杂鱼结构体呢～"
 
 msgid "subframework include %s conflicts with framework include"
 msgstr "子框架包含 %s 与框架包含冲突"
 
 msgid "subscript missing in array reference"
-msgstr "数组引用缺少下标"
+msgstr "数组引用缺少下标了呢～"
 
 msgid "subscripted value is neither array nor pointer"
-msgstr "下标运算的左操作数既非数组也非指针"
+msgstr "下标运算的左操作数既非数组也非指针，咱自己也不会算喵～"
 
 msgid "subscripted value is pointer to function"
-msgstr "下标运算的左操作数是函数指针"
+msgstr "下标运算的左操作数是函数指针，咱自己也不会算喵～"
 
 msgid "subscripting array declared %<register%>"
 msgstr "按下标访问声明为%<register%>的数组"
@@ -11916,7 +11916,7 @@ msgstr ""
 
 msgid "suggested alternative:"
 msgid_plural "suggested alternatives:"
-msgstr[0] "建议的替代："
+msgstr[0] "才...才不是建议的替代呢："
 
 msgid "support for mode %qs"
 msgstr "支持%qs模式"
@@ -12196,10 +12196,10 @@ msgid "the RX200 cpu does not have FPU hardware"
 msgstr "RX200 CPU 没有 FPU 硬件"
 
 msgid "the address of %qD will always evaluate as %<true%>"
-msgstr "%qD的地址总是等价为%<true%>"
+msgstr "%qD的地址总是等价为%<true%>，真是离谱呢～"
 
 msgid "the address of %qD will never be NULL"
-msgstr "%qD的地址永远不会为 NULL"
+msgstr "%qD的地址永远不会为 NULL，你有没有检查过代码啊喂～"
 
 msgid "the assignment suppression scanf feature"
 msgstr "scanf 的取消赋值特性"
@@ -12240,7 +12240,7 @@ msgstr "倒数第二个实参必须是一个 8 位立即数"
 msgid ""
 "the result of the conversion is unspecified because %qE is outside the range "
 "of type %qT"
-msgstr "转换的结果不能确定，因为%qE已经超过了类型%qT的范围"
+msgstr "转换的结果不能确定，因为%qE已经超过了类型%qT的范围，内存要溢...溢出来了~"
 
 msgid "the type being destroyed is %qT, but the destructor refers to %qT"
 msgstr "被析构的类型是%qT，但析构函数却使用了%qT"
@@ -12300,7 +12300,7 @@ msgid "thread-local declaration of %q+D follows non-thread-local declaration"
 msgstr "%q+D的线程局部声明跟在其非线程局部声明之后"
 
 msgid "throwing NULL, which has integral, not pointer type"
-msgstr "抛出 NULL，它的类型是整数而不是指针"
+msgstr "抛出 NULL，但它的类型是整数，不是指针啊喂！！！"
 
 msgid "to refer to a type member of a template parameter, use %<typename %E%>"
 msgstr "需要使用某个模板参数的类型成员时，请使用%<typename %E%>"
@@ -12341,7 +12341,7 @@ msgid "too many alternatives in %<asm%>"
 msgstr "%<asm%>中太多变数"
 
 msgid "too many arguments"
-msgstr "实参太多"
+msgstr "实参太...太多了!!!"
 
 msgid "too many arguments for format"
 msgstr "提供给格式字符串的实参太多"
@@ -12356,10 +12356,10 @@ msgid "too many arguments to %%:version-compare"
 msgstr "%%：version-compare 的参数太多"
 
 msgid "too many arguments to function"
-msgstr "给予函数的实参太多"
+msgstr "给予函数的实参太...太多了！"
 
 msgid "too many arguments to function %qE"
-msgstr "提供给函数%qE的实参太多"
+msgstr "提供给函数%qE的实参太多，检查下定义吧～"
 
 msgid "too many arguments to function %q#D"
 msgstr "函数%q#D的参数、不…不能再多了！"
@@ -12371,7 +12371,7 @@ msgid "too many initializers for %qT"
 msgstr "%qT的初始值设定项太多"
 
 msgid "too many input files"
-msgstr "输入文件太多"
+msgstr "输入文件太...太多了，人家处理不完喵呜～"
 
 msgid "too many outgoing branch edges from bb %i"
 msgstr "从基本块 %i 分出太多的分支边"
@@ -12383,7 +12383,7 @@ msgid "too many template-parameter-lists"
 msgstr "模板参数表太多"
 
 msgid "too many values in return statement"
-msgstr "返回语句中值太多"
+msgstr "返回语句中值太多了，编译前给我检查一下啊喂！！！"
 
 msgid "too much stack space to dispose of: %d"
 msgstr "要舍弃太多的堆栈空间：%d"
@@ -12399,22 +12399,22 @@ msgstr "局部变量大小总和超过架构极限。"
 
 msgid ""
 "traditional C lacks a separate namespace for labels, identifier %qE conflicts"
-msgstr "传统 C 不为标号提供一个单独的命名空间，标识符%qE冲突"
+msgstr "传统 C 不为标号提供一个单独的命名空间，标识符%qE冲突，要不咱换C23(雾)"
 
 msgid "traditional C rejects ISO C style function definitions"
-msgstr "传统 C 不接受 ISO C 风格的函数定义"
+msgstr "传统 C 不接受 ISO C 风格的函数定义，要不咱换C23(雾)"
 
 msgid "traditional C rejects automatic aggregate initialization"
-msgstr "传统 C 不接受自动的聚合初始化"
+msgstr "传统 C 不接受自动的聚合初始化，要不咱换C23(雾)"
 
 msgid "traditional C rejects initialization of unions"
-msgstr "传统 C 不接受对联合的初始化"
+msgstr "传统 C 不接受对联合的初始化，要不咱换C23(雾)"
 
 msgid "traditional C rejects string constant concatenation"
-msgstr "传统 C 不接受字符串常量毗连"
+msgstr "传统 C 不接受字符串常量毗连，要不咱换C23(雾)"
 
 msgid "traditional C rejects the unary plus operator"
-msgstr "传统 C 不接受单目 + 运算符"
+msgstr "传统 C 不接受单目 + 运算符，要不咱换C23(雾)"
 
 msgid "trap mode not supported for VAX floats"
 msgstr "陷阱模式不为 VAX 浮点数所支持"
@@ -12672,13 +12672,13 @@ msgid "union cannot be made transparent"
 msgstr "联合不能成为透明的"
 
 msgid "union defined here"
-msgstr "联合在此定义"
+msgstr "联合在此定义～"
 
 msgid "union has no members"
-msgstr "联合体没有成员"
+msgstr "联合体没有成员，是个杂鱼定义呢～"
 
 msgid "union has no named members"
-msgstr "联合包含无名成员"
+msgstr "联合包含无名成员，连名字都不配有可真失败呢～"
 
 msgid "unknown IRA algorithm %qs"
 msgstr "未知的 IRA 算法 %qs"
@@ -12747,16 +12747,16 @@ msgid "unnamed variable or field declared void"
 msgstr "无名变量或字段声明为 void"
 
 msgid "unreachable"
-msgstr "不可达"
+msgstr "暂时无法前往探索的"
 
 msgid "unrecognizable insn:"
 msgstr "无法识别的指令："
 
 msgid "unrecognized address"
-msgstr "无法识别的地址"
+msgstr "无法识别的地址，你自己看着办吧"
 
 msgid "unrecognized format specifier"
-msgstr "无法识别的格式限定符"
+msgstr "无法识别的格式限定符，你自己看着办吧"
 
 msgid "unrecognized gcc debugging option: %c"
 msgstr "无法识别的 gcc 调试选项：%c"
@@ -12771,7 +12771,7 @@ msgid "unrecognized supposed constant"
 msgstr "预期的常量无法识别"
 
 msgid "unrecoverable error"
-msgstr "不可恢复错误"
+msgstr "不可恢复错误，寄啦～"
 
 msgid "unsupported combination: %s"
 msgstr "不支持的组合：%s"
@@ -12792,7 +12792,7 @@ msgid "unterminated format string"
 msgstr "未终止的格式字符串"
 
 msgid "unused name %qE"
-msgstr "未使用的名称 %qE"
+msgstr "未使用的名称 %qE，不要丢下人家啊呜呜呜～"
 
 msgid "unused variable %q+D"
 msgstr "你是不是忘了某个叫作%q+D的东西"
@@ -12887,34 +12887,34 @@ msgid "using-declaration for non-member at class scope"
 msgstr "在类作用域使用非成员的 using 声明"
 
 msgid "value computed is not used"
-msgstr "计算出的值未被使用"
+msgstr "计算出的值未被使用，才...才不是抱怨你非得让咱算一遍呢!"
 
 msgid "var-tracking-assignments changes selective scheduling"
 msgstr "var-tracking-assignments 改变了选择性调度"
 
 msgid "variable %q#D has initializer but incomplete type"
-msgstr "变量%q#D有初始值设定，但是类型不完全"
+msgstr "变量%q#D有初始值设定，但是类型并不完全呐～"
 
 msgid "variable %q+D declared %<inline%>"
-msgstr "变量%q+D声明为%<inline%>"
+msgstr "变量%q+D声明为%<inline%>，真是离谱呢～"
 
 msgid "variable %q+D definition is marked dllimport"
 msgstr "变量%q+D的定义被标记为 dllimport"
 
 msgid "variable %q+D might be clobbered by %<longjmp%> or %<vfork%>"
-msgstr "变量%q+D能为%<longjmp%>或%<vfork%>所篡改"
+msgstr "变量%q+D能为%<longjmp%>或%<vfork%>所篡改，真出了问题咱可不管～"
 
 msgid "variable %qD has function type"
-msgstr "变量%qD有函数类型"
+msgstr "变量%qD居然有函数类型？"
 
 msgid "variable %qD has initializer but incomplete type"
-msgstr "变量%qD有初始值设定但类型不完全"
+msgstr "变量%qD有初始值设定但类型并不完全呢～"
 
 msgid "variable %qD redeclared as function"
-msgstr "变量%qD重声明为函数"
+msgstr "变量%qD重声明为函数，你这代码真离谱喵～"
 
 msgid "variable %qD set but not used"
-msgstr "变量%qD被设定但未被使用"
+msgstr "变量%qD被设定但未被使用，长点心吧喂！！！"
 
 msgid ""
 "variable %qE of incomplete type %qT will not be accessed in for increment "
@@ -12951,22 +12951,22 @@ msgid "variable length array is used"
 msgstr "是变长数组欸"
 
 msgid "variable or field %qE declared void"
-msgstr "变量或字段%qE声明为 void"
+msgstr "变量或字段%qE声明为 void,这样我会很困扰的！"
 
 msgid "variable or field declared void"
-msgstr "变量或字段声明为 void"
+msgstr "变量或字段声明为 void,这样我会很困扰的！"
 
 msgid "variable previously declared %<static%> redeclared %<extern%>"
-msgstr "先前被声明为%<static%>的变量重声明为%<extern%>"
+msgstr "先前被声明为%<static%>的变量重声明为%<extern%>，才...才不会困扰呢！"
 
 msgid "variable tracking requested, but not supported by this debug format"
-msgstr "求追踪变量，但不为这种调试格式所支持"
+msgstr "要求追踪变量，但不为这种调试格式所支持"
 
 msgid "variable tracking requested, but useless unless producing debug info"
-msgstr "要求追踪变量，但若不生成调试信息则无用"
+msgstr "倘若不生成调试信息，要求追踪变量则毫无用处"
 
 msgid "variable tracking size limit exceeded"
-msgstr "变量跟踪大小越限"
+msgstr "变量跟踪大小越...越限了啊喂！！！"
 
 msgid "variable-sized compound literal"
 msgstr "变长复合字面量"
@@ -13152,7 +13152,7 @@ msgid "{anonymous}"
 msgstr "{猜中人家给你奖励哦}"
 
 msgid "division by zero is not a constant expression"
-msgstr "你怎么敢拿除以零这种东西当常量表达式的啊"
+msgstr "你怎么敢拿除以零这种东西当常量表达式的啊？答案是error=e or r^2，自己看着办吧哼！"
 
 msgid "%qs is defined in header %qs; did you forget to %<#include %s%>?"
 msgstr "%qs是定义在头文件%qs里的呢，人家就是想看你忘记%<#include %s%>啦～"
