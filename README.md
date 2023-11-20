@@ -5,6 +5,8 @@ This project makes the output messages from GCC compiler looks kawaii by editing
 
 Everyone is welcomed to add more fun messages!
 
+[中文版](./blob/main/README-zh.md)
+
 ## Dependences
 - GNU GCC
 - GNU Gettext
@@ -78,3 +80,7 @@ Everyone is welcomed to add more fun messages!
 ### macOS & Windows
 
 Not implemented yet. Contribution welcomed!
+
+## Inspiration
+
+<https://github.com/Mosklia/gcc-hentai>
