@@ -5,7 +5,7 @@ This project makes the output messages from GCC compiler looks kawaii by editing
 
 Everyone is welcomed to add more fun messages!
 
-[中文版](./blob/main/README-zh.md)
+[中文版](./README-zh.md)
 
 ## Dependences
 - GNU GCC
