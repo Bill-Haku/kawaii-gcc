@@ -12,6 +12,12 @@
 ## 如何使用？
 ### Linux (以Ubuntu为例)
 
+> [中文版使用教程视频-Bilibili](https://www.bilibili.com/video/BV1gC4y1P7t3/)
+>
+> [日语版使用教程视频-Bilibili](https://www.bilibili.com/video/BV1Wg4y1X74a/)
+>
+> [日语版使用教程视频-YouTube](https://youtu.be/ASWBU8HhvY0)
+
 - 安装中文 (如果没有安装)
 
     ```bash
@@ -79,6 +85,6 @@
 
 暂未实现。欢迎贡献。
 
-## 参考
+## 特别鸣谢
 
-<https://github.com/Mosklia/gcc-hentai>
+本项目的灵感来自[`gcc-hentai`](https://github.com/Mosklia/gcc-hentai)项目。为了将其推广到日语区，我创建了本仓库、制作了日语版并修改完善了使用说明的诸多细节，最后制作了完全日语的宣传视频发布在YouTube，不料却在Bilibili获得了关注。十分感谢原作者的分享和开源精神。
