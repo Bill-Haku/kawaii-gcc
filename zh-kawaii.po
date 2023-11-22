@@ -438,7 +438,7 @@ msgid "too many arguments to function %qE"
 msgstr "提供给函数%qE的实参太多，检查下定义吧～"
 
 msgid "too many arguments to function %q#D"
-msgstr "函数%q#D的参数、不…不能再多了！"
+msgstr "函数%q#D的参数太多，不…不能再多了！"
 
 msgid "too many values in return statement"
 msgstr "返回语句中值太多了，编译前给我检查一下啊喂！！！"
@@ -649,3 +649,23 @@ msgstr "无法转换%qH为%qI类型,建议重开谢谢喵～"
 msgid "Used here"
 msgstr "在这里调用的呢："
 
+msgid "returning %qT from a function with incompatible return type %qT"
+msgstr "在返回%qT的函数中返回%qT,你可长点心吧喂！！！"
+
+msgid "assignment to %qT from incompatible pointer type %qT"
+msgstr "%qT从不兼容的指针类型赋值为%qT"
+
+msgid "unknown type name %qE"
+msgstr "未知的类型名%qE,是忘了定义了吗喵？"
+
+msgid "control reaches end of non-void function"
+msgstr "你的这个函数是不是把返回值忘了？？？"
+
+msgid "unbounded use of variable-length array"
+msgstr "ISO C90 不允许变长数组，建议换rust～"
+
+msgid "incompatible implicit declaration of built-in function %qD"
+msgstr "隐式声明与内建函数%qD不兼容，别问我为什么觉得你已经隐式声明了！"
+
+msgid "fatal error: "
+msgstr "寄了："
