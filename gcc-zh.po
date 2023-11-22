@@ -13349,7 +13349,7 @@ msgid "obsolete Maverick format code '%c'"
 msgstr "不受支持的算符用于编码‘%c’"
 
 msgid "invalid conversion from type %<bfloat16_t%>"
-msgstr "从%<__fpreg%>的转换无效"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
 
 msgid "invalid conversion to type %<bfloat16_t%>"
 msgstr "到类型%qT的转换无效，从类型%qT"
@@ -13660,7 +13660,7 @@ msgid "ia64_print_operand: unknown code"
 msgstr "ia64_print_operand：未知代码"
 
 msgid "invalid conversion from %<__fpreg%>"
-msgstr "从%<__fpreg%>的转换无效"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
 
 msgid "invalid conversion to %<__fpreg%>"
 msgstr "向%<__fpreg%>的转换无效"
@@ -13933,13 +13933,13 @@ msgid "Bad GPR fusion"
 msgstr ""
 
 msgid "invalid conversion from type %<__vector_quad%>"
-msgstr "从%<__fpreg%>的转换无效"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
 
 msgid "invalid conversion to type %<__vector_quad%>"
-msgstr "向%<__fpreg%>的转换无效"
+msgstr "向%<__fpreg%>的转换是无效的喵~"
 
 msgid "invalid conversion from type %<__vector_pair%>"
-msgstr "从%<__fpreg%>的转换无效"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
 
 msgid "invalid conversion to type %<__vector_pair%>"
 msgstr "向%<__fpreg%>的转换无效"
@@ -14127,60 +14127,60 @@ msgstr "({匿名})"
 #. <~~~~~~~~~ declaration ~~~~~~~~~~>
 #. Use c_parser_require to get an error with a fix-it hint.
 msgid "expected %<;%>"
-msgstr "需要%<;%>"
+msgstr "需要%<;%>，请添加上它并对它道歉！"
 
 msgid "expected %<)%>"
-msgstr "需要%<)%>"
+msgstr "需要%<)%>，请添加上它并对它道歉！"
 
 msgid "expected %<]%>"
-msgstr "需要%<]%>"
+msgstr "需要%<]%>，请添加上它并对它道歉！"
 
 msgid "expected %<;%>, %<,%> or %<)%>"
-msgstr "需要 %<;%>、%<,%> 或 %<)%>"
+msgstr "需要 %<;%>、%<,%> 或 %<)%>，请添加上它并对它道歉！"
 
 #. Look for the two `(' tokens.
 msgid "expected %<(%>"
-msgstr "需要%<(%>"
+msgstr "需要%<(%>，请添加上它并对它道歉！"
 
 msgid "expected %<[%>"
-msgstr "需要%<[%>"
+msgstr "需要%<[%>，请添加上它并对它道歉！"
 
 msgid "expected %<{%>"
-msgstr "需要%<{%>"
+msgstr "需要%<{%>，请添加上它并对它道歉！"
 
 msgid "expected %<:%>"
-msgstr "需要 %<:%>"
+msgstr "需要 %<:%>，请添加上它并对它道歉！"
 
 msgid "expected %<while%>"
-msgstr "需要 %<while%>"
+msgstr "需要 %<while%>，请添加上它并对它道歉！"
 
 msgid "expected %<,%>"
-msgstr "需要 %<,%>"
+msgstr "需要 %<,%>，请添加上它并对它道歉！"
 
 msgid "expected %<.%>"
-msgstr "需要%<.%>"
+msgstr "需要%<.%>，请添加上它并对它道歉！"
 
 msgid "expected %<@end%>"
-msgstr "需要 %<@end%>"
+msgstr "需要 %<@end%>，请添加上它并对它道歉！"
 
 msgid "expected %<>%>"
-msgstr "需要 %<>%>"
+msgstr "需要 %<>%>，请添加上它并对它道歉！"
 
 msgid "expected %<,%> or %<)%>"
-msgstr "需要 %<,%> 或 %<)%>"
+msgstr "需要 %<,%> 或 %<)%>，请添加上它并对它道歉！"
 
 #. All following cases are statements with LHS.
 msgid "expected %<=%>"
-msgstr "需要%<=%>"
+msgstr "需要%<=%>，请添加上它并对它道歉！"
 
 msgid "expected %<}%>"
-msgstr "需要 %<}%>"
+msgstr "需要 %<}%>，请添加上它并对它道歉！"
 
 msgid "expected %<else%>"
-msgstr "需要%<delete%>"
+msgstr "需要%<delete%>，请添加上它并对它道歉！"
 
 msgid "expected %<#pragma omp section%> or %<}%>"
-msgstr "需要%<#pragma omp section%>或%<}%>"
+msgstr "需要%<#pragma omp section%>或%<}%>，请添加上它并对它道歉！"
 
 msgid "<message unknown at compile time>"
 msgstr ""
@@ -23275,14 +23275,14 @@ msgstr "格式字符串实参 %d 有多余的类型限定"
 
 msgid ""
 "%s %<%s%.*s%> expects argument of type %<%s%s%>, but argument %d has type %qT"
-msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型为%qT"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
 
 msgid "%s %<%s%.*s%> expects a matching %<%s%s%> argument"
 msgstr "%qs需要一个常量实参"
 
 msgid ""
 "%s %<%s%.*s%> expects argument of type %<%T%s%>, but argument %d has type %qT"
-msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型为%qT"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
 
 msgid "%s %<%s%.*s%> expects a matching %<%T%s%> argument"
 msgstr "%qs需要一个常量实参"
@@ -25044,7 +25044,7 @@ msgstr "传递%2$qE的第 %1$d 个参数时在不兼容的指针类型间转换"
 msgid ""
 "call to %qE is ambiguous; argument %d has type %qs but argument %d has type "
 "%qs"
-msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型为%qT"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
 
 #. It doesn't really matter whether the element is expected to be
 #. the same size as type suffix 0.
@@ -31840,7 +31840,7 @@ msgid "array initialized from parenthesized string constant"
 msgstr "用括号中的字符串常量初始化数组"
 
 msgid "expected %qT but argument is of type %qT"
-msgstr "需要类型%qT，但实参的类型为%qT"
+msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
 
 msgid ""
 "%qD argument %d type is %qT where %qT is expected in a call to built-in "
@@ -33070,7 +33070,7 @@ msgid "invalid user-defined conversion from %qH to %qI"
 msgstr "从%q#T到%q#T的转换"
 
 msgid "invalid conversion from %qH to %qI"
-msgstr "从%q#T到%q#T的转换"
+msgstr "从%q#T到%q#T的转换是无效的喵~"
 
 msgid ""
 "converting to %qT from initializer list would use explicit constructor %qD"
@@ -38519,7 +38519,7 @@ msgid "typedef-name %qD used as destructor declarator"
 msgstr "typedef 名%qD用于析构函数声明"
 
 msgid "expected unqualified-id"
-msgstr "需要指定符-限制符列表"
+msgstr "你可能需要指定符-限制符列表"
 
 msgid "%qD is not a template"
 msgstr "%qD不是一个模板"
@@ -39233,7 +39233,7 @@ msgid "types may not be defined in enum-base"
 msgstr "类型不能定义在类型转换中"
 
 msgid "expected %<;%> or %<{%>"
-msgstr "需要%<,%>或%<;%>"
+msgstr "需要%<,%>或%<;%>,请添加上它并对它道歉！"
 
 msgid "cannot add an enumerator list to a template instantiation"
 msgstr "属性在模板实例化上被忽略"
@@ -39522,7 +39522,7 @@ msgid "expected %<;%> after union definition"
 msgstr "联合定义后需要%<;%>"
 
 msgid "expected %<{%> or %<:%>"
-msgstr "需要%<{%>或%<:%>"
+msgstr "需要%<{%>或%<:%>，请添加上它并对它道歉！"
 
 msgid "cannot specify %<override%> for a class"
 msgstr "不能为类指定 %<override%>"
@@ -48256,7 +48256,7 @@ msgid "expected %<=%> at %C"
 msgstr "需要%<=%>"
 
 msgid "expected %<{%> at %C"
-msgstr "需要%<{%>"
+msgstr "需要%<{%>，请添加上它并对它道歉"
 
 msgid "expected %<}%> at %C"
 msgstr "需要 %<}%>"
