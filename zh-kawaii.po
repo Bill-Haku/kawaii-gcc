@@ -593,11 +593,11 @@ msgid "division by zero is not a constant expression"
 msgstr "你怎么敢拿除以零这种东西当常量表达式的啊？答案是error=e or r^2，自己看着办吧哼！"
 
 msgid "%qs is defined in header %qs; did you forget to %<#include %s%>?"
-msgstr "%qs是定义在头文件%qs里的呢，人家看你就是想忘记%<#include %s%>啦～"
+msgstr "%qs是定义在头文件%qs里的，人家看你就是忘记%<#include %s%>了～"
 
 msgid ""
 "%<std::%s%> is defined in header %qs; did you forget to %<#include %s%>?"
-msgstr "%<std::%s%>是定义在头文件%qs里的呢，人家看你就是想忘记%<#include %s%>啦～"
+msgstr "%<std::%s%>是定义在头文件%qs里的，人家看你就是忘记%<#include %s%>了～"
 
 msgid "In function %qD"
 msgstr "就...就在那个叫%qD的函数里..."
