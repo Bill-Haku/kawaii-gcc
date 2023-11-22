@@ -14,6 +14,8 @@ Everyone is welcomed to add more fun messages!
 ## How to use it?
 ### Linux (in an Ubuntu example)
 
+> [Demo Video on YouTube(Japanese)](https://youtu.be/ASWBU8HhvY0)
+
 - Install Japanese for your terminal (if not installed)
 
     ```bash
@@ -81,6 +83,6 @@ Everyone is welcomed to add more fun messages!
 
 Not implemented yet. Contribution welcomed!
 
-## Inspiration
+## Special Thanks
 
-<https://github.com/Mosklia/gcc-hentai>
+This project is inspired by [`gcc-hentai`](https://github.com/Mosklia/gcc-hentai). It was a Chinese project, and I created this repo to make a Japanese version and share it to Japanese users. I added the new text, edited and completed some details in the use instructions, and made a video in Japanese to share it. The video got expected attention in Chinese users on Bilibili, so I added contents of Chinese in it. Thanks for the sharing and the open-source spirit of the original authors.
