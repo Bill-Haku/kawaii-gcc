@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gcc 13.1-b20230409\n"
+"Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
+"POT-Creation-Date: 2023-07-26 18:38+0000\n"
+"PO-Revision-Date: 2023-04-13 22:07-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.3\n"
+
+msgid "function not considered for inlining"
+msgstr "不考虑内联函数(都什么年代了还在使用传统inline)"
+
+msgid "invalid conversion from type %<bfloat16_t%>"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
+
+msgid "invalid conversion from %<__fpreg%>"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
+
+msgid "invalid conversion from type %<__vector_quad%>"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
+
+msgid "invalid conversion to type %<__vector_quad%>"
+msgstr "向%<__fpreg%>的转换是无效的喵~"
+
+msgid "invalid conversion from type %<__vector_pair%>"
+msgstr "从%<__fpreg%>的转换是无效的喵~"
+
+msgid "expected %<;%>"
+msgstr "需要%<;%>，请添加上它并对它道歉！"
+
+msgid "expected %<)%>"
+msgstr "需要%<)%>，请添加上它并对它道歉！"
+
+msgid "expected %<]%>"
+msgstr "需要%<]%>，请添加上它并对它道歉！"
+
+msgid "expected %<;%>, %<,%> or %<)%>"
+msgstr "需要 %<;%>、%<,%> 或 %<)%>，请添加上它并对它道歉！"
+
+#. Look for the two `(' tokens.
+msgid "expected %<(%>"
+msgstr "需要%<(%>，请添加上它并对它道歉！"
+
+msgid "expected %<[%>"
+msgstr "需要%<[%>，请添加上它并对它道歉！"
+
+msgid "expected %<{%>"
+msgstr "需要%<{%>，请添加上它并对它道歉！"
+
+msgid "expected %<:%>"
+msgstr "需要 %<:%>，请添加上它并对它道歉！"
+
+msgid "expected %<while%>"
+msgstr "需要 %<while%>，请添加上它并对它道歉！"
+
+msgid "expected %<,%>"
+msgstr "需要 %<,%>，请添加上它并对它道歉！"
+
+msgid "expected %<.%>"
+msgstr "需要%<.%>，请添加上它并对它道歉！"
+
+msgid "expected %<@end%>"
+msgstr "需要 %<@end%>，请添加上它并对它道歉！"
+
+msgid "expected %<>%>"
+msgstr "需要 %<>%>，请添加上它并对它道歉！"
+
+msgid "expected %<,%> or %<)%>"
+msgstr "需要 %<,%> 或 %<)%>，请添加上它并对它道歉！"
+
+msgid "expected %<=%>"
+msgstr "需要%<=%>，请添加上它并对它道歉！"
+
+msgid "expected %<}%>"
+msgstr "需要 %<}%>，请添加上它并对它道歉！"
+
+msgid "expected %<else%>"
+msgstr "需要%<delete%>，请添加上它并对它道歉！"
+
+msgid "expected %<#pragma omp section%> or %<}%>"
+msgstr "需要%<#pragma omp section%>或%<}%>，请添加上它并对它道歉！"
+
+msgid ""
+"%s %<%s%.*s%> expects argument of type %<%s%s%>, but argument %d has type %qT"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
+
+msgid ""
+"%s %<%s%.*s%> expects argument of type %<%T%s%>, but argument %d has type %qT"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
+
+msgid ""
+"call to %qE is ambiguous; argument %d has type %qs but argument %d has type "
+"%qs"
+msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
+
+msgid "expected %qT but argument is of type %qT"
+msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
+
+msgid "invalid conversion from %qH to %qI"
+msgstr "从%q#T到%q#T的转换是无效的喵~"
+
+msgid "expected unqualified-id"
+msgstr "你可能需要指定符-限制符列表"
+
+msgid "expected %<;%> or %<{%>"
+msgstr "需要%<,%>或%<;%>,请添加上它并对它道歉！"
+
+msgid "expected %<{%> or %<:%>"
+msgstr "需要%<{%>或%<:%>，请添加上它并对它道歉！"
+
+msgid "expected %<{%> at %C"
+msgstr "需要%<{%>，请添加上它并对它道歉"
+
+msgid ""
+"\n"
+"Go ahead? (y or n) "
+msgstr ""
+"\n"
+"要...要继续吗？(y 或 n) "
+
+
+msgid "  from here"
+msgstr "  从这里"
+
+msgid "%<::main%> must return %<int%>"
+msgstr "%<::main%>必须返回%<int%>，这你都不知道吗？"
+
+msgid "%<long long long%> is too long for GCC"
+msgstr "%<long long long%>对人家来说太长了啊，呜呜～"
+
+msgid "%<long%> switch expression not converted to %<int%> in ISO C"
+msgstr "在 ISO C 中，%<long%>开关表达式不被转换为%<int%>, 建议换rust～"
+
+msgid "%q+D declared as a friend"
+msgstr "%q+D是你的朋友!"
+
+msgid "Fatal Error"
+msgstr "坏掉了"
+
+msgid "ISO C90 does not support %<[*]%> array declarators"
+msgstr "听不懂呜哇哇，ISO C90 听不懂%<[*]%> 数组声明方式的啦"
+
+msgid "In function %qs"
+msgstr "就...就在那个叫%qs的函数里！"
+
+msgid "Integer too large at %C"
+msgstr "%C处整数太，太大了啊！"
+
+
+msgid "Name at %C is too long"
+msgstr "%C 的名字太...太长了啊！"
+
+msgid "Name too long"
+msgstr "名字太，太长了啊！"
+
+msgid "No longer supported."
+msgstr "不会再爱。"
+
+msgid "Out of stack space.\n"
+msgstr "堆栈...溢！...溢出来了呜呜呜！\n"
+
+msgid "Warning"
+msgstr "盯你一眼"
+
+
+msgid "aka"
+msgstr "aka(该不会你连also known as都不认识吧～)"
+
+msgid "compilation terminated.\n"
+msgstr "好唉！编译中断。\n"
+
+
+msgid "debug"
+msgstr "太...太羞耻了"
+
+msgid "debug: "
+msgstr "太...太羞耻了："
+
+msgid "%qD was not declared in this scope"
+msgstr "%qD不声明就想用？你以为别的女孩子也会像我一样这样提醒你吗？"
+
+msgid "error"
+msgstr "笨蛋！"
+
+msgid "error: "
+msgstr "笨蛋！"
+
+msgid "internal compiler error: "
+msgstr "寄了："
+
+msgid "need explicit conversion"
+msgstr "需要显式转换，才不会帮你进行呢"
+
+msgid "need explicit conversion; missing method %s%s%s"
+msgstr "需要显式转换；缺少方法%s%s%s"
+
+msgid "negative insn length"
+msgstr "指令长度为负，好离谱喵～"
+
+msgid "negative integer implicitly converted to unsigned type"
+msgstr "负整数隐式转换为无符号类型，咱也很困扰～"
+
+msgid "negative nesting depth of region %i"
+msgstr "区域 %i 的嵌套深度为负，对此麦克阿瑟放弃评价"
+
+msgid "negative shift count"
+msgstr "移位次数为负，咱不知道该说什么"
+
+msgid "no arguments"
+msgstr "没有参数，寄了！"
+
+
+msgid "no input files"
+msgstr "没有输入文件，寄！"
+
+msgid "no input files; unwilling to write output files"
+msgstr "没有输入文件；不能写入输出文件，总之就是寄"
+
+msgid "note"
+msgstr "才...才不会告诉你..."
+
+msgid "note: "
+msgstr "才...才不会告诉你...："
+
+msgid "null pointer"
+msgstr "和你的内心一样空虚的指针（简称空指针）"
+
+msgid "number must be 0 or 1"
+msgstr "数字必须是 0 或 1（屏幕前的你必须是0，逃...）"
+
+msgid "object is not a method"
+msgstr "对象不是一个方法（这都不会，还想找对象？杂鱼～）"
+
+
+msgid "optional argument"
+msgstr "才，才不是可选参数呢"
+
+
+msgid "ordered comparison of pointer with integer zero"
+msgstr "指针与整数 0 比较大小，请对NULL道歉"
+
+msgid "original definition appeared here"
+msgstr "原始定义在此，请对它道歉！"
+
+
+msgid "originally defined here"
+msgstr "原先是在这里定义的"
+
+
+msgid "originally specified here"
+msgstr "原先是在这里定义的："
+
+msgid "overflow in array dimension"
+msgstr "数组维数溢...溢出来了!"
+
+msgid "overflow in constant expression"
+msgstr "常量表达式溢...溢出来了!"
+
+msgid "overflow in enumeration values"
+msgstr "枚举值溢...溢出来了!"
+
+msgid "overflow in enumeration values at %qD"
+msgstr "%qD处枚举值溢...溢出来了!"
+
+msgid "overflow in implicit constant conversion"
+msgstr "隐式常量转换溢...溢出来了!"
+
+msgid "pedwarn"
+msgstr "保守起见咱还是警告下"
+
+msgid "pedwarn: "
+msgstr "保守起见咱还是警告下："
+
+msgid "permerror"
+msgstr "寄啦！永久错误"
+
+msgid "permerror: "
+msgstr "寄啦！永久错误："
+
+
+msgid "segmentation fault"
+msgstr "喜报：段错误"
+
+msgid "segmentation fault (code)"
+msgstr "喜报：段错误（代码）"
+
+
+msgid "size of array is too large"
+msgstr "数组太大了，会撑坏内存的～"
+
+msgid "size of unnamed array is too large"
+msgstr "无名数组太大，会撑坏内存的～"
+
+msgid "size of variable %q+D is too large"
+msgstr "变量%q+D的大小太大，会撑坏内存的～"
+
+msgid "sorry, unimplemented"
+msgstr "尚未实现，真是抱歉呢～"
+
+msgid "sorry, unimplemented: "
+msgstr "真是抱歉呢，尚未实现："
+
+msgid "statement has no effect"
+msgstr "你说的对，但是语句没有作用"
+
+msgid "statement with no effect"
+msgstr "你说的对，但是语句不起作用"
+
+
+msgid ""
+"string length %qd is greater than the length %qd ISO C%d compilers are "
+"required to support"
+msgstr "字符串长%qd比%qd(ISO C%d 被要求支持的最大长度) 还要长，不可以的啊！！！"
+
+msgid "strong-cast assignment has been intercepted"
+msgstr "强转换的赋值被打断,呜呜呜～"
+
+msgid "strong-cast may possibly be needed"
+msgstr "可能需要强类型转换，那种事，不要啊！！！"
+
+msgid "struct defined here"
+msgstr "结构在此定义～"
+
+msgid "struct has no members"
+msgstr "结构体没有成员，你怎么写的代码啊喂！！！"
+
+msgid "struct has no named members"
+msgstr "连一个有名成员都没有，是个杂鱼结构体呢～"
+
+msgid "subframework include %s conflicts with framework include"
+msgstr "子框架包含 %s 与框架包含冲突"
+
+msgid "subscript missing in array reference"
+msgstr "数组引用缺少下标了呢～"
+
+msgid "subscripted value is neither array nor pointer"
+msgstr "下标运算的左操作数既非数组也非指针，咱自己也不会算喵～"
+
+msgid "subscripted value is pointer to function"
+msgstr "下标运算的左操作数是函数指针，咱自己也不会算喵～"
+
+msgid "subscripting array declared %<register%>"
+msgstr "按下标访问声明为%<register%>的数组"
+
+msgid "suggest braces around empty body in %<do%> statement"
+msgstr "要记得在空的%<do%>语句体周围加上花括号，并大声地向它说“对不起，我不该把你留空的”"
+
+msgid "suggest braces around empty body in an %<else%> statement"
+msgstr "要记得在空的%<else%>语句体周围加上花括号，并大声地向它说“对不起，我不该把你留空的”"
+
+msgid "suggest braces around empty body in an %<if%> statement"
+msgstr "要记得在空的%<if%>语句体周围加上花括号，并大声地向它说“对不起，我不该把你留空的”"
+
+msgid "suggest explicit braces around empty body in %<do%> statement"
+msgstr "要记得在%<do%>的空语句体周围显式地加上花括号，并大声地向它说“对不起，我不该把你留空的”"
+
+msgid "suggest explicit braces to avoid ambiguous %<else%>"
+msgstr "要记得显式地使用花括号以避免出现有歧义的%<else%>"
+
+msgid "suggest parentheses around %<&&%> within %<||%>"
+msgstr "要记得在%<||%>的操作数中出现的%<&&%>前后加上括号"
+
+msgid "suggest parentheses around %<+%> in operand of %<&%>"
+msgstr "要记得在%<&%>的操作数中出现的%<+%>前后加上括号"
+
+msgid "suggest parentheses around %<+%> inside %<<<%>"
+msgstr "要记得在%<<<%>的操作数中出现的%<+%>前后加上括号"
+
+msgid "suggest parentheses around %<+%> inside %<>>%>"
+msgstr "要记得在%<>>%>的操作数中出现的%<+%>前后加上括号"
+
+msgid "suggest parentheses around %<-%> in operand of %<&%>"
+msgstr "要记得在%<&%>的操作数中出现的%<-%>前后加上括号"
+
+msgid "suggest parentheses around %<-%> inside %<<<%>"
+msgstr "要记得在%<<<%>的操作数中出现的%<-%>前后加上括号"
+
+msgid "suggest parentheses around %<-%> inside %<>>%>"
+msgstr "要记得在%<>>%>的操作数中出现的%<-%>前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around %<>>%> expression"
+msgstr "要记得在%<>>%>表达式周围加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around arithmetic in operand of %<^%>"
+msgstr "要记得在%<^%>的操作数中的算术表达式前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around arithmetic in operand of %<|%>"
+msgstr "要记得在%<|%>的操作数中的算术表达式前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around assignment used as truth value"
+msgstr "要记得在用作真值的赋值语句前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around comparison in operand of %<!=%>"
+msgstr "要记得在%<!=%>的操作数的比较前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around comparison in operand of %<&%>"
+msgstr "要记得在%<&%>的操作数中的比较表达式前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around comparison in operand of %<==%>"
+msgstr "要记得在%<==%>的操作数的比较表达式前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around comparison in operand of %<^%>"
+msgstr "要记得在%<^%>的操作数中的比较表达式前后加上括号，并真诚地对它说对不起"
+
+msgid "suggest parentheses around comparison in operand of %<|%>"
+msgstr "要记得在%<|%>的操作数中的比较表达式前后加上括号，并真诚地对它说对不起"
+
+msgid ""
+"suggest parentheses around operand of %<!%> or change %<&%> to %<&&%> or %<!"
+"%> to %<~%>"
+msgstr ""
+"建议在%<!%>的操作数周围加上括号，或将%<&%>改为%<&&%>，或将%<!%>改为%<~%>"
+
+msgid ""
+"suggest parentheses around operand of %<!%> or change %<|%> to %<||%> or %<!"
+"%> to %<~%>"
+msgstr ""
+"建议在%<!%>的操作数周围加上括号，或将%<|%>改为%<||%>，或将%<!%>改为%<~%>"
+
+msgid "suggested alternative:"
+msgid_plural "suggested alternatives:"
+msgstr[0] "才...才不是建议的替代呢："
+
+msgid "too many arguments"
+msgstr "实参太...太多了!!!"
+
+msgid "too many arguments to function"
+msgstr "给予函数的实参太...太多了！"
+
+msgid "too many arguments to function %qE"
+msgstr "提供给函数%qE的实参太多，检查下定义吧～"
+
+msgid "too many arguments to function %q#D"
+msgstr "函数%q#D的参数、不…不能再多了！"
+
+msgid "too many values in return statement"
+msgstr "返回语句中值太多了，编译前给我检查一下啊喂！！！"
+
+msgid ""
+"traditional C lacks a separate namespace for labels, identifier %qE conflicts"
+msgstr "传统 C 不为标号提供一个单独的命名空间，标识符%qE冲突，要不咱换C23(雾)"
+
+msgid "traditional C rejects ISO C style function definitions"
+msgstr "传统 C 不接受 ISO C 风格的函数定义，要不咱换C23(雾)"
+
+msgid "traditional C rejects automatic aggregate initialization"
+msgstr "传统 C 不接受自动的聚合初始化，要不咱换C23(雾)"
+
+msgid "traditional C rejects initialization of unions"
+msgstr "传统 C 不接受对联合的初始化，要不咱换C23(雾)"
+
+msgid "traditional C rejects string constant concatenation"
+msgstr "传统 C 不接受字符串常量毗连，要不咱换C23(雾)"
+
+msgid "traditional C rejects the unary plus operator"
+msgstr "传统 C 不接受单目 + 运算符，要不咱换C23(雾)"
+
+
+msgid "union cannot be made transparent"
+msgstr "联合不能成为透明的"
+
+msgid "union defined here"
+msgstr "联合在此定义～"
+
+msgid "union has no members"
+msgstr "联合体没有成员，是个杂鱼定义呢～"
+
+msgid "union has no named members"
+msgstr "联合包含无名成员，连名字都不配有可真失败呢～"
+
+
+msgid "unrecoverable error"
+msgstr "不可恢复错误，寄啦～"
+
+msgid "unreachable"
+msgstr "暂时无法前往探索的"
+
+msgid "unrecognizable insn:"
+msgstr "无法识别的指令，你自己看着办吧："
+
+msgid "unrecognized address"
+msgstr "无法识别的地址，你自己看着办吧"
+
+msgid "unrecognized format specifier"
+msgstr "无法识别的格式限定符，你自己看着办吧"
+
+
+msgid "unused name %qE"
+msgstr "未使用的名称 %qE，不要丢下人家啊呜呜呜～"
+
+msgid "unused variable %q+D"
+msgstr "你是不是忘了某个叫作%q+D的东西"
+
+msgid "variable %q#D has initializer but incomplete type"
+msgstr "变量%q#D有初始值设定，但是类型并不完全呐～"
+
+msgid "variable %q+D declared %<inline%>"
+msgstr "变量%q+D声明为%<inline%>，真是离谱呢～"
+
+msgid "variable %q+D definition is marked dllimport"
+msgstr "变量%q+D的定义被标记为 dllimport"
+
+msgid "variable %q+D might be clobbered by %<longjmp%> or %<vfork%>"
+msgstr "变量%q+D能为%<longjmp%>或%<vfork%>所篡改，真出了问题咱可不管～"
+
+msgid "variable %qD has function type"
+msgstr "变量%qD居然有函数类型？"
+
+msgid "variable %qD has initializer but incomplete type"
+msgstr "变量%qD有初始值设定但类型并不完全呢～"
+
+msgid "variable %qD redeclared as function"
+msgstr "变量%qD重声明为函数，你这代码真离谱喵～"
+
+msgid "variable %qD set but not used"
+msgstr "变量%qD被设定但未被使用，长点心吧喂！！！"
+
+
+msgid "value computed is not used"
+msgstr "计算出的值未被使用，才...才不是抱怨你非得让咱算一遍呢!"
+
+msgid "variable length array %qD is used"
+msgstr "%qD 是一个变长数组欸"
+
+msgid "variable length array is used"
+msgstr "是变长数组欸"
+
+msgid "variable or field %qE declared void"
+msgstr "变量或字段%qE声明为 void,这样我会很困扰的！"
+
+msgid "variable or field declared void"
+msgstr "变量或字段声明为 void,这样我会很困扰的！"
+
+msgid "variable previously declared %<static%> redeclared %<extern%>"
+msgstr "先前被声明为%<static%>的变量重声明为%<extern%>，才...才不会困扰呢！"
+
+msgid "variable tracking requested, but not supported by this debug format"
+msgstr "要求追踪变量，但不为这种调试格式所支持"
+
+msgid "variable tracking requested, but useless unless producing debug info"
+msgstr "倘若不生成调试信息，要求追踪变量则毫无用处"
+
+msgid "variable tracking size limit exceeded"
+msgstr "变量跟踪大小越...越限了啊喂！！！"
+
+
+msgid "writing into constant object (argument %d)"
+msgstr "是不是又想把一些奇奇怪怪的东西写入常量对象，比如说实参 %d？"
+
+
+msgid "writing through null pointer (argument %d)"
+msgstr "实参 %d 这里的指针是空的，不要再继续写入啦！"
+
+
+msgid "wrong type argument to abs"
+msgstr "这个类型还小，小孩子是不可以求绝对值哦"
+
+msgid "wrong type argument to conjugation"
+msgstr "哒咩！对该类型的参数求共轭会孬掉的"
+
+msgid "wrong type argument to decrement"
+msgstr "对这些类型自减什么的，人家不知道怎么做呜"
+
+msgid "wrong type argument to increment"
+msgstr "对这些类型自增什么的，人家不知道怎么做呜"
+
+msgid "wrong type argument to unary exclamation mark"
+msgstr "人家真的不知道把这个类型的东西和单目 ! 放在一起是什么意思啦"
+
+msgid "wrong type argument to unary minus"
+msgstr "人家只是不想对这个类型的操作数做单目减，才不是人家不会！"
+
+msgid "wrong type argument to unary plus"
+msgstr "人家只是不想对这个类型的操作数做单目加，才不是人家不会！"
+
+msgid "zero or negative size array %q+D"
+msgstr "人家喜欢长度大于零的数组%q+D哦"
+
+msgid "zero vector size"
+msgstr "你的向量长度也是零吗"
+
+msgid "{anonymous}"
+msgstr "{猜中人家给你奖励哦}"
+
+msgid "division by zero is not a constant expression"
+msgstr "你怎么敢拿除以零这种东西当常量表达式的啊？答案是error=e or r^2，自己看着办吧哼！"
+
+msgid "%qs is defined in header %qs; did you forget to %<#include %s%>?"
+msgstr "%qs是定义在头文件%qs里的呢，人家看你就是想忘记%<#include %s%>啦～"
+
+msgid ""
+"%<std::%s%> is defined in header %qs; did you forget to %<#include %s%>?"
+msgstr "%<std::%s%>是定义在头文件%qs里的呢，人家看你就是想忘记%<#include %s%>啦～"
+
+msgid "In function %qD"
+msgstr "就...就在那个叫%qD的函数里..."
+
+msgid "unused variable %qD"
+msgstr "你是不是忘了某个叫作%qD的东西"
+
+msgid ""
+"%<constexpr%> loop iteration count exceeds limit of %d (use %<-fconstexpr-"
+"loop-limit=%> to increase the limit)"
+msgstr ""
+"人家对 %<constexpr%> 循环迭代了 %d 次都没算出结果，你想累死人家吗！ (才不会让你用 %<-fconstexpr-"
+"loop-limit=%> 提升限制呢)"
+
+msgid "%r%s:%d:%d:%R   in %<constexpr%> expansion of %qs"
+msgstr "%r%s:%d:%d:%R   在人家展开 %<constexpr%> 表达式 %qs 时"
+
+#: cp/error.cc:3832
+msgid "%r%s:%d:%R   in %<constexpr%> expansion of %qs"
+msgstr "%r%s:%d:%R   在人家展开 %<constexpr%> 表达式 %qs 时"
+
+msgid "cannot convert value to a vector"
+msgstr "无法转换为指针类型,建议重开谢谢喵～"
+
+msgid "declared here"
+msgstr "在这里声明的呢："
+
+msgid "include %qs or provide a declaration of %qE"
+msgstr "请#include%qs或提供对%qE的定义，并对它说：对不起我不该忘记你！"
+
+msgid "no return statement in function returning non-void"
+msgstr "有返回值的函数却没有return？真是个笨蛋呢！"
+
+msgid "%qs tag used in naming %q#T"
+msgstr "在命名%qs时居然使用了%q#T标记！"
+
+msgid "cannot convert %qH to %qI in argument passing"
+msgstr "参数中%qH无法转换为%qI类型,建议重开谢谢喵～"
+
+msgid "cannot convert %qH to %qI in initialization"
+msgstr "变量初始化时无法转换%qH为%qI类型,建议重开谢谢喵～"
+
+msgid "cannot convert %qH to %qI in return"
+msgstr "函数返回时无法转换%qH为%qI类型,建议重开谢谢喵～"
+
+msgid "cannot convert %qH to %qI in assignment"
+msgstr "无法转换%qH为%qI类型,建议重开谢谢喵～"
+
+msgid "Used here"
+msgstr "在这里调用的呢："
+
