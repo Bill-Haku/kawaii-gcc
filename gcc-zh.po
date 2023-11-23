@@ -35,9 +35,6 @@ msgstr "从%<__fpreg%>的转换是无效的喵~"
 msgid "expected %<;%>"
 msgstr "需要%<;%>，请添加上它并对它道歉！"
 
-msgid "expected %<)%>"
-msgstr "需要%<)%>，请添加上它并对它道歉！"
-
 msgid "expected %<]%>"
 msgstr "需要%<]%>，请添加上它并对它道歉！"
 
@@ -100,7 +97,7 @@ msgid "expected %qT but argument is of type %qT"
 msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
 
 msgid "invalid conversion from %qH to %qI"
-msgstr "从%q#T到%q#T的转换是无效的喵~"
+msgstr "从%qH到%qI的转换是无效的喵~"
 
 msgid "expected unqualified-id"
 msgstr "你可能需要指定符-限制符列表"
@@ -329,7 +326,7 @@ msgid "subscripted value is pointer to function"
 msgstr "下标运算的左操作数是函数指针，咱自己也不会算喵～"
 
 msgid "subscripting array declared %<register%>"
-msgstr "按下标访问声明为%<register%>的数组"
+msgstr "按下标访问声明为%<register%>的数组，建议放弃register因为编译器比你这个笨蛋可聪明多了喵～"
 
 msgid "suggest braces around empty body in %<do%> statement"
 msgstr "要记得在空的%<do%>语句体周围加上花括号，并大声地向它说“对不起，我不该把你留空的”"
@@ -492,7 +489,7 @@ msgid "variable %qD redeclared as function"
 msgstr "变量%qD重声明为函数，你这代码真离谱喵～"
 
 msgid "variable %qD set but not used"
-msgstr "变量%qD被设定但未被使用，长点心吧喂！！！"
+msgstr "变量%qD被设定但未被使用，你是不是又把人家忘了！！！"
 
 msgid "value computed is not used"
 msgstr "计算出的值未被使用，才...才不是抱怨你非得让咱算一遍呢!"
@@ -643,10 +640,10 @@ msgid "return-statement with a value, in function returning %qT"
 msgstr "在返回%qT的函数中，返回是不应该带返回值的，这你都不知道吗？"
 
 msgid "%q#T was previously declared here"
-msgstr "%q#T以前是在这里声明的："
+msgstr "%q#T以前是...是在这里声明的："
 
 msgid "%qD was previously declared here"
-msgstr "%qD以前是在这里声明的："
+msgstr "%qD以前是...是在这里声明的："
 
 msgid "implicit declaration of function %qE"
 msgstr "你刚刚隐式声明了函数%qE，这个特性早就被弃用了，是学某本C语言教科书的杂鱼呢～"
@@ -668,6 +665,54 @@ msgstr "%qE定义为类型错误的标记，下辈子注意就好了喵～"
 
 msgid "At top level:"
 msgstr "就...就在这个文件里："
+
+msgid "assignment to expression with array type"
+msgstr "无效的数组赋值，对此咱表示强烈抗议喵！！！"
+
+msgid "assignment of read-only variable %qD"
+msgstr "你好像试图向只读变量%qD赋值，对此rust会教你做人的喵～"
+
+msgid "conflicting type qualifiers for %q+D"
+msgstr "%q+D的类型限定冲突了啊喂！！！"
+
+msgid "previous definition of %q+D with type %qT"
+msgstr "%q+D之前已经在这里定义为%qT了，长点心吧喵～"
+
+msgid "passing argument %d of %qE makes pointer from integer without a cast"
+msgstr "传递给%2$qE的第 %1$d 个参数将整数赋给指针，你个笨蛋，好歹做下类型转换啊！！！"
+
+msgid "ISO C forbids subscripting %<register%> array"
+msgstr "这个世界线的ISO C貌似并不允许按下标访问%<register%>数组喵～"
+
+msgid "type defaults to %<int%> in type name"
+msgstr "你不说咱就当它是%<int%>了喵～"
+
+msgid "type defaults to %<int%> in declaration of %qE"
+msgstr "在%qE的声明中，你不说咱就当它是%<int%>了喵～"
+
+msgid "previous declaration as %q#D"
+msgstr "先前的声明是%q#D呢～"
+
+msgid "conflicting declaration %q#D"
+msgstr "声明%q#D冲突了啊喂！！！"
+
+msgid "conversion from %qT to %qT changes value from %qE to %qE"
+msgstr "变量从%qT转换为%qT时，它的值会从 %qE 变为 %qE，才...才不是好心提醒你呢！"
+
+msgid "expected %<)%>"
+msgstr "你可能需要%<)%>"
+
+msgid "%qE does not name a type"
+msgstr "%qE不是一个类型名,请添加类型名并对它道歉！"
+
+msgid "each undeclared identifier is reported only once for each function it appears in"
+msgstr "我只警告你这一次喵！！！"
+
+msgid "initialization of %qT from %qT makes integer from pointer without a cast"
+msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个笨蛋！"
+
+msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
+msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
 
 #: cif-code.def:43
 msgid "caller is not optimized"
@@ -37307,12 +37352,6 @@ msgstr "从%qT到%qT的转换丢失了限定信息"
 msgid "signed conversion from %qT to %qT changes the value of %qE"
 msgstr "从%qT到%qT的转换有歧义"
 
-#: c-family/c-warn.cc:1259 c-family/c-warn.cc:1429
-#, fuzzy, gcc-internal-format
-#| msgid "conversion from %qT to %qT discards qualifiers"
-msgid "conversion from %qT to %qT changes value from %qE to %qE"
-msgstr "从%qT到%qT的转换丢失了限定信息"
-
 #: c-family/c-warn.cc:1263 c-family/c-warn.cc:1437
 #, fuzzy, gcc-internal-format
 #| msgid "conversion from %qT to %qT is ambiguous"
@@ -37335,11 +37374,6 @@ msgstr "从%qT到%qT的转换丢失了限定信息"
 #| msgid "conversion to %qT from %qT may alter its value"
 msgid "conversion from %qT to %qT may change value"
 msgstr "%qT转换自%qT时可能改变值"
-
-#: c-family/c-warn.cc:1450 c-family/c-warn.cc:1467 c-family/c-warn.cc:1484
-#, fuzzy, gcc-internal-format
-msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
-msgstr "C++ 中不允许从%qT到%qT的隐式转换"
 
 #: c-family/c-warn.cc:1455 c-family/c-warn.cc:1472 c-family/c-warn.cc:1489
 #, fuzzy, gcc-internal-format
@@ -37436,11 +37470,6 @@ msgstr "令只读成员%qD自减"
 #, gcc-internal-format
 msgid "read-only member %qD used as %<asm%> output"
 msgstr "只读成员%qD用作%<asm%>的输出"
-
-#: c-family/c-warn.cc:1855
-#, gcc-internal-format
-msgid "assignment of read-only variable %qD"
-msgstr "向只读变量%qD赋值"
 
 #: c-family/c-warn.cc:1856
 #, gcc-internal-format
@@ -44866,12 +44895,6 @@ msgstr "%q+D的原型对实参 %d 声明类型不兼容"
 msgid "prototype for %q+D follows non-prototype definition"
 msgstr "%q+D的原型出现在非原型定义之后"
 
-#: c/c-decl.cc:1925
-#, fuzzy, gcc-internal-format
-#| msgid "previous definition of %q+D was here"
-msgid "previous definition of %q+D with type %qT"
-msgstr "%q+D的上一个定义在此"
-
 #: c/c-decl.cc:1929
 #, fuzzy, gcc-internal-format
 #| msgid "previous implicit declaration of %q+D was here"
@@ -44952,11 +44975,6 @@ msgstr "为%2$q+D指定了冲突的有名寻址空间(%1$s 和泛型)"
 #, gcc-internal-format
 msgid "conflicting named address spaces (%s vs %s) for %q+D"
 msgstr "为%3$q+D指定了冲突的有名寻址空间(%1$s和 %2$s)"
-
-#: c/c-decl.cc:2133
-#, gcc-internal-format
-msgid "conflicting type qualifiers for %q+D"
-msgstr "%q+D的类型限定冲突"
 
 #: c/c-decl.cc:2158
 #, gcc-internal-format
@@ -45112,11 +45130,6 @@ msgstr "%qE未声明(在此函数内第一次使用)"
 #, gcc-internal-format
 msgid "%qE undeclared (first use in this function)"
 msgstr "%qE未声明(在此函数内第一次使用)"
-
-#: c/c-decl.cc:3804
-#, gcc-internal-format
-msgid "each undeclared identifier is reported only once for each function it appears in"
-msgstr "每个未声明的标识符在其出现的函数内只报告一次"
 
 #: c/c-decl.cc:3852 cp/decl.cc:3362
 #, gcc-internal-format
@@ -45438,16 +45451,6 @@ msgstr "文件域中的动态可变的%qE"
 #, gcc-internal-format
 msgid "variably modified field at file scope"
 msgstr "文件域中的动态可变字段"
-
-#: c/c-decl.cc:6417
-#, gcc-internal-format
-msgid "type defaults to %<int%> in declaration of %qE"
-msgstr "在%qE的声明中，类型默认为%<int%>"
-
-#: c/c-decl.cc:6421
-#, gcc-internal-format
-msgid "type defaults to %<int%> in type name"
-msgstr "类型名中类型默认为%<int%>"
 
 #: c/c-decl.cc:6453
 #, gcc-internal-format
@@ -48611,11 +48614,6 @@ msgstr "下标运算的左操作数既非数组也非指针"
 msgid "array subscript is not an integer"
 msgstr "数组下标不是一个整数"
 
-#: c/c-typeck.cc:2762
-#, gcc-internal-format
-msgid "ISO C forbids subscripting %<register%> array"
-msgstr "ISO C 不允许按下标访问%<register%>数组"
-
 #: c/c-typeck.cc:2765
 #, gcc-internal-format
 msgid "ISO C90 forbids subscripting non-lvalue array"
@@ -49081,11 +49079,6 @@ msgstr "无法从不完全类型%qT转换到%qT"
 msgid "defining a type in a cast is invalid in C++"
 msgstr "C++ 禁止在类型转换中定义类型"
 
-#: c/c-typeck.cc:6247
-#, fuzzy, gcc-internal-format
-msgid "assignment to expression with array type"
-msgstr "无效的数组赋值"
-
 #: c/c-typeck.cc:6373
 #, gcc-internal-format
 msgid "enum conversion in assignment is invalid in C++"
@@ -49334,11 +49327,6 @@ msgstr "从不兼容的指针类型初始化"
 msgid "returning pointer to %qD of type %qT from a function with incompatible type %qT"
 msgstr "成员指针类型%qT与对象类型%qT不兼容"
 
-#: c/c-typeck.cc:7606
-#, gcc-internal-format
-msgid "passing argument %d of %qE makes pointer from integer without a cast"
-msgstr "传递%2$qE的第 %1$d 个参数时将整数赋给指针，未作类型转换"
-
 #: c/c-typeck.cc:7613
 #, fuzzy, gcc-internal-format
 #| msgid "assignment makes pointer from integer without a cast"
@@ -49367,12 +49355,6 @@ msgstr "传递%2$qE的第 %1$d 个参数时将指针赋给整数，未作类型�
 #| msgid "assignment makes integer from pointer without a cast"
 msgid "assignment to %qT from %qT makes integer from pointer without a cast"
 msgstr "赋值时将指针赋给整数，未作类型转换"
-
-#: c/c-typeck.cc:7656
-#, fuzzy, gcc-internal-format
-#| msgid "initialization makes integer from pointer without a cast"
-msgid "initialization of %qT from %qT makes integer from pointer without a cast"
-msgstr "初始化将指针赋给整数，未作类型转换"
 
 #: c/c-typeck.cc:7660
 #, fuzzy, gcc-internal-format
@@ -53834,17 +53816,6 @@ msgstr "相互冲突的声明%q#D"
 #, fuzzy, gcc-internal-format
 msgid "ambiguating new declaration of %q#D"
 msgstr "%q+D先前没有声明过"
-
-#: cp/decl.cc:1885
-#, fuzzy, gcc-internal-format
-#| msgid "conflicting declaration %q#D"
-msgid "conflicting declaration %q#D"
-msgstr "相互冲突的声明%q#D"
-
-#: cp/decl.cc:1887
-#, fuzzy, gcc-internal-format
-msgid "previous declaration as %q#D"
-msgstr "先前的声明%q+D"
 
 #: cp/decl.cc:1897
 #, fuzzy, gcc-internal-format
@@ -59031,11 +59002,6 @@ msgstr "无效的类型限定符组合"
 #, fuzzy, gcc-internal-format
 #| msgid "%qE does not name a type"
 msgid "%qE does not name a type; did you mean %qs?"
-msgstr "%qE不是一个类型名"
-
-#: cp/parser.cc:3511
-#, gcc-internal-format
-msgid "%qE does not name a type"
 msgstr "%qE不是一个类型名"
 
 #: cp/parser.cc:3520

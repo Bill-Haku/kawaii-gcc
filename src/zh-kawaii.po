@@ -35,9 +35,6 @@ msgstr "从%<__fpreg%>的转换是无效的喵~"
 msgid "expected %<;%>"
 msgstr "需要%<;%>，请添加上它并对它道歉！"
 
-msgid "expected %<)%>"
-msgstr "需要%<)%>，请添加上它并对它道歉！"
-
 msgid "expected %<]%>"
 msgstr "需要%<]%>，请添加上它并对它道歉！"
 
@@ -104,7 +101,7 @@ msgid "expected %qT but argument is of type %qT"
 msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
 
 msgid "invalid conversion from %qH to %qI"
-msgstr "从%q#T到%q#T的转换是无效的喵~"
+msgstr "从%qH到%qI的转换是无效的喵~"
 
 msgid "expected unqualified-id"
 msgstr "你可能需要指定符-限制符列表"
@@ -347,7 +344,7 @@ msgid "subscripted value is pointer to function"
 msgstr "下标运算的左操作数是函数指针，咱自己也不会算喵～"
 
 msgid "subscripting array declared %<register%>"
-msgstr "按下标访问声明为%<register%>的数组"
+msgstr "按下标访问声明为%<register%>的数组，建议放弃register因为编译器比你这个笨蛋可聪明多了喵～"
 
 msgid "suggest braces around empty body in %<do%> statement"
 msgstr "要记得在空的%<do%>语句体周围加上花括号，并大声地向它说“对不起，我不该把你留空的”"
@@ -520,7 +517,7 @@ msgid "variable %qD redeclared as function"
 msgstr "变量%qD重声明为函数，你这代码真离谱喵～"
 
 msgid "variable %qD set but not used"
-msgstr "变量%qD被设定但未被使用，长点心吧喂！！！"
+msgstr "变量%qD被设定但未被使用，你是不是又把人家忘了！！！"
 
 
 msgid "value computed is not used"
@@ -705,3 +702,51 @@ msgstr "%qE定义为类型错误的标记，下辈子注意就好了喵～"
 
 msgid "At top level:"
 msgstr "就...就在这个文件里："
+
+msgid "assignment to expression with array type"
+msgstr "无效的数组赋值，对此咱表示强烈抗议喵！！！"
+
+msgid "assignment of read-only variable %qD"
+msgstr "你好像试图向只读变量%qD赋值，对此rust会教你做人的喵～"
+
+msgid "conflicting type qualifiers for %q+D"
+msgstr "%q+D的类型限定冲突了啊喂！！！"
+
+msgid "previous definition of %q+D with type %qT"
+msgstr "%q+D之前已经在这里定义为%qT了，长点心吧喵～"
+
+msgid "passing argument %d of %qE makes pointer from integer without a cast"
+msgstr "传递给%2$qE的第 %1$d 个参数将整数赋给指针，你个笨蛋，好歹做下类型转换啊！！！"
+
+msgid "ISO C forbids subscripting %<register%> array"
+msgstr "这个世界线的ISO C貌似并不允许按下标访问%<register%>数组喵～"
+
+msgid "type defaults to %<int%> in type name"
+msgstr "你不说咱就当它是%<int%>了喵～"
+
+msgid "type defaults to %<int%> in declaration of %qE"
+msgstr "在%qE的声明中，你不说咱就当它是%<int%>了喵～"
+
+msgid "previous declaration as %q#D"
+msgstr "先前的声明是%q#D呢～"
+
+msgid "conflicting declaration %q#D"
+msgstr "声明%q#D冲突了啊喂！！！"
+
+msgid "conversion from %qT to %qT changes value from %qE to %qE"
+msgstr "变量从%qT转换为%qT时，它的值会从 %qE 变为 %qE，才...才不是好心提醒你呢！"
+
+msgid "expected %<)%>"
+msgstr "你可能需要%<)%>"
+
+msgid "%qE does not name a type"
+msgstr "%qE不是一个类型名,请添加类型名并对它道歉！"
+
+msgid "each undeclared identifier is reported only once for each function it appears in"
+msgstr "我只警告你这一次喵！！！"
+
+msgid "initialization of %qT from %qT makes integer from pointer without a cast"
+msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个笨蛋！"
+
+msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
+msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
