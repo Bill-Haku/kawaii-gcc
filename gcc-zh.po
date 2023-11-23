@@ -648,6 +648,9 @@ msgstr "%q#T以前是在这里声明的："
 msgid "%qD was previously declared here"
 msgstr "%qD以前是在这里声明的："
 
+msgid "implicit declaration of function %qE"
+msgstr "你刚刚隐式声明了函数%qE，这个特性早就被弃用了，是学某本C语言教科书的杂鱼呢～"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -45081,11 +45084,6 @@ msgstr "对%qD的嵌套的外部声明"
 #, fuzzy, gcc-internal-format
 #| msgid "implicit declaration of function %qE"
 msgid "implicit declaration of function %qE; did you mean %qs?"
-msgstr "隐式声明函数%qE"
-
-#: c/c-decl.cc:3393 c/c-decl.cc:3406
-#, gcc-internal-format
-msgid "implicit declaration of function %qE"
 msgstr "隐式声明函数%qE"
 
 #: c/c-decl.cc:3716

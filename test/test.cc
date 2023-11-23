@@ -6,7 +6,6 @@ bool *haku(int *a) {
 }
 union X{
 };
-//#include<notexist.h>
 void mian() {
 	struct X x;
 	printf("Hentai!");
@@ -17,3 +16,4 @@ void mian() {
 	const int f = 9 / 0;
 	return 0;
 }
+//#include<notexist.h>
