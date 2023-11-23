@@ -777,7 +777,7 @@ msgid "Enable hwasan instrumentation of builtin functions."
 msgstr "内建函数实参是无效的喵～"
 
 msgid "unrecognizable insn:"
-msgstr "是无法识别的指令捏："
+msgstr "是无法识别的指令呢："
 
 msgid "unsupported operand for code '%c'"
 msgstr "代码‘%c’的操作数是无效的喵～"
