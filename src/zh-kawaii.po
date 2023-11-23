@@ -749,4 +749,1493 @@ msgid "initialization of %qT from %qT makes integer from pointer without a cast"
 msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个笨蛋！"
 
 msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
-msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
+msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"msgid "Warn about implicit conversion of enum types."
+msgstr "隐式转换成员指针用法是无效的喵～"
+
+msgid "Warn about implicit conversion of enum types."
+msgstr "隐式转换成员指针用法是无效的喵～"
+
+msgid "Do not elide common elements in template comparisons."
+msgstr "gimple 比较中操作数是无效的喵～"
+
+msgid "Set the version of RISC-V ISA spec."
+msgstr "ELF 文件 ABI 版本是无效的喵～"
+
+msgid "Set the version of RISC-V ISA spec."
+msgstr "ELF 文件 ABI 版本是无效的喵～"
+
+msgid "Treat all warnings as errors."
+msgstr "%s：你说得对，但是所有的警告都被当作是错误"
+
+msgid "Set the version of RISC-V ISA spec."
+msgstr "ELF 文件 ABI 版本是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "unrecognizable insn:"
+msgstr "是无法识别的指令捏："
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "invalid address mode"
+msgstr "寻址模式是无效的喵~"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "invalid operand address"
+msgstr "是无效地址喵～"
+
+msgid "invalid operand to %%Z code"
+msgstr "%%Z 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%z code"
+msgstr "%%z 代码的操作数是无效的喵～"
+
+msgid "invalid operands to %%c code"
+msgstr "%%M 代码的操作数是无效的喵～"
+
+msgid "invalid operands to %%c code"
+msgstr "%%M 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%p code"
+msgstr "%%p 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%s code"
+msgstr "%%s 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%R code"
+msgstr "%%R 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%H/%%L code"
+msgstr "%%H/%%L 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%U code"
+msgstr "%%U 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%V code"
+msgstr "%%V 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%O code"
+msgstr "%%O 代码的操作数是无效的喵～"
+#. Undocumented flag.
+msgid "invalid operand output code"
+msgstr "操作数输出代码是无效的喵～"
+
+msgid "unrecognized supposed constant"
+msgstr "预期的常量无法识别，你在干什么啊喂！"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "bad address, not a constant:"
+msgstr "地址偏移量不是一个常量，你有没有检查过代码啊喂！！！"
+
+msgid "unsupported fixed-point conversion"
+msgstr "整点转换中类型是无效的喵～"
+
+msgid "invalid operand for 'b' modifier"
+msgstr "‘b’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'o' modifier"
+msgstr "‘o’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'O' modifier"
+msgstr "‘O’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'p' modifier"
+msgstr "‘p’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'z' modifier"
+msgstr "‘z’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'H' modifier"
+msgstr "‘H’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'e' modifier"
+msgstr "‘e’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'm' modifier"
+msgstr "‘m’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'A' modifier"
+msgstr "‘A’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'D' modifier"
+msgstr "‘D’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'T' modifier"
+msgstr "‘T’修饰符的操作数是无效的喵～"
+
+msgid "fr30_print_operand: invalid operand to %%A code"
+msgstr "fr30_print_operand：%%A 代码操作数是无效的喵～"
+
+msgid "invalid operands to %%c code"
+msgstr "%%M 代码的操作数是无效的喵～"
+
+msgid "invalid use of asm flag output"
+msgstr "将构造函数用作模板是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "invalid constraints for operand"
+msgstr "操作数的约束是无效的喵～"
+
+msgid "invalid operation on %<__fpreg%>"
+msgstr "对%<__fpreg%>的操作是无效的喵～"
+
+msgid "invalid use of %%d, %%x, or %%X"
+msgstr "对 %%d、%%x 或 %%X 的使用是无效的喵～"
+
+msgid "invalid use of '%%%c'"
+msgstr "对‘%%%c’的使用是无效的喵～"
+
+msgid "bad insn for 'A'"
+msgstr "‘A’的指令错误，你有没有检查过代码啊喂！！！"
+
+msgid "invalid operand to %%T/%%B code"
+msgstr "%%T/%%B 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%N code"
+msgstr "%%N 代码的操作数是无效的喵～"
+
+msgid "invalid operand to %%N code"
+msgstr "%%N 代码的操作数是无效的喵～"
+
+msgid "insn contains an invalid address !"
+msgstr "指令包含无效地址，你有没有检查过代码啊喂！！！"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "invalid operand for 'A' modifier"
+msgstr "‘A’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'A' modifier"
+msgstr "‘A’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'O' modifier"
+msgstr "‘O’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'A' modifier"
+msgstr "‘A’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'A' modifier"
+msgstr "‘A’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'o' modifier"
+msgstr "‘o’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'o' modifier"
+msgstr "‘o’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand for 'o' modifier"
+msgstr "‘o’修饰符的操作数是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "invalid operand to %%S"
+msgstr "%%S 的操作数是无效的喵～"
+
+msgid "floating-point constant not a valid immediate operand"
+msgstr "匹配的约束在输出操作数中是无效的喵～"
+
+msgid "%<using enum%> of dependent type %qT"
+msgstr "对依赖类型%qT的使用是无效的喵～"
+
+msgid "Name too long"
+msgstr "名字太..太长了！"
+
+msgid "Invalid context for NULL() pointer at %%L"
+msgstr "%%L处 NULL() 指针上下文是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid use of method value as argument of Offsetof"
+msgstr "使用模板名%qE时不带实参表是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "cannot close receive-only channel"
+msgstr "间接引用操作数是无效的喵～"
+
+msgid "invalid use of %<...%> with non-slice"
+msgstr "在文件作用域使用%<this%>是无效的喵～"
+
+msgid "invalid use of %<...%> calling non-variadic function"
+msgstr "在非成员函数中使用%<this%>是无效的喵～"
+
+msgid "cannot close receive-only channel"
+msgstr "间接引用操作数是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid comparison of non-comparable array"
+msgstr "对非左值数组的使用是无效的喵～"
+
+msgid "multiple-value function call in single-value context"
+msgstr "%qD的声明中类名是无效的喵～"
+#. inlining.
+msgid "invalid use of %<__builtin_va_arg_pack_len ()%>"
+msgstr "%K对%<__builtin_va_arg_pack_len ()%>的使用是无效的喵～"
+
+msgid "caller edge count invalid"
+msgstr "派生联合%qT是无效的喵～"
+
+msgid "invalid use of %%d, %%x, or %%X"
+msgstr "对 %%d、%%x 或 %%X 的使用是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "spec %qs invalid"
+msgstr "%s：PCH 文件是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "braced spec %qs ends in escape"
+msgstr "花括号中的 spec‘%s’在‘%c’中是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "braced spec body %qs is invalid"
+msgstr "花括号中的 spec 体‘%s’是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid prototype for '%s'"
+msgstr "%q+D的抽象类型是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "trailing array %qT should not be used as a flexible array member"
+msgstr "对可变数组成员的使用是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "in a call with type %qT and attribute %qs"
+msgstr "属性%qs的元素类型是无效的喵～"
+
+msgid "invalid private reduction on %qE"
+msgstr "%qD模板声明是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "compiler does not support ZSTD LTO compression"
+msgstr "我…我可不会像别的女孩子那样会 %s "
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "%<atexit%> failed"
+msgstr "atexit 大~失~败~"
+
+msgid "... to the previous %qs clause here"
+msgstr "这...这个已经在这里使用过了，不能再使用了！"
+
+msgid "invalid exit from %s structured block"
+msgstr "OpenMP 结构块出口是无效的喵～"
+
+msgid "invalid exit from %s structured block"
+msgstr "OpenMP 结构块出口是无效的喵～"
+
+msgid "invalid exit from %s structured block"
+msgstr "OpenMP 结构块出口是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "%qs is mutually exclusive with %qs and cannot be specified together"
+msgstr "-mcorea 和 -mcoreb 是不能在一起使用哒！"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "command-line option %qs is valid for the driver but not for %s"
+msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～"
+
+msgid "command-line option %qs is valid for the driver but not for %s"
+msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "pass %s does not support cloning"
+msgstr "过程 %s 是不支持克隆的！你不知道吗！"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "enable pass %s for function %s"
+msgstr "函数%qE存储类是无效的喵～"
+
+msgid "enable pass %s for function %s"
+msgstr "函数%qE存储类是无效的喵～"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "floating-point constant not a valid immediate operand"
+msgstr "匹配的约束在输出操作数中是无效的喵～"
+
+msgid "node has unknown type"
+msgstr "你...你输入的到底是什么！我怎么不知道！"
+
+msgid "invalid use of volatile lvalue inside transaction"
+msgstr "对 void 表达式的使用是无效的喵～"
+
+msgid "invalid use of %<...%> calling non-variadic function"
+msgstr "在非成员函数中使用%<this%>是无效的喵～"
+
+msgid "invalid constraints for operand"
+msgstr "操作数的约束是无效的喵～"
+
+msgid "position plus size exceeds size of referenced object in %qs"
+msgstr "BIT_FIELD_REF 位置或大小操作数是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "invalid LHS in gimple call"
+msgstr "gimple 调用中左操作数是无效的喵～"
+
+msgid "invalid conversion in gimple call"
+msgstr "gimple 调用中转换是无效的喵～"
+
+msgid "invalid static chain in gimple call"
+msgstr "gimple 调用中静态链是无效的喵～"
+
+msgid "invalid argument to gimple call"
+msgstr "gimple 调用中参数是无效的喵～"
+
+msgid "Do not elide common elements in template comparisons."
+msgstr "gimple 比较中操作数是无效的喵～"
+
+msgid "Do not elide common elements in template comparisons."
+msgstr "gimple 比较中操作数是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid operand in unary operation"
+msgstr "单目操作中操作数是无效的喵～"
+
+msgid "invalid vector types in nop conversion"
+msgstr "空转换中类型是无效的喵～"
+
+msgid "invalid vector types in nop conversion"
+msgstr "空转换中类型是无效的喵～"
+
+msgid "invalid types in address space conversion"
+msgstr "地址空间转换中类型是无效的喵～"
+
+msgid "unsupported fixed-point conversion"
+msgstr "整点转换中类型是无效的喵～"
+
+msgid "invalid types in conversion to floating-point"
+msgstr "向整数转换时类型是无效的喵～"
+
+msgid "invalid types in conversion to floating-point"
+msgstr "向整数转换时类型是无效的喵～"
+
+msgid "invalid prototype for '%s'"
+msgstr "%q+D的抽象类型是无效的喵～"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "invalid prototype for '%s'"
+msgstr "%q+D的抽象类型是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "invalid conversion in return statement"
+msgstr "返回语句转换是无效的喵～"
+
+msgid "invalid operand to switch statement"
+msgstr "开关语句操作数是无效的喵～"
+
+msgid "invalid operand to switch statement"
+msgstr "开关语句操作数是无效的喵～"
+
+msgid "invalid static chain in gimple call"
+msgstr "gimple 调用中静态链是无效的喵～"
+
+msgid "invalid operand to switch statement"
+msgstr "开关语句操作数是无效的喵～"
+
+msgid "invalid comparison of nil with nil"
+msgstr "gimple 条件中比较代码是无效的喵～"
+
+msgid "invalid labels in gimple cond"
+msgstr "gimple 条件中的标号是无效的喵～"
+
+msgid "in a call with type %qT and attribute %qs"
+msgstr "属性%qs的元素类型是无效的喵～"
+
+msgid "in a call with type %qT and attribute %qs"
+msgstr "属性%qs的元素类型是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "only zero initializers are allowed in section %qs"
+msgstr "成员函数%qD的初始值设定是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "invalid initial value for member %qE"
+msgstr "成员%qE的初始值是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid vector type for attribute %qE"
+msgstr "属性%qE的向量类型是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid operand type %qT for %qs"
+msgstr "抽象类型%qT无效，对于%qE是无效的喵～"
+
+msgid "invalid element index %qE to %<__builtin_shufflevector%>"
+msgstr "%<__builtin_frame_address%>的实参是无效的喵～"
+
+msgid "invalid operands to binary %s (have %qT and %qT)"
+msgstr "双目运算符 %s 操作数(%qT和%qT)是无效的喵～"
+
+msgid "bad option %qs to attribute %<optimize%>"
+msgstr "pragma 属性选项 %s 是无效的喵～"
+
+msgid "bad option %qs to pragma %<optimize%>"
+msgstr "%<#pragma omp atomic%>运算符是无效的喵～"
+
+msgid "invalid expression type for %<#pragma omp atomic%>"
+msgstr "%<#pragma omp atomic%>表达式类型是无效的喵～"
+
+msgid "invalid expression type for %<#pragma omp atomic%>"
+msgstr "%<#pragma omp atomic%>表达式类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "spec %qs invalid"
+msgstr "%s：PCH 文件是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "command-line option %qs is valid for the driver but not for %s"
+msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～"
+
+msgid "string literal with user-defined suffix is invalid in this context"
+msgstr "此上下文中宽字符串是无效的喵～"
+
+msgid "logical %<or%> of equal expressions"
+msgstr "单目表达式中操作数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "bad value %<%s%> for %<-mtls-size=%> switch"
+msgstr "-mtls-size= 开关的值%<%s%>是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "invalid operation on %<__fpreg%>"
+msgstr "对%<__fpreg%>的操作是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "invalid argument to gimple call"
+msgstr "gimple 调用中参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "invalid use of %<...%> with non-slice"
+msgstr "在文件作用域使用%<this%>是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid key type for %<-mbranch-protection=%>"
+msgstr "%qE的类型对%<reduction(%s)%>是无效的喵～"
+
+msgid "in a call with type %qT and attribute %qs"
+msgstr "属性%qs的元素类型是无效的喵～"
+
+msgid "invalid vector type for attribute %qE"
+msgstr "属性%qE的向量类型是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%q+D的寄存器名是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid vector type for attribute %qE"
+msgstr "属性%qE的向量类型是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "invalid argument %qs to %qs"
+msgstr "属性%qs的参数是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid use of MMA operand of type %qs as a function parameter"
+msgstr "操作数类型%qT和%qT对双目%qO而言是无效的喵～"
+
+msgid "use of %<long double%> in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用%<long double%>是无效的喵～"
+
+msgid "use of boolean types in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用布尔类型是无效的喵～"
+
+msgid "use of %<complex%> in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用%<complex%>是无效的喵～"
+
+msgid "use of boolean types in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用布尔类型是无效的喵～"
+
+msgid "use of %<long double%> in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用%<long double%>是无效的喵～"
+
+msgid "use of %<long double%> in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用%<long double%>是无效的喵～"
+
+msgid "use of %<long double%> in AltiVec types is invalid"
+msgstr "在 AltiVec 类型中使用%<long double%>是无效的喵～"
+
+msgid "invalid operand type %qT for %qs"
+msgstr "抽象类型%qT无效，对于%qE是无效的喵～"
+
+msgid "spec %qs invalid"
+msgstr "%s：PCH 文件是无效的喵～"
+
+msgid "invalid element index %qE to %<__builtin_shufflevector%>"
+msgstr "%<__builtin_frame_address%>的实参是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "in a call with type %qT and attribute %qs"
+msgstr "属性%qs的元素类型是无效的喵～"
+
+msgid "previous definition of %q+D with type %qT"
+msgstr "对限定类型%qT的定义是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "invalid expression type for %<#pragma omp atomic%>"
+msgstr "%<#pragma omp atomic%>表达式类型是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "spec %qs has invalid %<%%0%c%>"
+msgstr "位段%qs类型是无效的喵～"
+
+msgid "enable pass %s for function %s"
+msgstr "函数%qE存储类是无效的喵～"
+
+msgid "invalid qualifiers for %<constexpr%> object"
+msgstr "非成员函数类型上的限定符是无效的喵～"
+
+msgid "invalid qualifiers for %<constexpr%> object"
+msgstr "非成员函数类型上的限定符是无效的喵～"
+
+msgid "invalid %<enum%> underlying type"
+msgstr "对未定义类型%<%s %E%>的使用是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "string literal with user-defined suffix is invalid in this context"
+msgstr "此上下文中宽字符串是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "%qD must be a global variable in %<#pragma acc declare link%>"
+msgstr "指定链接时使用%qD是无效的喵～"
+
+msgid "%qD must be a global variable in %<#pragma acc declare link%>"
+msgstr "指定链接时使用%qD是无效的喵～"
+
+msgid "%qD must be a global variable in %<#pragma acc declare link%>"
+msgstr "指定链接时使用%qD是无效的喵～"
+
+msgid "bad option %qs to pragma %<optimize%>"
+msgstr "%<#pragma omp atomic%>运算符是无效的喵～"
+
+msgid "bad option %qs to pragma %<optimize%>"
+msgstr "%<#pragma omp atomic%>运算符是无效的喵～"
+
+msgid "bad option %qs to pragma %<optimize%>"
+msgstr "%<#pragma omp atomic%>运算符是无效的喵～"
+
+msgid "bad option %qs to pragma %<optimize%>"
+msgstr "%<#pragma omp atomic%>运算符是无效的喵～"
+
+msgid "invalid use of volatile lvalue inside transaction"
+msgstr "对 void 表达式的使用是无效的喵～"
+
+msgid "trailing array %qT should not be used as a flexible array member"
+msgstr "对可变数组成员的使用是无效的喵～"
+
+msgid "invalid use of array with unspecified bounds"
+msgstr "对未指定边界的数组的使用是无效的喵～"
+
+msgid "%<using enum%> of dependent type %qT"
+msgstr "对依赖类型%qT的使用是无效的喵～"
+
+msgid "increment of enumeration value is invalid in C++"
+msgstr "C++ 中枚举自增操作是无效的喵～"
+
+msgid "decrement of enumeration value is invalid in C++"
+msgstr "C++ 中枚举自减操作是无效的喵～"
+
+msgid "invalid comparison of non-comparable array"
+msgstr "对非左值数组的使用是无效的喵～"
+
+msgid "invalid exit from %s structured block"
+msgstr "OpenMP 结构块出口是无效的喵～"
+
+msgid "invalid expression type for %<#pragma omp atomic%>"
+msgstr "%<#pragma omp atomic%>表达式类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "invalid key type for %<-mbranch-protection=%>"
+msgstr "%qE的类型对%<reduction(%s)%>是无效的喵～"
+
+msgid "invalid operand type %qT for %qs"
+msgstr "抽象类型%qT无效，对于%qE是无效的喵～"
+
+msgid "invalid type for _Literal with constructor"
+msgstr "构造函数中对静态成员的初始化是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+msgid ""
+"  a constructor taking a single argument of its own class type is invalid"
+msgstr "  建构子需单一参数的它的本身类别类型是无效的喵～"
+
+msgid "invalid operands to binary %s (have %qT and %qT)"
+msgstr "双目运算符 %s 操作数(%qT和%qT)是无效的喵～"
+
+msgid "invalid operands to binary %s (have %qT and %qT)"
+msgstr "双目运算符 %s 操作数(%qT和%qT)是无效的喵～"
+
+msgid "string literal with user-defined suffix is invalid in this context"
+msgstr "此上下文中宽字符串是无效的喵～"
+#. constexpr_fundef_p
+msgid "invalid type for parameter %d of %<constexpr%> function %q+#D"
+msgstr "函数%q+#D的抽象返回类型是无效的喵～"
+#. constexpr_fundef_p
+msgid "invalid type for parameter %d of %<constexpr%> function %q+#D"
+msgstr "函数%q+#D的抽象返回类型是无效的喵～"
+"%<constexpr%> constructor for union %qT must initialize exactly one non-"
+"static data member"
+msgstr "类中对具有非整数类型%qT的静态数据成员的初始化是无效的喵～"
+
+msgid "invalid conversion in return statement"
+msgstr "返回语句转换是无效的喵～"
+
+msgid "lvalue-to-rvalue conversion of a volatile lvalue %qE with type %qT"
+msgstr "从具有类型%qT的右值表达式到类型%qT中的转换是无效的喵～"
+
+msgid "%qD defined %<thread_local%> in %<constexpr%> context"
+msgstr "函数%qs的存储类%<__thread%>是无效的喵～"
+
+msgid "caller edge count invalid"
+msgstr "派生联合%qT是无效的喵～"
+
+msgid "the required type %qT is invalid"
+msgstr "重复的基类型%qT是无效的喵～"
+
+msgid "caller edge count invalid"
+msgstr "派生联合%qT是无效的喵～"
+
+msgid "invalid constraints for operand"
+msgstr "操作数的约束是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid type for _Literal with constructor"
+msgstr "构造函数中对静态成员的初始化是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+"%<const%> and %<volatile%> function specifiers on %qD invalid in parameter "
+"declaration"
+msgstr "形参声明中出现的 typedef 声明是无效的喵～"
+"%<const%> and %<volatile%> function specifiers on %qD invalid in type "
+"declaration"
+msgstr "为%qD指定的%<const%>和%<volatile%>在 %s 声明中是无效的喵～"
+
+msgid "invalid use of template-id %qD in declaration of primary template"
+msgstr "在基本模板的声明中对模板标识符%qD的使用是无效的喵～"
+"%<constexpr%> constructor for union %qT must initialize exactly one non-"
+"static data member"
+msgstr "类中对具有非整数类型%qT的静态数据成员的初始化是无效的喵～"
+"%<constexpr%> constructor for union %qT must initialize exactly one non-"
+"static data member"
+msgstr "类中对具有非整数类型%qT的静态数据成员的初始化是无效的喵～"
+"%<constexpr%> constructor for union %qT must initialize exactly one non-"
+"static data member"
+msgstr "类中对具有非整数类型%qT的静态数据成员的初始化是无效的喵～"
+"%<constexpr%> constructor for union %qT must initialize exactly one non-"
+"static data member"
+msgstr "类中对具有非整数类型%qT的静态数据成员的初始化是无效的喵～"
+
+msgid "return type specification for constructor invalid"
+msgstr "为构造函数指定返回值是无效的喵～"
+
+msgid "return type specification for destructor invalid"
+msgstr "指定析构函数的返回类型是无效的喵～"
+
+msgid "return type specification for destructor invalid"
+msgstr "指定析构函数的返回类型是无效的喵～"
+
+msgid "%<inline%> specifier invalid for variable %qD declared at block scope"
+msgstr "在全局作用域外为函数%qs指定%<inline%>是无效的喵～"
+
+msgid "invalid use of qualified-name %<::%D%>"
+msgstr "对限定名%<::%D%>的使用是无效的喵～"
+
+msgid "invalid use of qualified-name %<%T::%D%>"
+msgstr "对限定名%<%T::%D%>的使用是无效的喵～"
+
+msgid "invalid use of qualified-name %<%D::%D%>"
+msgstr "对限定名%<%D::%D%>的使用是无效的喵～"
+"%<const%> and %<volatile%> function specifiers on %qD invalid in parameter "
+"declaration"
+msgstr "形参声明中出现的 typedef 声明是无效的喵～"
+
+msgid "invalid qualifiers for %<constexpr%> object"
+msgstr "非成员函数类型上的限定符是无效的喵～"
+
+msgid "invalid use of method value as argument of Offsetof"
+msgstr "使用模板名%qE时不带实参表是无效的喵～"
+
+msgid "storage class %<auto%> invalid for function %qs"
+msgstr "函数%qs的存储类%<auto%>是无效的喵～"
+
+msgid "storage class %<register%> invalid for function %qs"
+msgstr "函数%qs的存储类%<register%>是无效的喵～"
+
+msgid "%qD defined %<thread_local%> in %<constexpr%> context"
+msgstr "函数%qs的存储类%<__thread%>是无效的喵～"
+
+msgid "%qD defined %<thread_local%> in %<constexpr%> context"
+msgstr "函数%qs的存储类%<__thread%>是无效的喵～"
+
+msgid "%<inline%> specifier invalid for variable %qD declared at block scope"
+msgstr "在全局作用域外为函数%qs指定%<inline%>是无效的喵～"
+
+msgid "%<inline%> specifier invalid for variable %qD declared at block scope"
+msgstr "在全局作用域外为函数%qs指定%<inline%>是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "converting %qT to %<void%> will never use a type conversion operator"
+msgstr "在转换运算符中使用%<auto%>是无效的喵～"
+
+msgid "caller edge count invalid"
+msgstr "派生联合%qT是无效的喵～"
+
+msgid "the required type %qT is invalid"
+msgstr "重复的基类型%qT是无效的喵～"
+
+msgid "increment of enumeration value is invalid in C++"
+msgstr "C++ 中枚举自增操作是无效的喵～"
+
+msgid "only zero initializers are allowed in section %qs"
+msgstr "成员函数%qD的初始值设定是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "only zero initializers are allowed in section %qs"
+msgstr "成员函数%qD的初始值设定是无效的喵～"
+
+msgid "invalid pointer to bit-field %qD"
+msgstr "指向位段%qD指针是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "multiple-value function call in single-value context"
+msgstr "%qD的声明中类名是无效的喵～"
+
+msgid "ignoring %qD attribute on anonymous namespace"
+msgstr "%qs(有%qT)的实参类型是无效的喵～"
+
+msgid "ignoring %qD attribute on anonymous namespace"
+msgstr "%qs(有%qT)的实参类型是无效的喵～"
+
+msgid "invalid use of destructor %qD as a type"
+msgstr "将析构函数%qD用作类型是无效的喵～"
+
+msgid "only zero initializers are allowed in section %qs"
+msgstr "成员函数%qD的初始值设定是无效的喵～"
+
+msgid "converting %qT to %<void%> will never use a type conversion operator"
+msgstr "在转换运算符中使用%<auto%>是无效的喵～"
+
+msgid "converting %qT to %<void%> will never use a type conversion operator"
+msgstr "在转换运算符中使用%<auto%>是无效的喵～"
+
+msgid "cannot combine GNU and SVE vectors in a binary operation"
+msgstr "二元操作中中操作数是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid use of %<auto%> in default template argument"
+msgstr "对模板的模板参数%qT的使用是无效的喵～"
+
+msgid "invalid use of %<auto%> in default template argument"
+msgstr "对模板的模板参数%qT的使用是无效的喵～"
+
+msgid "invalid use of asm flag output"
+msgstr "将构造函数用作模板是无效的喵～"
+
+msgid "converting %qT to %<void%> will never use a type conversion operator"
+msgstr "在转换运算符中使用%<auto%>是无效的喵～"
+
+msgid "multiple-value function call in single-value context"
+msgstr "%qD的声明中类名是无效的喵～"
+
+msgid "multiple-value function call in single-value context"
+msgstr "%qD的声明中类名是无效的喵～"
+
+msgid "converting %qT to %<void%> will never use a type conversion operator"
+msgstr "在转换运算符中使用%<auto%>是无效的喵～"
+
+msgid "invalid use of asm flag output"
+msgstr "将构造函数用作模板是无效的喵～"
+
+msgid "invalid declaration of %<%T::%E%>"
+msgstr "%<%T::%E%>声明是无效的喵～"
+
+msgid "invalid declaration of member template in local class"
+msgstr "局部类中对成员模板的声明是无效的喵～"
+
+msgid "%qD must be a global variable in %<#pragma acc declare link%>"
+msgstr "指定链接时使用%qD是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "invalid operand for 'p' modifier"
+msgstr "‘p’修饰符的操作数是无效的喵～"
+
+msgid "invalid use of template-id %qD in declaration of primary template"
+msgstr "在基本模板的声明中对模板标识符%qD的使用是无效的喵～"
+
+msgid "invalid private reduction on %qE"
+msgstr "%qD模板声明是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid use of destructor %qD as a type"
+msgstr "将析构函数%qD用作类型是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "multilib spec %qs is invalid"
+msgstr "模板第 %d 个参数是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid covariant return type for %q#D"
+msgstr "%q+#D的协变返回类型是无效的喵～"
+
+msgid "invalid covariant return type for %q#D"
+msgstr "%q+#D的协变返回类型是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "invalid use of asm flag output"
+msgstr "将构造函数用作模板是无效的喵～"
+
+msgid "invalid use of destructor %qD as a type"
+msgstr "将析构函数%qD用作类型是无效的喵～"
+
+msgid "invalid use of %<...%> with non-slice"
+msgstr "在文件作用域使用%<this%>是无效的喵～"
+
+msgid "invalid use of %<...%> with non-slice"
+msgstr "在文件作用域使用%<this%>是无效的喵～"
+
+msgid "invalid use of %<...%> calling non-variadic function"
+msgstr "在非成员函数中使用%<this%>是无效的喵～"
+
+msgid "invalid use of %<...%> with non-slice"
+msgstr "在文件作用域使用%<this%>是无效的喵～"
+
+msgid "invalid qualifying scope in pseudo-destructor name"
+msgstr "伪析构函数名的限定作用域是无效的喵～"
+msgid ""
+"invalid use of type %qT as a default value for a template template-parameter"
+msgstr "将类型%qT用作模板的模板参数的默认值是无效的喵～"
+
+msgid "invalid default argument for a template template parameter"
+msgstr "模板的模板形参的默认实参是无效的喵～"
+
+msgid "previous definition of %q+D with type %qT"
+msgstr "对限定类型%qT的定义是无效的喵～"
+"%<const%> and %<volatile%> function specifiers on %qD invalid in parameter "
+"declaration"
+msgstr "形参声明中出现的 typedef 声明是无效的喵～"
+
+msgid "invalid key type for %<-mbranch-protection=%>"
+msgstr "%qE的类型对%<reduction(%s)%>是无效的喵～"
+
+msgid "invalid application of %qs to a member function"
+msgstr "%qs用于成员函数是无效的喵～"
+
+msgid "invalid application of %<sizeof%> to a bit-field"
+msgstr "对位段使用%<sizeof%>是无效的喵～"
+
+msgid "invalid application of %<__alignof%> to a bit-field"
+msgstr "对位段使用%<__alignof%>是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "invalid use of array indexing on pointer to member"
+msgstr "对成员指针数组索引的使用是无效的喵～"
+
+msgid "Warn about implicit conversion of enum types."
+msgstr "隐式转换成员指针用法是无效的喵～"
+
+msgid "invalid use of MMA operand of type %qs as a function parameter"
+msgstr "操作数类型%qT和%qT对双目%qO而言是无效的喵～"
+
+msgid "invalid use of a pointer to an incomplete type in pointer arithmetic"
+msgstr "在指针算术中使用指向不完全类型的指针是无效的喵～"
+
+msgid "invalid use of destructor %qD as a type"
+msgstr "将析构函数%qD用作类型是无效的喵～"
+
+msgid "invalid use of %qE to form a pointer-to-member-function"
+msgstr "用%qE形成成员函数指针的用法是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "invalid %<static_cast%> from type %qT to type %qT"
+msgstr "从类型%qT到类型%qT的转换是无效的喵～"
+
+msgid "invalid %<static_cast%> from type %qT to type %qT"
+msgstr "从类型%qT到类型%qT的转换是无效的喵～"
+
+msgid "invalid %<static_cast%> from type %qT to type %qT"
+msgstr "从类型%qT到类型%qT的转换是无效的喵～"
+
+msgid "invalid %<static_cast%> from type %qT to type %qT"
+msgstr "从类型%qT到类型%qT的转换是无效的喵～"
+
+msgid "invalid %<static_cast%> from type %qT to type %qT"
+msgstr "从类型%qT到类型%qT的转换是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "invalid abstract return type for member function %q+#D"
+msgstr "成员函数%q+#D的抽象返回类型是无效的喵～"
+#. constexpr_fundef_p
+msgid "invalid type for parameter %d of %<constexpr%> function %q+#D"
+msgstr "函数%q+#D的抽象返回类型是无效的喵～"
+
+msgid "invalid operand type %qT for %qs"
+msgstr "抽象类型%qT无效，对于%qE是无效的喵～"
+
+msgid "invalid prototype for '%s'"
+msgstr "%q+D的抽象类型是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "invalid use of cv-qualified type %qT in parameter declaration"
+msgstr "对模板类型参数%qT的使用是无效的喵～"
+
+msgid "invalid use of %<auto%> in default template argument"
+msgstr "对模板的模板参数%qT的使用是无效的喵～"
+
+msgid "%<using enum%> of dependent type %qT"
+msgstr "对依赖类型%qT的使用是无效的喵～"
+
+msgid "%<constinit%> variable %qD does not have a constant initializer"
+msgstr "接口%qE常量字符串布局是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "previous definition of %q+D with type %qT"
+msgstr "对限定类型%qT的定义是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
+msgstr "%qs对%qs而言是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "invalid operand in unary operation"
+msgstr "单目操作中操作数是无效的喵～"
+
+msgid "Invalid form of array reference at %C"
+msgstr "%C处数组引用形式是无效的喵～"
+
+msgid "Invalid form of array reference at %C"
+msgstr "%C处数组引用形式是无效的喵～"
+
+msgid "Invalid kind for %s at %L"
+msgstr "%2$L处 %1$s 种别是无效的喵～"
+"%qs argument of %qs intrinsic at %L has invalid shape in dimension %d (%ld/"
+"%ld)"
+msgstr "%3$L处‘%2$s’内建函数的实参‘%1$s’在维数 %4$d (%5$ld/%6$ld)上外形是无效的喵～"
+
+msgid "Invalid initializer %s in Data statement at %C"
+msgstr "%2$C处 DATA 语句初始值设定 %1$s 是无效的喵～"
+
+msgid "Invalid initializer %s in Data statement at %C"
+msgstr "%2$C处 DATA 语句初始值设定 %1$s 是无效的喵～"
+
+msgid "TYPE with intrinsic-type-spec at %C"
+msgstr "%C处类型指定是无效的喵～"
+
+msgid "TYPE with intrinsic-type-spec at %C"
+msgstr "%C处类型指定是无效的喵～"
+
+msgid "invalid prototype for '%s'"
+msgstr "%q+D的抽象类型是无效的喵～"
+
+msgid "Malformed GENERIC statement at %C"
+msgstr "%C处 PROGRAM 语句格式是无效的喵～"
+
+msgid "KIND part_ref at %C"
+msgstr "%s 位于 %L 的 KIND 参数是无效的喵～"
+"Invalid initialization expression for ALLOCATABLE component %qs in structure "
+"constructor at %L"
+msgstr "%2$L处结构构造函数中 ALLOCATABLE 组件‘%1$s’的初始化表达式是无效的喵～"
+
+msgid "Do not elide common elements in template comparisons."
+msgstr "gimple 比较中操作数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "Invalid keyword %qs in %qs intrinsic function at %L"
+msgstr "%2$C处‘%1$s’规格是无效的喵～"
+
+msgid "Invalid context for NULL() pointer at %%L"
+msgstr "%%L处 NULL() 指针上下文是无效的喵～"
+
+msgid "Invalid keyword %qs in %qs intrinsic function at %L"
+msgstr "%2$C处‘%1$s’规格是无效的喵～"
+
+msgid "IOLENGTH tag invalid in INQUIRE statement at %C"
+msgstr "%C处的 INQUIRE 语句中 IOLENGTH 标记是无效的喵～"
+
+msgid "Malformed GENERIC statement at %C"
+msgstr "%C处 PROGRAM 语句格式是无效的喵～"
+
+msgid "TYPE with intrinsic-type-spec at %C"
+msgstr "%C处类型指定是无效的喵～"
+
+msgid "TYPE with intrinsic-type-spec at %C"
+msgstr "%C处类型指定是无效的喵～"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "Invalid keyword %qs in %qs intrinsic function at %L"
+msgstr "%2$C处‘%1$s’规格是无效的喵～"
+
+msgid "Invalid context for NULL() pointer at %%L"
+msgstr "%%L处 NULL() 指针上下文是无效的喵～"
+
+msgid "Invalid kind for %s at %L"
+msgstr "%2$L处 %1$s 种别是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "invalid argument to gimple call"
+msgstr "gimple 调用中参数是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "Invalid initializer %s in Data statement at %C"
+msgstr "%2$C处 DATA 语句初始值设定 %1$s 是无效的喵～"
+"Invalid expression in the structure constructor for pointer component %qs at "
+"%L in PURE procedure"
+msgstr "%2$L处指针组件‘%1$s’的派生类型构造函数中表达式是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "Invalid kind for %s at %L"
+msgstr "%2$L处 %1$s 种别是无效的喵～"
+
+msgid "Invalid kind for %s at %L"
+msgstr "%2$L处 %1$s 种别是无效的喵～"
+
+msgid "Invalid form of array reference at %C"
+msgstr "%C处数组引用形式是无效的喵～"
+
+msgid "TYPE with intrinsic-type-spec at %C"
+msgstr "%C处类型指定是无效的喵～"
+
+msgid "Invalid context for NULL() pointer at %%L"
+msgstr "%%L处 NULL() 指针上下文是无效的喵～"
+
+msgid "Invalid kind for %s at %L"
+msgstr "%2$L处 %1$s 种别是无效的喵～"
+
+msgid "KIND part_ref at %C"
+msgstr "%s 位于 %L 的 KIND 参数是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "lvalue-to-rvalue conversion of a volatile lvalue %qE with type %qT"
+msgstr "从具有类型%qT的右值表达式到类型%qT中的转换是无效的喵～"
+
+msgid "%<constinit%> variable %qD does not have a constant initializer"
+msgstr "接口%qE常量字符串布局是无效的喵～"
+
+msgid "trailing array %qT should not be used as a flexible array member"
+msgstr "对可变数组成员的使用是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "position plus size exceeds size of referenced object in %qs"
+msgstr "BIT_FIELD_REF 位置或大小操作数是无效的喵～"
+
+msgid "bad option %s to optimize attribute"
+msgstr "optimize 属性选项 %s 是无效的喵～"
+
+msgid "%<signed%> or %<unsigned%> invalid for %qs"
+msgstr "为%qs使用%<signed%>或%<unsigned%>是无效的喵～"
+
+msgid "%<long%>, %<int%>, %<short%>, or %<char%> invalid for %qs"
+msgstr "%<long%>、%<int%>、%<short%>或%<char%>对%qs是无效的喵～"
+
+msgid "long, short, signed or unsigned used invalidly for %qs"
+msgstr "为%qs使用 long、short、signed 或 unsigned 是无效的喵～"
