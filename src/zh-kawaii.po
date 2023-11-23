@@ -139,7 +139,7 @@ msgid "%q+D declared as a friend"
 msgstr "%q+D是你的朋友!"
 
 msgid "Fatal Error"
-msgstr "坏掉了"
+msgstr "寄了"
 
 msgid "ISO C90 does not support %<[*]%> array declarators"
 msgstr "听不懂呜哇哇，ISO C90 听不懂%<[*]%> 数组声明方式的啦"
@@ -190,7 +190,7 @@ msgid "error: "
 msgstr "笨蛋！"
 
 msgid "internal compiler error: "
-msgstr "寄了："
+msgstr "坏...坏掉了...："
 
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
