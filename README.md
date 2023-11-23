@@ -3,13 +3,9 @@ Make your GCC compiler kawaii~!
 
 This project makes the output messages from GCC compiler looks kawaii by editing the localization file of GCC.
 
-Everyone is welcomed to add more fun messages!
+Everyone is welcomed to contribute and add more kawaii messages!
 
 [中文版](./README-zh.md)
-
-## Dependences
-- GNU GCC
-- GNU Gettext
 
 ## How to use it?
 ### Linux (in an Ubuntu example)
@@ -52,6 +48,8 @@ Everyone is welcomed to add more fun messages!
     msgfmt gcc.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/ja/LC_MESSAGES/gcc-12.mo
     ```
 
+    > The `gcc.po` is the localization file for ja_JP, and the `gcc-zh.po` is the localization file for zh_CN. See the [Chinese version README](./README-zh.md) document for more details.
+
     Regarding to the file name:
 
     - If you found an existed file in the last step, use the existed file name.
@@ -85,4 +83,4 @@ Not implemented yet. Contribution welcomed!
 
 ## Special Thanks
 
-This project is inspired by [`gcc-hentai`](https://github.com/Mosklia/gcc-hentai). It was a Chinese project, and I created this repo to make a Japanese version and share it to Japanese users. I added the new text, edited and completed some details in the use instructions, and made a video in Japanese to share it. The video got expected attention in Chinese users on Bilibili, so I added contents of Chinese in it. Thanks for the sharing and the open-source spirit of the original authors.
+This project is inspired by [`gcc-hentai`](https://github.com/Mosklia/gcc-hentai). It was a Chinese project, and I created this repo to make a Japanese version and share it to Japanese users. I added the new text, edited and completed some details in the use instructions, and made a video in Japanese to share it. The video got unexpected attention in Chinese users on Bilibili, so I added contents of Chinese in it. Thanks for the sharing and the open-source spirit of the original authors.
