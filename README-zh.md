@@ -50,8 +50,9 @@
 
     ```bash
     git clone https://github.com/Bill-Haku/kawaii-gcc
-    cd kawaii-gcc
-    msgfmt gcc-zh.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
+    cd kawaii-gcc/src
+    ./merge-zh.sh
+    msgfmt ../gcc-zh.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
     ```
 
     关于文件名：
