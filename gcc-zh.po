@@ -651,6 +651,24 @@ msgstr "%qD以前是在这里声明的："
 msgid "implicit declaration of function %qE"
 msgstr "你刚刚隐式声明了函数%qE，这个特性早就被弃用了，是学某本C语言教科书的杂鱼呢～"
 
+msgid "division by zero"
+msgstr "你的除数也是零吗？"
+
+msgid "warning: "
+msgstr "杂鱼～"
+
+msgid "storage size of %q+D isn%'t known"
+msgstr "%q+D的存储大小未知,咱可并不喜欢你这种神秘感～"
+
+msgid "storage size of %qD isn%'t known"
+msgstr "%qD的存储大小未知,咱可并不喜欢你这种神秘感～"
+
+msgid "%qE defined as wrong kind of tag"
+msgstr "%qE定义为类型错误的标记，下辈子注意就好了喵～"
+
+msgid "At top level:"
+msgstr "就...就在这个文件里："
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -763,10 +781,6 @@ msgstr "函数属性不匹配"
 #: cif-code.def:139
 msgid "function has external linkage when the user requests only inlining static for live patching"
 msgstr ""
-
-#: diagnostic.def:37
-msgid "warning: "
-msgstr "警告："
 
 #: diagnostic.def:38
 msgid "anachronism: "
@@ -19834,10 +19848,6 @@ msgstr "‘"
 msgid "'"
 msgstr "’"
 
-#: langhooks.cc:384
-msgid "At top level:"
-msgstr "在文件作用域："
-
 #: langhooks.cc:400 cp/error.cc:3631
 #, c-format
 msgid "In member function %qs"
@@ -33816,11 +33826,6 @@ msgstr "线程局部的 COMMON 数据没有实现"
 msgid "requested alignment for %q+D is greater than implemented alignment of %wu"
 msgstr "%q+D需要的对齐边界大于实现的对齐边界 %wu"
 
-#: varasm.cc:2308 c/c-decl.cc:5477 c/c-parser.cc:1662
-#, gcc-internal-format
-msgid "storage size of %q+D isn%'t known"
-msgstr "%q+D的存储大小未知"
-
 #: varasm.cc:5275
 #, gcc-internal-format
 msgid "initializer for integer/fixed-point value is too complicated"
@@ -37607,11 +37612,6 @@ msgstr "标号%q+D定义后未使用"
 #, gcc-internal-format
 msgid "label %q+D declared but not defined"
 msgstr "标号%q+D声明后未定义"
-
-#: c-family/c-warn.cc:2196
-#, gcc-internal-format
-msgid "division by zero"
-msgstr "被零除"
 
 #: c-family/c-warn.cc:2216
 #, gcc-internal-format
@@ -45167,11 +45167,6 @@ msgstr "开关语句从此开始"
 #, gcc-internal-format
 msgid "switch jumps into statement expression"
 msgstr "开关跳转至语句表达式中"
-
-#: c/c-decl.cc:4258
-#, gcc-internal-format
-msgid "%qE defined as wrong kind of tag"
-msgstr "%qE定义为类型错误的标记"
 
 #: c/c-decl.cc:4444 cp/tree.cc:4923
 #, fuzzy, gcc-internal-format
@@ -54453,11 +54448,6 @@ msgstr "%qD缺少数组大小"
 #, gcc-internal-format
 msgid "zero-size array %qD"
 msgstr "大小为 0 的数组%qD"
-
-#: cp/decl.cc:6183
-#, gcc-internal-format
-msgid "storage size of %qD isn%'t known"
-msgstr "%qD的存储大小未知"
 
 #: cp/decl.cc:6208
 #, gcc-internal-format

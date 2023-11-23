@@ -680,10 +680,28 @@ msgid "return-statement with a value, in function returning %qT"
 msgstr "在返回%qT的函数中，返回是不应该带返回值的，这你都不知道吗？"
 
 msgid "%q#T was previously declared here"
-msgstr "%q#T以前是在这里声明的："
+msgstr "%q#T以前是...是在这里声明的："
 
 msgid "%qD was previously declared here"
-msgstr "%qD以前是在这里声明的："
+msgstr "%qD以前是...是在这里声明的："
 
 msgid "implicit declaration of function %qE"
 msgstr "你刚刚隐式声明了函数%qE，这个特性早就被弃用了，是学某本C语言教科书的杂鱼呢～"
+
+msgid "division by zero"
+msgstr "你的除数也是零吗？"
+
+msgid "warning: "
+msgstr "杂鱼～"
+
+msgid "storage size of %q+D isn%'t known"
+msgstr "%q+D的存储大小未知,咱可并不喜欢你这种神秘感～"
+
+msgid "storage size of %qD isn%'t known"
+msgstr "%qD的存储大小未知,咱可并不喜欢你这种神秘感～"
+
+msgid "%qE defined as wrong kind of tag"
+msgstr "%qE定义为类型错误的标记，下辈子注意就好了喵～"
+
+msgid "At top level:"
+msgstr "就...就在这个文件里："
