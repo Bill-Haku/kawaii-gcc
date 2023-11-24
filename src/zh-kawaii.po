@@ -749,7 +749,9 @@ msgid "initialization of %qT from %qT makes integer from pointer without a cast"
 msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个笨蛋！"
 
 msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
-msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"msgid "Warn about implicit conversion of enum types."
+msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
+
+msgid "Warn about implicit conversion of enum types."
 msgstr "隐式转换成员指针用法是无效的喵～"
 
 msgid "Warn about implicit conversion of enum types."
