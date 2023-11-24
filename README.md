@@ -40,12 +40,10 @@ Everyone is welcomed to contribute and add more kawaii messages!
 
 - Find your gcc language file. Defaultly, it should be found in `/usr/share/locale/ja/LC_MESSAGES/gcc.mo`. However, it is also possible that you cannot find the file or the file is named as `gcc-12.mo`. If there's a related file, back up it. (eg. `sudo mv gcc-12.mo gcc-12.mo.bak`) Don't worry if there's no such file, you need to do nothing.
 
-- Use the following command to clone the project from GitHub and compile the `po` file in the project and copy it to the path.
+- Use the following command to download the `po` file in the project and copy it to the path.
 
     ```bash
-    git clone https://github.com/Bill-Haku/kawaii-gcc
-    cd kawaii-gcc
-    msgfmt gcc.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/ja/LC_MESSAGES/gcc-12.mo
+    sudo wget https://github.com/Bill-Haku/kawaii-gcc/raw/main/prebuilt/gcc.mo /usr/share/locale/ja/LC_MESSAGES/gcc-12.mo
     ```
 
     > The `gcc.po` is the localization file for ja_JP, and the `gcc-zh.po` is the localization file for zh_CN. See the [Chinese version README](./README-zh.md) document for more details.
