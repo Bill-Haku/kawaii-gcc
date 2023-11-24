@@ -46,13 +46,10 @@
 
 - 找到你的语言文件的路径。默认会在 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`. 不过你也有可能找不到该文件或者找到名为`gcc-12.mo`的文件。如果已有相关文件，备份之。 (eg. `sudo mv gcc-12.mo gcc-12.mo.bak`) 如果没有相关文件，无需担心，什么都不需要做。
 
-- 通过以下命令克隆该仓库并编译仓库中的`po` 文件然后将其复制到刚才的路径去。
+- 通过以下命令下载仓库中的`po` 文件然后将其复制到刚才的路径去。
 
     ```bash
-    git clone https://github.com/Bill-Haku/kawaii-gcc
-    cd kawaii-gcc/src
-    ./merge-zh.sh
-    msgfmt ../gcc-zh.po -o gcc.mo && sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
+     sudo wget https://github.com/Bill-Haku/kawaii-gcc/raw/main/prebuilt/gcc-zh.mo -O /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
     ```
 
     关于文件名：
