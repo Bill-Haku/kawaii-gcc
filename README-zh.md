@@ -1,4 +1,7 @@
 # Kawaii-gcc 让GCC变得可爱
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Bill-Haku/kawaii-gcc) ![GitHub contributors](https://img.shields.io/github/contributors/Bill-Haku/kawaii-gcc) ![GitHub License](https://img.shields.io/github/license/Bill-Haku/kawaii-gcc)
+
 让你的GCC编译器变得可爱！
 
 本项目通过修改GCC的输出信息的本地化文件的方式让GCC变得可爱。
