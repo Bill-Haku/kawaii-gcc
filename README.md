@@ -1,4 +1,7 @@
 # Kawaii-gcc かわいいGCC
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Bill-Haku/kawaii-gcc) ![GitHub contributors](https://img.shields.io/github/contributors/Bill-Haku/kawaii-gcc) ![GitHub License](https://img.shields.io/github/license/Bill-Haku/kawaii-gcc)
+
 Make your GCC compiler kawaii~!
 
 This project makes the output messages from GCC compiler looks kawaii by editing the localization file of GCC.
