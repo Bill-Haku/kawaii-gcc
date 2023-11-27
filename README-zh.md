@@ -52,6 +52,14 @@
      sudo wget https://github.com/Bill-Haku/kawaii-gcc/raw/main/prebuilt/gcc-zh.mo -O /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
     ```
 
+    您也可以自行重新编译该二进制文件：
+
+    ```bash
+    ./src/merge-zh.sh
+    msgfmt gcc-zh.po -o gcc.mo
+    sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
+    ```
+
     关于文件名：
 
     - 如果你在上个步骤找到了相关文件，请直接使用原本的名字。
