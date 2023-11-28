@@ -8,7 +8,7 @@ This project makes the output messages from GCC compiler looks kawaii by editing
 
 Everyone is welcomed to contribute and add more kawaii messages!
 
-[中文版](./README-zh.md)
+[中文版](./README-zh.md)（更改为中文时请优先阅读）
 
 ## How to use it?
 ### Linux (in an Ubuntu example)
@@ -51,6 +51,13 @@ Everyone is welcomed to contribute and add more kawaii messages!
 
     > The `gcc.po` is the localization file for ja_JP, and the `gcc-zh.po` is the localization file for zh_CN. See the [Chinese version README](./README-zh.md) document for more details.
 
+    You can also rebuild the binary file by yourself:
+
+    ```bash
+    msgfmt gcc.po -o gcc.mo
+    sudo cp gcc.mo /usr/share/locale/ja/LC_MESSAGES/gcc-12.mo
+    ```
+
     Regarding to the file name:
 
     - If you found an existed file in the last step, use the existed file name.
@@ -78,7 +85,21 @@ Everyone is welcomed to contribute and add more kawaii messages!
     # -Wall makes GCC output all the warning messages.
     ```
 
-### macOS & Windows
+### Windows
+
+- Install [Cygwin](https://www.cygwin.com)
+
+    - Download and run [setup-x86_64.exe](https://www.cygwin.com/setup-x86_64.exe)
+
+    - Choose `Install from Internet` at the step of `Select Packages`.
+
+    - At the step of `Select Packages`, Set `View` as `Category` and search and select the versions of `gcc-core`, `gcc-g++` and `gettext` under the ALL/Devel panel.
+
+- Suppose your `Cygwin` install directory is `<DIR>` (Defaultly it should be `C:\cygwin`), add the directory `<DIR>\bin` to the Environment Variable `Path`. If there's `mingw` in the `Path`, delete it or move it under the `<DIR>\bin`. Add another Environment Variable `LANG`, and set the value of it into `ja_JP.UTF-8`.
+
+- Move the `gcc.mo` file in the `./prebuilt` directory of this repository to `<DIR>\usr\share\locale\ja\LC_MESSAGES`, keep naming it as `gcc.mo`. Backuping the existed `gcc.mo` file is suggested.
+
+### macOS
 
 Not implemented yet. Contribution welcomed!
 
