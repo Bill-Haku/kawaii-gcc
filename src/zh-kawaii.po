@@ -139,7 +139,7 @@ msgid "%q+D declared as a friend"
 msgstr "%q+D是你的朋友!"
 
 msgid "Fatal Error"
-msgstr "坏掉了"
+msgstr "寄了"
 
 msgid "ISO C90 does not support %<[*]%> array declarators"
 msgstr "听不懂呜哇哇，ISO C90 听不懂%<[*]%> 数组声明方式的啦"
@@ -149,7 +149,6 @@ msgstr "就...就在那个叫%qs的函数里！"
 
 msgid "Integer too large at %C"
 msgstr "%C处整数太，太大了啊！"
-
 
 msgid "Name at %C is too long"
 msgstr "%C 的名字太...太长了啊！"
@@ -171,7 +170,7 @@ msgid "aka"
 msgstr "aka(该不会你连also known as都不认识吧～)"
 
 msgid "compilation terminated.\n"
-msgstr "好唉！编译中断。\n"
+msgstr "编译中断，好耶！\n"
 
 
 msgid "debug"
@@ -190,7 +189,7 @@ msgid "error: "
 msgstr "笨蛋！"
 
 msgid "internal compiler error: "
-msgstr "寄了："
+msgstr "坏...坏掉了："
 
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
@@ -750,3 +749,111 @@ msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个
 
 msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
 msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
+
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Treat all warnings as errors."
+msgstr "%s：你说得对，但是所有的警告都被当作是错误"
+
+msgid "command-line option %qs is valid for the driver but not for %s"
+msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～"
+
+msgid "invalid operand to switch statement"
+msgstr "开关语句操作数是无效的喵～"
+
+msgid "node has unknown type"
+msgstr "你...你输入的到底是什么！我怎么不知道！"
+
+msgid "pass %s does not support cloning"
+msgstr "过程 %s 是不支持克隆的！你不知道吗！"
+
+msgid "%<atexit%> failed"
+msgstr "atexit 大~失~败~"
+
+msgid "... to the previous %qs clause here"
+msgstr "这...这个已经在这里使用过了，不能再使用了！"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "bad address, not a constant:"
+msgstr "地址偏移量不是一个常量，你有没有检查过代码啊喂！！！"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid type for _Literal with constructor"
+msgstr "构造函数中对静态成员的初始化是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "invalid use of array indexing on pointer to member"
+msgstr "对成员指针数组索引的使用是无效的喵～"
+
+msgid "Warn about implicit conversion of enum types."
+msgstr "隐式转换成员指针用法是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "bad option %s to optimize attribute"
+msgstr "optimize 属性选项 %s 是无效的喵～"
+
+msgid "%<signed%> or %<unsigned%> invalid for %qs"
+msgstr "为%qs使用%<signed%>或%<unsigned%>是无效的喵～"
+
+msgid "%<long%>, %<int%>, %<short%>, or %<char%> invalid for %qs"
+msgstr "%<long%>、%<int%>、%<short%>或%<char%>对%qs是无效的喵～"
+
+msgid "long, short, signed or unsigned used invalidly for %qs"
+msgstr "为%qs使用 long、short、signed 或 unsigned 是无效的喵～"
+ 
+msgid "function body not available"
+msgstr "函数体不可用，你不知道吗！"
+
+msgid "--param large-function-growth limit reached"
+msgstr "已经到达 --param large-function-growth 给定的极限了，不能再多了！"
+
+msgid "mismatched declarations during linktime optimization"
+msgstr "需要迭代声明或初始化呢，建议检查下代码呢～"
+
+msgid "anachronism: "
+msgstr "这是要留着过年吗？："
+
+msgid "-f%s ignored (not supported for DJGPP)\n"
+msgstr "-f%s 是不受支持的呢：已经忽略掉了，你可要好好感谢人家呢~\n"
+
+msgid "Enable preprocessing."
+msgstr "预处理被启用了呢～"
+
+msgid "Disable preprocessing."
+msgstr "预处理被禁用了呢~"
+
+msgid "invalid insn:"
+msgstr "这个指令是无效的呢："
+
+msgid "incorrect insn:"
+msgstr "这个指令是错误的呢："
+
+msgid "invalid address in operand"
+msgstr "这个寻址模式是无效的喔，只有人家才会好心提醒你呢"
+
+msgid "unsupported operand"
+msgstr "非预期的操作数，你这代码真离谱喵～"

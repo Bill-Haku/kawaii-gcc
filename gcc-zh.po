@@ -134,7 +134,7 @@ msgid "%q+D declared as a friend"
 msgstr "%q+D是你的朋友!"
 
 msgid "Fatal Error"
-msgstr "坏掉了"
+msgstr "寄了"
 
 msgid "ISO C90 does not support %<[*]%> array declarators"
 msgstr "听不懂呜哇哇，ISO C90 听不懂%<[*]%> 数组声明方式的啦"
@@ -164,7 +164,7 @@ msgid "aka"
 msgstr "aka(该不会你连also known as都不认识吧～)"
 
 msgid "compilation terminated.\n"
-msgstr "好唉！编译中断。\n"
+msgstr "编译中断，好耶！\n"
 
 msgid "debug"
 msgstr "太...太羞耻了"
@@ -182,7 +182,7 @@ msgid "error: "
 msgstr "笨蛋！"
 
 msgid "internal compiler error: "
-msgstr "寄了："
+msgstr "坏...坏掉了："
 
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
@@ -714,13 +714,117 @@ msgstr "初始化将指针赋给整数，并且你没有类型转换，真是个
 msgid "overflow in conversion from %qT to %qT changes value from %qE to %qE"
 msgstr "在%qT 到 %qT的转换中，数据溢...溢出来了呜呜呜！（因此它的值从 %qE 变成了 %qE）"
 
+msgid "unsupported operand for code '%c'"
+msgstr "代码‘%c’的操作数是无效的喵～"
+
+msgid "Discover pure and const functions."
+msgstr "纯常函数状态是无效的喵～"
+
+msgid "Enable hwasan instrumentation of builtin functions."
+msgstr "内建函数实参是无效的喵～"
+
+msgid "Treat all warnings as errors."
+msgstr "%s：你说得对，但是所有的警告都被当作是错误"
+
+msgid "command-line option %qs is valid for the driver but not for %s"
+msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～"
+
+msgid "invalid operand to switch statement"
+msgstr "开关语句操作数是无效的喵～"
+
+msgid "node has unknown type"
+msgstr "你...你输入的到底是什么！我怎么不知道！"
+
+msgid "pass %s does not support cloning"
+msgstr "过程 %s 是不支持克隆的！你不知道吗！"
+
+msgid "%<atexit%> failed"
+msgstr "atexit 大~失~败~"
+
+msgid "... to the previous %qs clause here"
+msgstr "这...这个已经在这里使用过了，不能再使用了！"
+
+msgid "invalid operand to %%R"
+msgstr "%%R 的操作数是无效的喵～"
+
+msgid "bad address, not a constant:"
+msgstr "地址偏移量不是一个常量，你有没有检查过代码啊喂！！！"
+
+msgid "in a call to non-static member function %qD"
+msgstr "对非静态成员函数%qD的使用是无效的喵～"
+
+msgid "%qD source argument is the same as destination"
+msgstr "属性%qE的参数是无效的喵～"
+
+msgid "invalid type for _Literal with constructor"
+msgstr "构造函数中对静态成员的初始化是无效的喵～"
+
+msgid "threadprivate iteration variable %qD"
+msgstr "迭代变量%qE类型是无效的喵～"
+
+msgid "invalid use of array indexing on pointer to member"
+msgstr "对成员指针数组索引的使用是无效的喵～"
+
+msgid "Warn about implicit conversion of enum types."
+msgstr "隐式转换成员指针用法是无效的喵～"
+
+msgid "invalid custom instruction option %qs"
+msgstr "向函数类型%qT的转换是无效的喵～"
+
+msgid "invalid operand in return statement"
+msgstr "返回语句操作数是无效的喵～"
+
+msgid "valid %<-foffload=%> arguments are: %s"
+msgstr "%L过程参数是无效的喵～"
+
+msgid "bad option %s to optimize attribute"
+msgstr "optimize 属性选项 %s 是无效的喵～"
+
+msgid "%<signed%> or %<unsigned%> invalid for %qs"
+msgstr "为%qs使用%<signed%>或%<unsigned%>是无效的喵～"
+
+msgid "%<long%>, %<int%>, %<short%>, or %<char%> invalid for %qs"
+msgstr "%<long%>、%<int%>、%<short%>或%<char%>对%qs是无效的喵～"
+
+msgid "long, short, signed or unsigned used invalidly for %qs"
+msgstr "为%qs使用 long、short、signed 或 unsigned 是无效的喵～"
+
+msgid "function body not available"
+msgstr "函数体不可用，你不知道吗！"
+
+msgid "--param large-function-growth limit reached"
+msgstr "已经到达 --param large-function-growth 给定的极限了，不能再多了！"
+
+msgid "mismatched declarations during linktime optimization"
+msgstr "需要迭代声明或初始化呢，建议检查下代码呢～"
+
+msgid "anachronism: "
+msgstr "这是要留着过年吗？："
+
+msgid "-f%s ignored (not supported for DJGPP)\n"
+msgstr "-f%s 是不受支持的呢：已经忽略掉了，你可要好好感谢人家呢~\n"
+
+msgid "Enable preprocessing."
+msgstr "预处理被启用了呢～"
+
+msgid "Disable preprocessing."
+msgstr "预处理被禁用了呢~"
+
+msgid "invalid insn:"
+msgstr "这个指令是无效的呢："
+
+msgid "incorrect insn:"
+msgstr "这个指令是错误的呢："
+
+msgid "invalid address in operand"
+msgstr "这个寻址模式是无效的喔，只有人家才会好心提醒你呢"
+
+msgid "unsupported operand"
+msgstr "非预期的操作数，你这代码真离谱喵～"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
-
-#: cif-code.def:47
-msgid "function body not available"
-msgstr "函数体不可用"
 
 #: cif-code.def:51
 msgid "redefined extern inline functions are not considered for inlining"
@@ -738,10 +842,6 @@ msgstr "函数体可能在链接时被改写"
 #: cif-code.def:64
 msgid "function not inline candidate"
 msgstr "函数不是内联备选"
-
-#: cif-code.def:68
-msgid "--param large-function-growth limit reached"
-msgstr "到达 --param large-function-growth 给定的极限"
 
 #: cif-code.def:70
 msgid "--param large-stack-frame-growth limit reached"
@@ -776,12 +876,6 @@ msgstr "调用不太可能且会导致代码膨胀"
 #: cif-code.def:92
 msgid "function not declared inline and code size would grow"
 msgstr "函数未被声明成内联且会导致代码膨胀"
-
-#: cif-code.def:96
-#, fuzzy
-#| msgid "expected iteration declaration or initialization"
-msgid "mismatched declarations during linktime optimization"
-msgstr "需要迭代声明或初始化"
 
 #: cif-code.def:100
 msgid "variadic thunk call"
@@ -827,21 +921,11 @@ msgstr "函数属性不匹配"
 msgid "function has external linkage when the user requests only inlining static for live patching"
 msgstr ""
 
-#: diagnostic.def:38
-msgid "anachronism: "
-msgstr "历史遗留："
-
 #. For use when using the diagnostic_show_locus machinery to show
 #. a range of events within a path.
 #: diagnostic.def:44
 msgid "path: "
 msgstr ""
-
-#: config/i386/djgpp.h:143
-#, fuzzy, c-format
-#| msgid "-f%s not supported: ignored"
-msgid "-f%s ignored (not supported for DJGPP)\n"
-msgstr "-f%s 不受支持：已忽略"
 
 #. This is like DK_ICE, but backtrace is not printed.  Used in the driver
 #. when reporting fatal signal in the compiler.
@@ -1343,16 +1427,6 @@ msgstr "对未使用的哑元给出警告。"
 #, fuzzy, no-c-format
 msgid "Warn about zero-trip DO loops."
 msgstr "对长度为 0 的格式字符串给出警告"
-
-#: fortran/lang.opt:362
-#, no-c-format
-msgid "Enable preprocessing."
-msgstr "启用预处理。"
-
-#: fortran/lang.opt:370
-#, no-c-format
-msgid "Disable preprocessing."
-msgstr "禁用预处理。"
 
 #: fortran/lang.opt:378
 #, fuzzy, no-c-format
@@ -2433,12 +2507,6 @@ msgstr "当 #elif 和 #endif 后面跟有其他标识符时给出警告"
 #| msgid "Warn about comparison of different enum types"
 msgid "Warn about comparison of different enum types."
 msgstr "对不同枚举类型之间的比较给出警告"
-
-#: c-family/c.opt:639
-#, fuzzy, no-c-format
-#| msgid "Warn about most implicit conversions"
-msgid "Warn about implicit conversion of enum types."
-msgstr "对大多数隐式类型转换给出警告"
 
 #: c-family/c.opt:647
 #, fuzzy, no-c-format
@@ -14395,12 +14463,6 @@ msgstr "对 __attribute__((deprecated)) 声明给出警告"
 msgid "Warn when an optimization pass is disabled."
 msgstr "当某趟优化被禁用时给出警告"
 
-#: common.opt:610
-#, fuzzy, no-c-format
-#| msgid "Treat all warnings as errors"
-msgid "Treat all warnings as errors."
-msgstr "所有的警告都当作是错误"
-
 #: common.opt:614
 #, fuzzy, no-c-format
 #| msgid "Treat specified warning as error"
@@ -15563,12 +15625,6 @@ msgstr "进行进程间的复写传递"
 #| msgid "Perform interprocedural points-to analysis"
 msgid "Perform interprocedural points-to analysis."
 msgstr "进行进程间的指向分析"
-
-#: common.opt:1922
-#, fuzzy, no-c-format
-#| msgid "Discover pure and const functions"
-msgid "Discover pure and const functions."
-msgstr "发现纯函数和常函数"
 
 #: common.opt:1926
 #, fuzzy, no-c-format
@@ -17293,12 +17349,6 @@ msgstr "启用饱和指令"
 #, fuzzy, no-c-format
 msgid "Enable hwasan instrumentation of store operations."
 msgstr "启用饱和指令"
-
-#: params.opt:87
-#, fuzzy, no-c-format
-#| msgid "invalid argument to built-in function"
-msgid "Enable hwasan instrumentation of builtin functions."
-msgstr "内建函数实参无效"
 
 #: params.opt:91
 #, fuzzy, no-c-format
@@ -20427,11 +20477,6 @@ msgstr "strfmon 格式的长度修饰符"
 msgid "<command-line>"
 msgstr "<命令行>"
 
-#: config/aarch64/aarch64.cc:11676
-#, fuzzy, c-format
-msgid "unsupported operand for code '%c'"
-msgstr "代码‘%c’的操作数无效"
-
 #: config/aarch64/aarch64.cc:11685 config/aarch64/aarch64.cc:11698
 #: config/aarch64/aarch64.cc:11710 config/aarch64/aarch64.cc:11721
 #: config/aarch64/aarch64.cc:11737 config/aarch64/aarch64.cc:11751
@@ -20732,11 +20777,6 @@ msgstr ""
 "\n"
 "错误：不当的地址在 From: 标头内。\n"
 
-#: config/avr/avr.cc:2884
-#, fuzzy
-msgid "bad address, not a constant:"
-msgstr "地址偏移量不是一个常量"
-
 #: config/avr/avr.cc:2902 config/avr/avr.cc:2909
 msgid "bad address, not (reg+disp):"
 msgstr "地址错误，不是(reg+disp)："
@@ -20757,17 +20797,6 @@ msgstr "C++ 不支持定点类型"
 #: config/avr/avr.cc:2969
 msgid "internal compiler error.  Unknown mode:"
 msgstr "编译器内部错误。未知的模式："
-
-#: config/avr/avr.cc:3866 config/avr/avr.cc:4810 config/avr/avr.cc:5257
-msgid "invalid insn:"
-msgstr "无效指令："
-
-#: config/avr/avr.cc:3920 config/avr/avr.cc:4032 config/avr/avr.cc:4090
-#: config/avr/avr.cc:4142 config/avr/avr.cc:4161 config/avr/avr.cc:4353
-#: config/avr/avr.cc:4661 config/avr/avr.cc:4946 config/avr/avr.cc:5150
-#: config/avr/avr.cc:5314 config/avr/avr.cc:5407 config/avr/avr.cc:5606
-msgid "incorrect insn:"
-msgstr "错误指令："
 
 #: config/avr/avr.cc:4177 config/avr/avr.cc:4452 config/avr/avr.cc:4732
 #: config/avr/avr.cc:5018 config/avr/avr.cc:5196 config/avr/avr.cc:5463
@@ -20835,19 +20864,6 @@ msgstr "无效的 %%j 值"
 #, c-format
 msgid "invalid const_double operand"
 msgstr "无效的双精度常量操作数"
-
-#: config/bpf/bpf.cc:921
-#, fuzzy
-#| msgid "invalid addressing mode"
-msgid "invalid address in operand"
-msgstr "无效寻址模式"
-
-#. Fallthrough.
-#: config/bpf/bpf.cc:928
-#, fuzzy
-#| msgid "unexpected operand"
-msgid "unsupported operand"
-msgstr "非预期的操作数"
 
 #. Format punctuators via %s to avoid -Wformat-diag.
 #: config/cris/cris.cc:775 config/ft32/ft32.cc:110 config/moxie/moxie.cc:108
@@ -21763,11 +21779,6 @@ msgstr "目标格式不支持无限大浮点数"
 #: config/s390/s390.cc:16567
 msgid "binary operator does not support mixing vector bool with floating point vector operands"
 msgstr ""
-
-#: config/sh/sh.cc:1222
-#, c-format
-msgid "invalid operand to %%R"
-msgstr "%%R 的操作数无效"
 
 #: config/sh/sh.cc:1249
 #, c-format
@@ -26492,11 +26503,6 @@ msgstr ""
 msgid "valid %<-foffload=%> arguments are: %s; did you mean %qs?"
 msgstr "%qs对%qs而言无效"
 
-#: gcc.cc:4038
-#, fuzzy, gcc-internal-format
-msgid "valid %<-foffload=%> arguments are: %s"
-msgstr "%qs对%qs而言无效"
-
 #: gcc.cc:4058
 #, gcc-internal-format
 msgid "%<=%>options missing after %<-foffload-options=%>target"
@@ -27024,11 +27030,6 @@ msgstr "数组下标小于数组边界"
 #| msgid "array subscript is above array bounds"
 msgid "array subscript %wu is above array bounds of %qT"
 msgstr "数组下标大于数组边界"
-
-#: gimple-fold.cc:2082 gimple-fold.cc:3133 gimple-ssa-warn-restrict.cc:2077
-#, fuzzy, gcc-internal-format
-msgid "%qD source argument is the same as destination"
-msgstr "属性%qE的参数无效"
 
 #: gimple-fold.cc:2148
 #, gcc-internal-format
@@ -28861,12 +28862,6 @@ msgstr ""
 msgid "%qs clause may not appear on non-rectangular %qs"
 msgstr ""
 
-#: gimplify.cc:12744
-#, fuzzy, gcc-internal-format
-#| msgid "invalid type for iteration variable %qE"
-msgid "threadprivate iteration variable %qD"
-msgstr "迭代变量%qE类型无效"
-
 #: gimplify.cc:12775 gimplify.cc:12883
 #, gcc-internal-format
 msgid "conditional %<lastprivate%> on loop iterator %qD ignored"
@@ -29700,12 +29695,6 @@ msgstr "无法打开输出文件 '%s'\n"
 msgid "using serial compilation of %d LTRANS jobs"
 msgstr ""
 
-#: lto-wrapper.cc:2162
-#, fuzzy, gcc-internal-format
-#| msgid "atexit failed"
-msgid "%<atexit%> failed"
-msgstr "atexit 失败"
-
 #: multiple_target.cc:76
 #, fuzzy, gcc-internal-format
 msgid "the call requires %<ifunc%>, which is not supported by this target"
@@ -29813,12 +29802,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "%qs specifies a conflicting level of parallelism"
 msgstr ""
-
-#: omp-general.cc:2769
-#, fuzzy, gcc-internal-format
-#| msgid "previously used here"
-msgid "... to the previous %qs clause here"
-msgstr "已在这里使用过"
 
 #: omp-general.cc:2804
 #, gcc-internal-format
@@ -30356,11 +30339,6 @@ msgstr "%qE属性的实参大于 %d"
 msgid "malformed %<COLLECT_GCC_OPTIONS%>"
 msgstr "COLLECT_GCC_OPTIONS 格式错误"
 
-#: opts-global.cc:102
-#, fuzzy, gcc-internal-format
-msgid "command-line option %qs is valid for the driver but not for %s"
-msgstr "命令行选项“%s”对 %s 是有效的，但对 %s 无效"
-
 #. Eventually this should become a hard error IMO.
 #: opts-global.cc:108
 #, fuzzy, gcc-internal-format
@@ -30709,11 +30687,6 @@ msgstr "-Werror=%s：没有选项 -%s"
 #, fuzzy, gcc-internal-format
 msgid "%<-Werror=%s%>: %<-%s%> is not an option that controls warnings"
 msgstr "%qs对%qs而言无效"
-
-#: passes.cc:84
-#, gcc-internal-format, gfc-internal-format
-msgid "pass %s does not support cloning"
-msgstr "过程 %s 不支持克隆"
 
 #: passes.cc:90
 #, gcc-internal-format
@@ -31436,11 +31409,6 @@ msgstr ""
 #, fuzzy, gcc-internal-format
 msgid "variable symbol is not variable"
 msgstr "%L处的符号不是一个 DUMMY 变量"
-
-#: symtab.cc:1127
-#, fuzzy, gcc-internal-format
-msgid "node has unknown type"
-msgstr "未知类型的输入行"
 
 #: symtab.cc:1132
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -32407,11 +32375,6 @@ msgstr "ASSERT_EXPR 具有一个总是假的条件"
 msgid "%qs RHS in assignment statement"
 msgstr ""
 
-#: tree-cfg.cc:4779
-#, gcc-internal-format
-msgid "invalid operand in return statement"
-msgstr "返回语句操作数无效"
-
 #: tree-cfg.cc:4794 c/gimple-parser.cc:2474
 #, gcc-internal-format
 msgid "invalid conversion in return statement"
@@ -32421,11 +32384,6 @@ msgstr "返回语句转换无效"
 #, gcc-internal-format
 msgid "goto destination is neither a label nor a pointer"
 msgstr "goto 的目标既非标号亦非指针"
-
-#: tree-cfg.cc:4837
-#, gcc-internal-format
-msgid "invalid operand to switch statement"
-msgstr "开关语句操作数无效"
 
 #: tree-cfg.cc:4845
 #, fuzzy, gcc-internal-format
@@ -32886,12 +32844,6 @@ msgstr "错误地使用了%<auto%>"
 #, gcc-internal-format
 msgid "%qs pointer is null"
 msgstr ""
-
-#: tree-ssa-ccp.cc:4612 c-family/c-common.cc:5815
-#, fuzzy, gcc-internal-format
-#| msgid "invalid use of non-static member function %qD"
-msgid "in a call to non-static member function %qD"
-msgstr "对非静态成员函数%qD的使用无效"
 
 #: tree-ssa-ccp.cc:4618 c-family/c-common.cc:5821
 #, gcc-internal-format, gfc-internal-format
@@ -43204,12 +43156,6 @@ msgstr "“%s”的实参应该是一个非负整数"
 msgid "%<custom-%s=%> is not recognized as FPU instruction"
 msgstr ""
 
-#: config/nios2/nios2.cc:4324
-#, fuzzy, gcc-internal-format
-#| msgid "invalid cast to function type %qT"
-msgid "invalid custom instruction option %qs"
-msgstr "向函数类型%qT的转换无效"
-
 #: config/nvptx/mkoffload.cc:110
 #, fuzzy, gcc-internal-format
 msgid "malformed ptx file"
@@ -50431,12 +50377,6 @@ msgstr "需要初始值设定"
 #, fuzzy, gcc-internal-format
 msgid "invalid _Literal"
 msgstr "%%R 代码的操作数无效"
-
-#: c/gimple-parser.cc:1574
-#, fuzzy, gcc-internal-format
-#| msgid "initializer invalid for static member with constructor"
-msgid "invalid type for _Literal with constructor"
-msgstr "构造函数中对静态成员的初始化无效"
 
 #: c/gimple-parser.cc:1687
 #, fuzzy, gcc-internal-format
@@ -64176,11 +64116,6 @@ msgstr "%qD不是一个成员模板函数"
 #, gcc-internal-format
 msgid "%qT is not a pointer-to-object type"
 msgstr "%qT不是一个指向对象的类型"
-
-#: cp/typeck.cc:3715
-#, gcc-internal-format
-msgid "invalid use of array indexing on pointer to member"
-msgstr "对成员指针数组索引的使用无效"
 
 #: cp/typeck.cc:3718
 #, gcc-internal-format
@@ -83485,9 +83420,6 @@ msgstr "为不存在的方法%qE创建选择子"
 #~ msgid "assume_aligned parameter not integer constant"
 #~ msgstr "要求的对齐边界不是常量"
 
-#~ msgid "bad option %s to optimize attribute"
-#~ msgstr "optimize 属性选项 %s 无效"
-
 #~ msgid "not enough arguments to function %qE"
 #~ msgstr "提供给函数%qE的实参太少"
 
@@ -84279,9 +84211,6 @@ msgstr "为不存在的方法%qE创建选择子"
 #~ msgid "size of array %qD is negative"
 #~ msgstr "数组%qD的大小为负"
 
-#~ msgid "%<signed%> or %<unsigned%> invalid for %qs"
-#~ msgstr "为%qs使用%<signed%>或%<unsigned%>无效"
-
 #~ msgid "%<long long%> invalid for %qs"
 #~ msgstr "%<long long%>对%qs无效"
 
@@ -84294,17 +84223,11 @@ msgstr "为不存在的方法%qE创建选择子"
 #~ msgid "%<long%> or %<short%> invalid for %qs"
 #~ msgstr "%<long%>或%<short%>对%qs无效"
 
-#~ msgid "%<long%>, %<int%>, %<short%>, or %<char%> invalid for %qs"
-#~ msgstr "%<long%>、%<int%>、%<short%>或%<char%>对%qs无效"
-
 #~ msgid "%<long%> or %<short%> specified with char for %qs"
 #~ msgstr "为 char%qs给定了%<long%>或%<short%>"
 
 #~ msgid "%<short%> or %<long%> invalid for %qs"
 #~ msgstr "%<long%>或%<short%>对%qs无效"
-
-#~ msgid "long, short, signed or unsigned used invalidly for %qs"
-#~ msgstr "为%qs使用 long、short、signed 或 unsigned 无效"
 
 #~ msgid "storage class specifiers invalid in parameter declarations"
 #~ msgstr "为形参声明指定了无效的存储类"
