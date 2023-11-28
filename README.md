@@ -103,6 +103,10 @@ Everyone is welcomed to contribute and add more kawaii messages!
 
 Not implemented yet. Contribution welcomed!
 
+## Star History
+
+![Star History Chart](https://api.star-history.com/svg?repos=Bill-Haku/kawaii-gcc&type=Date)
+
 ## Special Thanks
 
 This project is inspired by [`gcc-hentai`](https://github.com/Mosklia/gcc-hentai). It was a Chinese project, and I created this repo to make a Japanese version and share it to Japanese users. I added the new text, edited and completed some details in the use instructions, and made a video in Japanese to share it. The video got unexpected attention in Chinese users on Bilibili, so I added contents of Chinese in it. Thanks for the sharing and the open-source spirit of the original authors.

@@ -123,6 +123,10 @@
 
 请在PR时将您修改完成的编译好的`mo`文件放在`../prebuilt`目录下，以更新预编译好的本地化二进制文件。
 
+## Star History
+
+![Star History Chart](https://api.star-history.com/svg?repos=Bill-Haku/kawaii-gcc&type=Date)
+
 ## 特别鸣谢
 
 本项目的灵感来自[`gcc-hentai`](https://github.com/Mosklia/gcc-hentai)项目。为了将其推广到日语区，我创建了本仓库、制作了日语版并修改完善了使用说明的诸多细节，最后制作了完全日语的宣传视频发布在YouTube，不料却在Bilibili获得了关注。十分感谢原作者的分享和开源精神。
