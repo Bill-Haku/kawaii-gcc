@@ -661,7 +661,7 @@ msgid "control reaches end of non-void function"
 msgstr "你的这个函数是不是把返回值忘了？？？"
 
 msgid "unbounded use of variable-length array"
-msgstr "ISO C90 不允许变长数组，建议换rust～"
+msgstr "ISO C90 不允许变长数组，建议给C语言自增下～"
 
 msgid "incompatible implicit declaration of built-in function %qD"
 msgstr "隐式声明与内建函数%qD不兼容，别问我为什么觉得你已经隐式声明了！"
@@ -857,3 +857,261 @@ msgstr "这个寻址模式是无效的喔，只有人家才会好心提醒你呢
 
 msgid "unsupported operand"
 msgstr "非预期的操作数，你这代码真离谱喵～"
+ 
+msgid "unused parameter %qD"
+msgstr "你是不是忘了某个叫作%qD的东西"
+
+msgid "unable to find numeric literal operator %qD"
+msgstr "%qD是什么运算符啊，人家看不懂QwQ"
+
+msgid "expected primary-expression"
+msgstr "不用元表达式的话，会...会坏掉的"
+
+msgid "--param large-stack-frame-growth limit reached"
+msgstr "已经到达 --param large-stack-frame-growth 给定的极限了，不能再多了！"
+
+msgid "--param max-inline-insns-single limit reached"
+msgstr "已经到达 --param max-inline-insns-single 给定的极限了，不能再多了！"
+
+msgid "--param max-inline-insns-auto limit reached"
+msgstr "已经到达 --param max-inline-insns-single 给定的极限了，不能再多了！"
+
+msgid "--param inline-unit-growth limit reached"
+msgstr "已经到达 --param inline-unit-growth 给定的极限了，不能再多了！"
+
+msgid "recursive inlining"
+msgstr "套娃内联"
+
+msgid "[cannot find %s]"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "could not find specs file %s\n"
+msgstr "specs文件%s是不是被你这个变态藏起来了\n"
+
+msgid "%s:no functions found\n"
+msgstr "%s：函数是不是被你这个变态藏起来了\n"
+
+msgid "find_enum(): Enum not found"
+msgstr "find_enum()：枚举是不是被你这个变态藏起来了"
+
+msgid "cannot tail-call: %s"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "cannot find %qs"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "cannot find %<nm%>"
+msgstr "‘nm’是不是被你这个变态藏起来了"
+
+msgid "cannot find %<ldd%>"
+msgstr "‘ldd’是不是被你这个变态藏起来了"
+
+msgid "dynamic dependency %s not found"
+msgstr "动态依赖项%s是不是被你这个变态藏起来了"
+
+msgid "library lib%s not found"
+msgstr "库lib%s是不是被你这个变态藏起来了"
+
+msgid "specs %s spec was not found to be renamed"
+msgstr "specs %s 被你这个变态藏起来了 spec 或已被重命名"
+
+msgid "%qD specified bound %s exceeds maximum object size %E"
+msgstr "%D数组与内存的距离为负数了呢～"
+
+msgid "%qs specified bound %s exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound [%E, %E] may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound [%E, %E] may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E exceeds source size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size between %E and %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size between %E and %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size between %E and %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size between %E and %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "argument %i value %qE exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "argument %i range [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "product %<%E * %E%> of arguments %i and %i exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %wu exceeds maximum object size %wu"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound between %wu and %wu exceeds maximum object size %wu"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "Reference statement index not found"
+msgstr "C++ 引用是不是被你这个变态藏起来了"
+
+msgid "node is alias but not implicit alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is weakref but not an transparent_alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is transparent_alias but not an alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is symver but not alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "size %qE of array %qE is negative"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "size of array %qE exceeds maximum object size %qE"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "size of array %qE is negative"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "could not find an integer type of the same size as %qT"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "inferred scalar type %qT is not an integer or floating-point type of the same size as %qT"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "failed to read compiled module: %s"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "failed to write compiled module: %s"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "failed to create union component '%s'"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "could not find class %qE"
+msgstr "类%qE是不是被你这个变态藏起来了"
+
+msgid "could not find interface for class %qE"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "%<@catch%> parameter cannot be protocol-qualified"
+msgstr "模板参数不能是基友"
+
+msgid "%<@interface%> of class %qE not found"
+msgstr "类%qE的@interface是不是被你这个变态藏起来了"
+
+msgid "%<%c%E%> not found in protocol(s)"
+msgstr "在协议中%<%c%E%>是不是被你这个变态藏起来了"
+
+msgid "no %<%c%E%> method found"
+msgstr "方法%<%c%E%>是不是被你这个变态藏起来了"
+
+msgid "instance variable %qs has unknown size"
+msgstr "%qs不知道大小"
+
+msgid "type %qE has virtual member functions"
+msgstr "类型%qE有个成员函数太虚了～"
+
+msgid "instance variable %qE is declared private"
+msgstr "实例变量%qE是私处..."
+
+msgid "instance variable %qE is %s; this will be a hard error in the future"
+msgstr "实例变量%qE是 %s；这在将来会彻底...坏掉的"
+
+msgid "incomplete implementation of class %qE"
+msgstr "类别%qE不健全"
+
+msgid "incomplete implementation of category %qE"
+msgstr "类别%qE不健全"
+
+msgid "method definition for %<%c%E%> not found"
+msgstr "%<%c%E%>的方法定义是不是被你这个变态藏起来了"
+
+msgid "cannot find interface declaration for %qE, superclass of %qE"
+msgstr "%2$qE超类%1$qE的接口声明是不是被你这个变态藏起来了"
+
+msgid "class %qE defined without specifying a base class"
+msgstr "类%qE缺少基类啊喵～"
+
+msgid "no declaration of property %qs found in the interface"
+msgstr "找不到任何声明的内容%qs在中接口，完全没有啊"
+
+msgid "%<@synthesize%> is not available in Objective-C 1.0"
+msgstr "%<@synthesize%> 在这个东东 (Objective-C 1.0) 里不可用"
+
+msgid "%<@dynamic%> is not available in Objective-C 1.0"
+msgstr "%<@dynamic%> 在这个东东 (Objective-C 1.0) 里不可用"
+
+msgid "definition of protocol %qE not found"
+msgstr "协议%qE的方法定义找不到啊QwQ"
+
+msgid "protocol %qE is unavailable"
+msgstr "这个%qE协议out了"
+
+msgid "protocol %qE is deprecated"
+msgstr "这个%qE协议out了"
+
+msgid "conflicting types for %<%c%s%>"
+msgstr "%<%c%s%>类型冲突啦，改个名吧～"
+
+msgid "instance variable %qs is declared private"
+msgstr "%qE不可以哦！"
+
+msgid "local declaration of %qE hides instance variable"
+msgstr "%qE的实例变量被局部声明藏起来了，我找不到QwQ"
+
+msgid "no %qs getter found"
+msgstr "人家找不到 %qs 的取值器QwQ"
+
+msgid "fast enumeration is not available in Objective-C 1.0"
+msgstr "这个东东(Objective-C 1.0)不可以用快速枚举啊"
+
+msgid "iterating variable in fast enumeration is not an object"
+msgstr "快速枚举中的迭代变量不是你对象哦～"
+
+msgid "collection in fast enumeration is not an object"
+msgstr "这个东东(Objective-C 1.0)不可以用快速枚举啊"
+
+msgid "type %qT does not have a known size"
+msgstr "%qT不知道大小不可以往里面进啊！"
+
+msgid "non-objective-c type %qT cannot be caught"
+msgstr "除了Objective-C 类型‘%T’别的都抓不到啊QwQ"

@@ -58,9 +58,13 @@
     您也可以自行重新编译该二进制文件：
 
     ```bash
-    ./src/merge-zh.sh
+    make merge-zh
     msgfmt gcc-zh.po -o gcc.mo
     sudo cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc-12.mo
+    ```
+    或
+    ```bash
+    make
     ```
 
     关于文件名：
