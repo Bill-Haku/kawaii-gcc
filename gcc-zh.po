@@ -625,7 +625,7 @@ msgid "control reaches end of non-void function"
 msgstr "你的这个函数是不是把返回值忘了？？？"
 
 msgid "unbounded use of variable-length array"
-msgstr "ISO C90 不允许变长数组，建议换rust～"
+msgstr "ISO C90 不允许变长数组，建议给C语言自增下～"
 
 msgid "incompatible implicit declaration of built-in function %qD"
 msgstr "隐式声明与内建函数%qD不兼容，别问我为什么觉得你已经隐式声明了！"
@@ -822,6 +822,264 @@ msgstr "这个寻址模式是无效的喔，只有人家才会好心提醒你呢
 msgid "unsupported operand"
 msgstr "非预期的操作数，你这代码真离谱喵～"
 
+msgid "unused parameter %qD"
+msgstr "你是不是忘了某个叫作%qD的东西"
+
+msgid "unable to find numeric literal operator %qD"
+msgstr "%qD是什么运算符啊，人家看不懂QwQ"
+
+msgid "expected primary-expression"
+msgstr "不用元表达式的话，会...会坏掉的"
+
+msgid "--param large-stack-frame-growth limit reached"
+msgstr "已经到达 --param large-stack-frame-growth 给定的极限了，不能再多了！"
+
+msgid "--param max-inline-insns-single limit reached"
+msgstr "已经到达 --param max-inline-insns-single 给定的极限了，不能再多了！"
+
+msgid "--param max-inline-insns-auto limit reached"
+msgstr "已经到达 --param max-inline-insns-single 给定的极限了，不能再多了！"
+
+msgid "--param inline-unit-growth limit reached"
+msgstr "已经到达 --param inline-unit-growth 给定的极限了，不能再多了！"
+
+msgid "recursive inlining"
+msgstr "套娃内联"
+
+msgid "[cannot find %s]"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "could not find specs file %s\n"
+msgstr "specs文件%s是不是被你这个变态藏起来了\n"
+
+msgid "%s:no functions found\n"
+msgstr "%s：函数是不是被你这个变态藏起来了\n"
+
+msgid "find_enum(): Enum not found"
+msgstr "find_enum()：枚举是不是被你这个变态藏起来了"
+
+msgid "cannot tail-call: %s"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "cannot find %qs"
+msgstr "[%s是不是被你这个变态藏起来了]"
+
+msgid "cannot find %<nm%>"
+msgstr "‘nm’是不是被你这个变态藏起来了"
+
+msgid "cannot find %<ldd%>"
+msgstr "‘ldd’是不是被你这个变态藏起来了"
+
+msgid "dynamic dependency %s not found"
+msgstr "动态依赖项%s是不是被你这个变态藏起来了"
+
+msgid "library lib%s not found"
+msgstr "库lib%s是不是被你这个变态藏起来了"
+
+msgid "specs %s spec was not found to be renamed"
+msgstr "specs %s 被你这个变态藏起来了 spec 或已被重命名"
+
+msgid "%qD specified bound %s exceeds maximum object size %E"
+msgstr "%D数组与内存的距离为负数了呢～"
+
+msgid "%qs specified bound %s exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound [%E, %E] may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound [%E, %E] may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified bound %E exceeds source size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size between %E and %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified size between %E and %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size between %E and %E may exceed maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "specified size between %E and %E exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "argument %i value %qE exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "argument %i range [%E, %E] exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "product %<%E * %E%> of arguments %i and %i exceeds maximum object size %E"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound %wu exceeds maximum object size %wu"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "%qD specified bound between %wu and %wu exceeds maximum object size %wu"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "Reference statement index not found"
+msgstr "C++ 引用是不是被你这个变态藏起来了"
+
+msgid "node is alias but not implicit alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is weakref but not an transparent_alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is transparent_alias but not an alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "node is symver but not alias"
+msgstr "区域别名文件“%s”我找不到QwQ"
+
+msgid "size %qE of array %qE is negative"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "size of array %qE exceeds maximum object size %qE"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "size of array %qE is negative"
+msgstr "%E数组与内存的距离为负数了呢～"
+
+msgid "could not find an integer type of the same size as %qT"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "inferred scalar type %qT is not an integer or floating-point type of the same size as %qT"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "failed to read compiled module: %s"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "failed to write compiled module: %s"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "failed to create union component '%s'"
+msgstr "类‘%s’是不是被你这个变态藏起来了"
+
+msgid "could not find class %qE"
+msgstr "类%qE是不是被你这个变态藏起来了"
+
+msgid "could not find interface for class %qE"
+msgstr "类%qE的接口是不是被你这个变态藏起来了"
+
+msgid "%<@catch%> parameter cannot be protocol-qualified"
+msgstr "模板参数不能是基友"
+
+msgid "%<@interface%> of class %qE not found"
+msgstr "类%qE的@interface是不是被你这个变态藏起来了"
+
+msgid "%<%c%E%> not found in protocol(s)"
+msgstr "在协议中%<%c%E%>是不是被你这个变态藏起来了"
+
+msgid "no %<%c%E%> method found"
+msgstr "方法%<%c%E%>是不是被你这个变态藏起来了"
+
+msgid "instance variable %qs has unknown size"
+msgstr "%qs不知道大小"
+
+msgid "type %qE has virtual member functions"
+msgstr "类型%qE有个成员函数太虚了～"
+
+msgid "instance variable %qE is declared private"
+msgstr "实例变量%qE是私处..."
+
+msgid "instance variable %qE is %s; this will be a hard error in the future"
+msgstr "实例变量%qE是 %s；这在将来会彻底...坏掉的"
+
+msgid "incomplete implementation of class %qE"
+msgstr "类别%qE不健全"
+
+msgid "incomplete implementation of category %qE"
+msgstr "类别%qE不健全"
+
+msgid "method definition for %<%c%E%> not found"
+msgstr "%<%c%E%>的方法定义是不是被你这个变态藏起来了"
+
+msgid "cannot find interface declaration for %qE, superclass of %qE"
+msgstr "%2$qE超类%1$qE的接口声明是不是被你这个变态藏起来了"
+
+msgid "class %qE defined without specifying a base class"
+msgstr "类%qE缺少基类啊喵～"
+
+msgid "no declaration of property %qs found in the interface"
+msgstr "找不到任何声明的内容%qs在中接口，完全没有啊"
+
+msgid "%<@synthesize%> is not available in Objective-C 1.0"
+msgstr "%<@synthesize%> 在这个东东 (Objective-C 1.0) 里不可用"
+
+msgid "%<@dynamic%> is not available in Objective-C 1.0"
+msgstr "%<@dynamic%> 在这个东东 (Objective-C 1.0) 里不可用"
+
+msgid "definition of protocol %qE not found"
+msgstr "协议%qE的方法定义找不到啊QwQ"
+
+msgid "protocol %qE is unavailable"
+msgstr "这个%qE协议out了"
+
+msgid "protocol %qE is deprecated"
+msgstr "这个%qE协议out了"
+
+msgid "conflicting types for %<%c%s%>"
+msgstr "%<%c%s%>类型冲突啦，改个名吧～"
+
+msgid "instance variable %qs is declared private"
+msgstr "%qE不可以哦！"
+
+msgid "local declaration of %qE hides instance variable"
+msgstr "%qE的实例变量被局部声明藏起来了，我找不到QwQ"
+
+msgid "no %qs getter found"
+msgstr "人家找不到 %qs 的取值器QwQ"
+
+msgid "fast enumeration is not available in Objective-C 1.0"
+msgstr "这个东东(Objective-C 1.0)不可以用快速枚举啊"
+
+msgid "iterating variable in fast enumeration is not an object"
+msgstr "快速枚举中的迭代变量不是你对象哦～"
+
+msgid "collection in fast enumeration is not an object"
+msgstr "这个东东(Objective-C 1.0)不可以用快速枚举啊"
+
+msgid "type %qT does not have a known size"
+msgstr "%qT不知道大小不可以往里面进啊！"
+
+msgid "non-objective-c type %qT cannot be caught"
+msgstr "除了Objective-C 类型‘%T’别的都抓不到啊QwQ"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -842,26 +1100,6 @@ msgstr "函数体可能在链接时被改写"
 #: cif-code.def:64
 msgid "function not inline candidate"
 msgstr "函数不是内联备选"
-
-#: cif-code.def:70
-msgid "--param large-stack-frame-growth limit reached"
-msgstr "到达 --param large-stack-frame-growth 给定的极限"
-
-#: cif-code.def:72
-msgid "--param max-inline-insns-single limit reached"
-msgstr "到达 --param max-inline-insns-single 给定的极限"
-
-#: cif-code.def:74
-msgid "--param max-inline-insns-auto limit reached"
-msgstr "到达 --param max-inline-insns-single 给定的极限"
-
-#: cif-code.def:76
-msgid "--param inline-unit-growth limit reached"
-msgstr "到达 --param inline-unit-growth 给定的极限"
-
-#: cif-code.def:80
-msgid "recursive inlining"
-msgstr "递归内联"
 
 #: cif-code.def:84
 msgid "call is unlikely and code size would grow"
@@ -18750,11 +18988,6 @@ msgstr "基本块外出现指令"
 msgid "return not followed by barrier"
 msgstr "return 后没有屏障"
 
-#: collect-utils.cc:206
-#, c-format
-msgid "[cannot find %s]"
-msgstr "[找不到 %s]"
-
 #: collect2.cc:1557
 #, c-format
 msgid "collect2 version %s\n"
@@ -18987,11 +19220,6 @@ msgstr ""
 #, c-format
 msgid "Reading specs from %s\n"
 msgstr "从 %s 读取 specs\n"
-
-#: gcc.cc:2430
-#, c-format
-msgid "could not find specs file %s\n"
-msgstr "找不到 specs 文件 %s\n"
 
 #: gcc.cc:2505
 #, c-format
@@ -19752,11 +19980,6 @@ msgstr "%s：已经遇过‘%s’的块\n"
 #, c-format
 msgid "%s:corrupted\n"
 msgstr "%s：已损坏\n"
-
-#: gcov.cc:2001
-#, c-format
-msgid "%s:no functions found\n"
-msgstr "%s：找不到函数\n"
 
 #: gcov.cc:2019
 #, c-format
@@ -22591,10 +22814,6 @@ msgstr "需要整数"
 msgid "Expected string"
 msgstr "需要字符串"
 
-#: fortran/module.cc:1665
-msgid "find_enum(): Enum not found"
-msgstr "find_enum()：找不到枚举"
-
 #: fortran/module.cc:2235
 msgid "Unsupported: multiple OpenACC 'routine' levels of parallelism"
 msgstr ""
@@ -24604,12 +24823,6 @@ msgstr "%K%D 的第一个实参必须是一个指针，第二个必须是整常�
 msgid "last argument of %qD is not integer constant between 0 and 3"
 msgstr "%K%D 的最后一个实参不是一个 0 到 3 之间的整常量"
 
-#: calls.cc:1233
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "[cannot find %s]"
-msgid "cannot tail-call: %s"
-msgstr "[找不到 %s]"
-
 #: calls.cc:2729
 #, gcc-internal-format
 msgid "function call has aggregate value"
@@ -25777,12 +25990,6 @@ msgstr "无法写入响应文件 %s"
 msgid "could not close response file %s"
 msgstr "无法关闭响应文件 %s"
 
-#: collect-utils.cc:221
-#, fuzzy, gcc-internal-format
-#| msgid "[cannot find %s]"
-msgid "cannot find %qs"
-msgstr "[找不到 %s]"
-
 #: collect-utils.cc:225 collect2.cc:2385 collect2.cc:2555 gcc.cc:3413
 #: gcc.cc:7705
 #, fuzzy, gcc-internal-format
@@ -25846,12 +26053,6 @@ msgstr "无法查看 %s 的状态：%m\n"
 msgid "%s: %s"
 msgstr "%s：%s"
 
-#: collect2.cc:2359
-#, fuzzy, gcc-internal-format
-#| msgid "cannot find 'nm'"
-msgid "cannot find %<nm%>"
-msgstr "找不到 ‘nm’"
-
 #: collect2.cc:2407
 #, fuzzy, gcc-internal-format
 msgid "cannot open nm output: %m"
@@ -25867,21 +26068,10 @@ msgstr "在对象 %s 中发现 init 函数"
 msgid "fini function found in object %s"
 msgstr "在对象 %s 中发现 fini 函数"
 
-#: collect2.cc:2530
-#, fuzzy, gcc-internal-format
-#| msgid "cannot find 'ldd'"
-msgid "cannot find %<ldd%>"
-msgstr "找不到‘ldd’"
-
 #: collect2.cc:2576
 #, fuzzy, gcc-internal-format
 msgid "cannot open ldd output: %m"
 msgstr "无法为输出打开“%s”：%s"
-
-#: collect2.cc:2594
-#, gcc-internal-format, gfc-internal-format
-msgid "dynamic dependency %s not found"
-msgstr "找不到动态依赖项 %s"
 
 #: collect2.cc:2606
 #, fuzzy, gcc-internal-format
@@ -25898,11 +26088,6 @@ msgstr "%s：不是一个 COFF 文件"
 #, gcc-internal-format, gfc-internal-format
 msgid "%s: cannot open as COFF file"
 msgstr "%s：不能打开 COFF 文件"
-
-#: collect2.cc:2976
-#, gcc-internal-format, gfc-internal-format
-msgid "library lib%s not found"
-msgstr "找不到库 lib%s"
 
 #: convert.cc:97
 #, gcc-internal-format
@@ -26422,11 +26607,6 @@ msgstr "specs %%include 在 %ld 字符后语法格式错误"
 #, gcc-internal-format, gfc-internal-format
 msgid "specs %%rename syntax malformed after %ld characters"
 msgstr "specs %%rename 在 %ld 字符后语法格式错误"
-
-#: gcc.cc:2491
-#, gcc-internal-format, gfc-internal-format
-msgid "specs %s spec was not found to be renamed"
-msgstr "specs 找不到 %s spec 或已被重命名"
 
 #: gcc.cc:2499
 #, fuzzy, gcc-internal-format
@@ -27457,12 +27637,6 @@ msgstr ""
 msgid "null format string"
 msgstr "%s 出现在%L处的格式字符串中"
 
-#: gimple-ssa-warn-access.cc:172
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound %s exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
 #: gimple-ssa-warn-access.cc:180
 #, gcc-internal-format
 msgid "%qD specified bound %s exceeds the size %E of unterminated array"
@@ -27483,12 +27657,6 @@ msgstr ""
 msgid "%qD argument missing terminating nul"
 msgstr "属性%qE的参数无效"
 
-#: gimple-ssa-warn-access.cc:203
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qs specified bound %s exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
 #: gimple-ssa-warn-access.cc:211
 #, gcc-internal-format
 msgid "%qs specified bound %s exceeds the size %E of unterminated array"
@@ -27508,18 +27676,6 @@ msgstr ""
 #, fuzzy, gcc-internal-format
 msgid "%qs argument missing terminating nul"
 msgstr "属性%qE的参数无效"
-
-#: gimple-ssa-warn-access.cc:488 gimple-ssa-warn-access.cc:729
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:493 gimple-ssa-warn-access.cc:745
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound [%E, %E] exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
 
 #: gimple-ssa-warn-access.cc:641
 #, gcc-internal-format
@@ -27547,42 +27703,6 @@ msgstr "%qD在其类外被声明为%<constexpr%>"
 msgid "argument %qD declared here"
 msgstr "%qD在此声明"
 
-#: gimple-ssa-warn-access.cc:727
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:734
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified bound %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:736
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified bound %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:743
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound [%E, %E] may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:751
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified bound [%E, %E] may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:753
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified bound [%E, %E] exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
 #: gimple-ssa-warn-access.cc:763
 #, gcc-internal-format
 msgid "%qD specified bound %E may exceed source size %E"
@@ -27598,12 +27718,6 @@ msgstr "为结构字段%2$qE指定了%1$qs"
 #, gcc-internal-format
 msgid "specified bound %E may exceed source size %E"
 msgstr ""
-
-#: gimple-ssa-warn-access.cc:772
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified bound %E exceeds source size %E"
-msgstr "数组%qE的大小为负"
 
 #: gimple-ssa-warn-access.cc:779
 #, gcc-internal-format
@@ -27629,54 +27743,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "source object allocated here"
 msgstr ""
-
-#: gimple-ssa-warn-access.cc:819
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified size %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:821
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified size %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:826
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified size %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:828
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified size %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:835
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified size between %E and %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:837
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified size between %E and %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:842
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified size between %E and %E may exceed maximum object size %E"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-access.cc:844
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "specified size between %E and %E exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
 
 #: gimple-ssa-warn-access.cc:854
 #, gcc-internal-format
@@ -28018,34 +28084,16 @@ msgstr "%2$L处 %1$s 函数的参数是负的"
 msgid "argument %i value is zero"
 msgstr "%L处 MOD 的第二个参数为 0"
 
-#: gimple-ssa-warn-access.cc:2286
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "argument %i value %qE exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
 #: gimple-ssa-warn-access.cc:2300
 #, fuzzy, gcc-internal-format
 #| msgid "Argument of %s function at %L is negative"
 msgid "argument %i range [%E, %E] is negative"
 msgstr "%2$L处 %1$s 函数的参数是负的"
 
-#: gimple-ssa-warn-access.cc:2307
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "argument %i range [%E, %E] exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
-
 #: gimple-ssa-warn-access.cc:2337
 #, gcc-internal-format
 msgid "product %<%E * %E%> of arguments %i and %i exceeds %<SIZE_MAX%>"
 msgstr ""
-
-#: gimple-ssa-warn-access.cc:2343
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "product %<%E * %E%> of arguments %i and %i exceeds maximum object size %E"
-msgstr "数组%qE的大小为负"
 
 #: gimple-ssa-warn-access.cc:2354 gimple-ssa-warn-access.cc:2357
 #, fuzzy, gcc-internal-format
@@ -28464,18 +28512,6 @@ msgstr[0] ""
 msgid "%qD accessing %wu or more bytes at offsets %s and %s may overlap %wu byte at offset %s"
 msgid_plural "%qD accessing %wu or more bytes at offsets %s and %s may overlap up to %wu bytes at offset %s"
 msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1710
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound %wu exceeds maximum object size %wu"
-msgstr "数组%qE的大小为负"
-
-#: gimple-ssa-warn-restrict.cc:1716
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "%qD specified bound between %wu and %wu exceeds maximum object size %wu"
-msgstr "数组%qE的大小为负"
 
 #: gimple-ssa-warn-restrict.cc:1777
 #, gcc-internal-format
@@ -29546,11 +29582,6 @@ msgstr ""
 #, fuzzy, gcc-internal-format
 msgid "Reference statement index out of range"
 msgstr "类型索引编号 %d 超出范围\n"
-
-#: lto-streamer-in.cc:1219
-#, fuzzy, gcc-internal-format
-msgid "Reference statement index not found"
-msgstr "找不到 C++ 引用"
 
 #: lto-streamer-in.cc:1969
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -31451,30 +31482,10 @@ msgstr "节点在克隆列表中，但并不是克隆"
 msgid "node is analyzed but it is not a definition"
 msgstr "节点在克隆列表中，但并不是克隆"
 
-#: symtab.cc:1200
-#, fuzzy, gcc-internal-format
-msgid "node is alias but not implicit alias"
-msgstr "找不到区域别名文件“%s”"
-
 #: symtab.cc:1205
 #, fuzzy, gcc-internal-format
 msgid "node is alias but not definition"
 msgstr "-fmit-class-file 的别名"
-
-#: symtab.cc:1210
-#, fuzzy, gcc-internal-format
-msgid "node is weakref but not an transparent_alias"
-msgstr "找不到区域别名文件“%s”"
-
-#: symtab.cc:1215
-#, fuzzy, gcc-internal-format
-msgid "node is transparent_alias but not an alias"
-msgstr "找不到区域别名文件“%s”"
-
-#: symtab.cc:1220
-#, fuzzy, gcc-internal-format
-msgid "node is symver but not alias"
-msgstr "找不到区域别名文件“%s”"
 
 #: symtab.cc:1229
 #, gcc-internal-format
@@ -35540,12 +35551,6 @@ msgstr "数组%qD的大小不是一个整数常表达式"
 msgid "size of array is not a constant expression"
 msgstr "数组大小不是一个整数常表达式"
 
-#: c-family/c-common.cc:8738
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "size %qE of array %qE is negative"
-msgstr "数组%qE的大小为负"
-
 #: c-family/c-common.cc:8741
 #, fuzzy, gcc-internal-format
 #| msgid "size of array is negative"
@@ -35561,12 +35566,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "size %qE of array exceeds maximum object size %qE"
 msgstr ""
-
-#: c-family/c-common.cc:8754
-#, fuzzy, gcc-internal-format
-#| msgid "size of array %qE is negative"
-msgid "size of array %qE exceeds maximum object size %qE"
-msgstr "数组%qE的大小为负"
 
 #: c-family/c-common.cc:8757
 #, gcc-internal-format
@@ -37626,12 +37625,6 @@ msgstr "比较常量和取反后又经提升的无符号数"
 #| msgid "comparison of promoted ~unsigned with unsigned"
 msgid "comparison of promoted bitwise complement of an unsigned value with unsigned"
 msgstr "比较无符号数和取反后又经提升的无符号数"
-
-#: c-family/c-warn.cc:2443
-#, fuzzy, gcc-internal-format
-#| msgid "unused parameter %q+D"
-msgid "unused parameter %qD"
-msgstr "未使用的参数%q+D"
 
 #: c-family/c-warn.cc:2505
 #, fuzzy, gcc-internal-format
@@ -45568,11 +45561,6 @@ msgstr "ISO C 不允许大小为 0 的数组%qE"
 msgid "ISO C forbids zero-size array"
 msgstr "ISO C 不允许大小为 0 的数组"
 
-#: c/c-decl.cc:6773
-#, gcc-internal-format
-msgid "size of array %qE is negative"
-msgstr "数组%qE的大小为负"
-
 #: c/c-decl.cc:6775
 #, gcc-internal-format
 msgid "size of unnamed array is negative"
@@ -49626,11 +49614,6 @@ msgstr "形参数量不同"
 msgid "comparison between types %qT and %qT"
 msgstr "在类型%qT和%qT间比较"
 
-#: c/c-typeck.cc:12310 c/c-typeck.cc:12446 cp/typeck.cc:5790
-#, fuzzy, gcc-internal-format
-msgid "could not find an integer type of the same size as %qT"
-msgstr "找不到类%qE的接口"
-
 #: c/c-typeck.cc:12324 cp/typeck.cc:5433
 #, fuzzy, gcc-internal-format
 #| msgid "comparing floating point with == or != is unsafe"
@@ -50714,11 +50697,6 @@ msgstr "%Xbfd_openr %s: %E\n"
 #| msgid "ISO C++ forbids omitting the middle term of a ?: expression"
 msgid "ISO C++ forbids omitting the middle term of a %<?:%> expression"
 msgstr "ISO C 不允许省略 ?: 表达式中的第二项"
-
-#: cp/call.cc:5424
-#, fuzzy, gcc-internal-format
-msgid "inferred scalar type %qT is not an integer or floating-point type of the same size as %qT"
-msgstr "找不到类%qE的接口"
 
 #: cp/call.cc:5441 cp/call.cc:5448
 #, fuzzy
@@ -58269,12 +58247,6 @@ msgstr "不支持堆栈限制表达式"
 msgid "failed to read compiled module cluster %u: %s"
 msgstr ""
 
-#: cp/module.cc:18163
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "failed to find class '%s'"
-msgid "failed to read compiled module: %s"
-msgstr "找不到类‘%s’"
-
 #: cp/module.cc:18173
 #, gcc-internal-format
 msgid "consider using %<-fno-module-lazy%>, increasing %<-param-lazy-modules=%u%> value, or increasing the per-process file descriptor limit"
@@ -58429,12 +58401,6 @@ msgstr "写入%qs时错误"
 #| msgid "Error writing modules file: %s"
 msgid "not writing module %qs due to errors"
 msgstr "写入模块文件时出错：%s"
-
-#: cp/module.cc:19904
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "failed to find class '%s'"
-msgid "failed to write compiled module: %s"
-msgstr "找不到类‘%s’"
 
 #: cp/module.cc:20041
 #, fuzzy, gcc-internal-format
@@ -59087,11 +59053,6 @@ msgstr "浮点常量向零截断"
 msgid "failed to translate literal to execution character set %qT"
 msgstr ""
 
-#: cp/parser.cc:4796
-#, fuzzy, gcc-internal-format
-msgid "unable to find numeric literal operator %qD"
-msgstr "在类%qs中找不到可溢出的寄存器"
-
 #: cp/parser.cc:4802
 #, gcc-internal-format
 msgid "add %<using namespace std::complex_literals%> (from %<<complex>%>) to enable the C++14 user-defined literal suffixes"
@@ -59169,11 +59130,6 @@ msgstr "语句表达式只能用于函数或模板实参列表内"
 #, fuzzy, gcc-internal-format
 msgid "fold-expressions only available with %<-std=c++17%> or %<-std=gnu++17%>"
 msgstr "Lambda 表达式只在 -std=c++0x 或 -std=gnu++0x 下可用"
-
-#: cp/parser.cc:5710 cp/parser.cc:5891 cp/parser.cc:6072 cp/semantics.cc:4096
-#, gcc-internal-format
-msgid "expected primary-expression"
-msgstr "需要元表达式"
 
 #: cp/parser.cc:5740
 #, gcc-internal-format
@@ -75068,12 +75024,6 @@ msgstr "Noncoarray 成分 %s 于 %L 的类型 LOCK_TYPE 或与 subcomponent 的�
 msgid "failed to create map component '%s'"
 msgstr ""
 
-#: fortran/parse.cc:3459
-#, fuzzy, gcc-internal-format, gfc-internal-format
-#| msgid "failed to find class '%s'"
-msgid "failed to create union component '%s'"
-msgstr "找不到类‘%s’"
-
 #: fortran/parse.cc:3514
 #, fuzzy, gcc-internal-format, gfc-internal-format
 #| msgid "Syntax error in data declaration at %C"
@@ -80347,20 +80297,6 @@ msgstr ""
 msgid "the dot syntax is not available in Objective-C 1.0"
 msgstr "%<@synthesize%> 在 Objective-C 1.0 里不可用"
 
-#. We know that 'class_name' is an Objective-C class name as the
-#. parser won't call this function if it is not.  This is only a
-#. double-check for safety.
-#: objc/objc-act.cc:1796
-#, gcc-internal-format
-msgid "could not find class %qE"
-msgstr "找不到类%qE"
-
-#. Again, this should never happen, but we do check.
-#: objc/objc-act.cc:1804
-#, gcc-internal-format
-msgid "could not find interface for class %qE"
-msgstr "找不到类%qE的接口"
-
 #: objc/objc-act.cc:1810 objc/objc-act.cc:7146
 #, fuzzy, gcc-internal-format
 #| msgid "%qD is not a variable"
@@ -80549,11 +80485,6 @@ msgstr "使用%<-fobjc-exceptions%>来启用 Objective-C 异常语法"
 msgid "%<@catch%> parameter is not a known Objective-C class type"
 msgstr "@catch 参数不是一个已知的 Objective-C 类类型"
 
-#: objc/objc-act.cc:4377
-#, fuzzy, gcc-internal-format
-msgid "%<@catch%> parameter cannot be protocol-qualified"
-msgstr "模板参数不能是友元"
-
 #: objc/objc-act.cc:4422
 #, gcc-internal-format
 msgid "exception of type %<%T%> will be caught"
@@ -80631,35 +80562,6 @@ msgstr "找到了%<%c%s%>"
 msgid "also found %<%c%s%>"
 msgstr "也找到了%<%c%s%>"
 
-#. If 'rtype' is NULL_TREE at this point it means that
-#. we have seen no @interface corresponding to that
-#. class name, only a @class declaration (alternatively,
-#. this was a call such as [objc_getClass("SomeClass")
-#. alloc], where we've never seen the @interface of
-#. SomeClass).  So, we have a class name (class_tree)
-#. but no actual details of the class methods.  We won't
-#. be able to check that the class responds to the
-#. method, and we will have to guess the method
-#. prototype.  Emit a warning, then keep going (this
-#. will use any method with a matching name, as if the
-#. receiver was of type 'Class').
-#. We could not find an @interface declaration, and
-#. there are no protocols attached to the receiver,
-#. so we can't complete the check that the receiver
-#. responds to the method, and we can't retrieve the
-#. method prototype.  But, because the receiver has
-#. a well-specified class, the programmer did want
-#. this check to be performed.  Emit a warning, then
-#. keep going as if it was an 'id'.  To remove the
-#. warning, either include an @interface for the
-#. class, or cast the receiver to 'id'.  Note that
-#. rtype is an IDENTIFIER_NODE at this point.
-#: objc/objc-act.cc:5578 objc/objc-act.cc:5713
-#, fuzzy, gcc-internal-format
-#| msgid "@interface of class %qE not found"
-msgid "%<@interface%> of class %qE not found"
-msgstr "找不到类 %qE 的 @interface"
-
 #: objc/objc-act.cc:5587
 #, gcc-internal-format
 msgid "no super class declared in @interface for %qE"
@@ -80676,20 +80578,10 @@ msgstr "在协议中找到%<-%E%>而非%<+%E%>"
 msgid "invalid receiver type %qs"
 msgstr "无效的接收者类型%qs"
 
-#: objc/objc-act.cc:5767
-#, gcc-internal-format
-msgid "%<%c%E%> not found in protocol(s)"
-msgstr "在协议中找不到%<%c%E%>"
-
 #: objc/objc-act.cc:5781
 #, gcc-internal-format
 msgid "%qE may not respond to %<%c%E%>"
 msgstr "%qE可能不能响应%<%c%E%>"
-
-#: objc/objc-act.cc:5789
-#, gcc-internal-format
-msgid "no %<%c%E%> method found"
-msgstr "找不到方法%<%c%E%>"
 
 #: objc/objc-act.cc:5796
 #, gcc-internal-format
@@ -80750,11 +80642,6 @@ msgstr "类别%<%E(%E)%>有重复的接口声明"
 msgid "illegal reference type specified for instance variable %qs"
 msgstr "为实例变量%qs指定了无效的引用类型"
 
-#: objc/objc-act.cc:6392
-#, gcc-internal-format
-msgid "instance variable %qs has unknown size"
-msgstr "实例变量%qs大小未知"
-
 #: objc/objc-act.cc:6413
 #, fuzzy, gcc-internal-format
 msgid "instance variable %qs uses flexible array member"
@@ -80769,13 +80656,6 @@ msgstr "类型%qE没有可以调用的默认构造函数"
 #, gcc-internal-format
 msgid "destructor for %qE shall not be run either"
 msgstr "%qE的析构函数也不能被调用"
-
-#. Vtable pointers are Real Bad(tm), since Obj-C cannot
-#. initialize them.
-#: objc/objc-act.cc:6458
-#, gcc-internal-format
-msgid "type %qE has virtual member functions"
-msgstr "类型%qE有虚成员函数"
 
 #: objc/objc-act.cc:6459
 #, gcc-internal-format
@@ -80797,45 +80677,15 @@ msgstr "类型%qE有一个用户定义的析构函数"
 msgid "C++ constructors and destructors will not be invoked for Objective-C fields"
 msgstr "不会为 Objective-C 字段调用 C++ 构造和析构函数"
 
-#: objc/objc-act.cc:6606
-#, gcc-internal-format
-msgid "instance variable %qE is declared private"
-msgstr "实例变量%qE被声明为私有的"
-
-#: objc/objc-act.cc:6617
-#, gcc-internal-format
-msgid "instance variable %qE is %s; this will be a hard error in the future"
-msgstr "实例变量%qE是 %s；这在将来会是一个严重的错误"
-
 #: objc/objc-act.cc:6624
 #, gcc-internal-format
 msgid "instance variable %qE is declared %s"
 msgstr "实例变量%qE被声明为 %s"
 
-#: objc/objc-act.cc:6735 objc/objc-act.cc:6850
-#, gcc-internal-format
-msgid "incomplete implementation of class %qE"
-msgstr "类%qE的实现不完全"
-
-#: objc/objc-act.cc:6739 objc/objc-act.cc:6854
-#, gcc-internal-format
-msgid "incomplete implementation of category %qE"
-msgstr "类别%qE的实现不完全"
-
-#: objc/objc-act.cc:6748 objc/objc-act.cc:6862
-#, gcc-internal-format
-msgid "method definition for %<%c%E%> not found"
-msgstr "找不到%<%c%E%>的方法定义"
-
 #: objc/objc-act.cc:6903
 #, gcc-internal-format
 msgid "%s %qE does not fully implement the %qE protocol"
 msgstr "%s%qE没有完全实现%qE协议"
-
-#: objc/objc-act.cc:6993
-#, gcc-internal-format
-msgid "cannot find interface declaration for %qE, superclass of %qE"
-msgstr "找不到%2$qE超类%1$qE的接口声明"
 
 #: objc/objc-act.cc:7001
 #, fuzzy, gcc-internal-format
@@ -80863,11 +80713,6 @@ msgstr "%qE的上一个声明"
 msgid "previous declaration"
 msgstr "上一个声明"
 
-#: objc/objc-act.cc:7084
-#, gcc-internal-format
-msgid "class %qE defined without specifying a base class"
-msgstr ""
-
 #: objc/objc-act.cc:7091 objc/objc-act.cc:7093
 #, gcc-internal-format
 msgid "duplicate interface declaration for class %qE"
@@ -80894,11 +80739,6 @@ msgstr "内容 %qs 已经指定的在中 %<@dynamic%>"
 msgid "property %qs already specified in %<@synthesize%>"
 msgstr "内容 %qs 已经指定的在中 %<@synthesize%>"
 
-#: objc/objc-act.cc:7761 objc/objc-act.cc:7978
-#, fuzzy, gcc-internal-format
-msgid "no declaration of property %qs found in the interface"
-msgstr "找不到任何声明的内容 %qs 在中接口"
-
 #: objc/objc-act.cc:7788
 #, fuzzy, gcc-internal-format
 msgid "ivar %qs used by %<@synthesize%> declaration must be an existing ivar"
@@ -80924,11 +80764,6 @@ msgstr "非法的聚合类型%qE指定给实例变量%qs"
 msgid "property %qs is using the same instance variable as property %qs"
 msgstr "内容 %qs 正在使用相同实例变量作为内容 %qs"
 
-#: objc/objc-act.cc:7905
-#, gcc-internal-format
-msgid "%<@synthesize%> is not available in Objective-C 1.0"
-msgstr "%<@synthesize%> 在 Objective-C 1.0 里不可用"
-
 #. We can get here only in Objective-C; the Objective-C++ parser
 #. detects the problem while parsing, outputs the error
 #. "misplaced '@synthesize' Objective-C++ construct" and skips
@@ -80949,11 +80784,6 @@ msgstr "%<@synthesize%> 不能用于分类"
 msgid "%<@synthesize%> requires the @interface of the class to be available"
 msgstr "%<@synthesize%> 需要类的 @interface 的可用"
 
-#: objc/objc-act.cc:8014
-#, gcc-internal-format
-msgid "%<@dynamic%> is not available in Objective-C 1.0"
-msgstr "%<@dynamic%> 在 Objective-C 1.0 里不可用"
-
 #. We can get here only in Objective-C; the Objective-C++ parser
 #. detects the problem while parsing, outputs the error
 #. "misplaced '@dynamic' Objective-C++ construct" and skips the
@@ -80968,34 +80798,10 @@ msgstr "@implemention 上下文中缺少 %<@dynamic%>"
 msgid "%<@dynamic%> requires the @interface of the class to be available"
 msgstr "%<@synthesize%> 需要类的 @interface 的可用"
 
-#: objc/objc-act.cc:8247
-#, gcc-internal-format
-msgid "definition of protocol %qE not found"
-msgstr "找不到协议%qE的方法定义"
-
-#: objc/objc-act.cc:8274
-#, fuzzy, gcc-internal-format
-#| msgid "protocol %qE is deprecated"
-msgid "protocol %qE is unavailable"
-msgstr "已弃用协议%qE"
-
-#. It would be nice to use warn_deprecated_use() here, but
-#. we are using TREE_CHAIN (which is supposed to be the
-#. TYPE_STUB_DECL for a TYPE) for something different.
-#: objc/objc-act.cc:8280
-#, gcc-internal-format
-msgid "protocol %qE is deprecated"
-msgstr "已弃用协议%qE"
-
 #: objc/objc-act.cc:8407
 #, gcc-internal-format
 msgid "duplicate declaration for protocol %qE"
 msgstr "重复声明协议%qE"
-
-#: objc/objc-act.cc:8931
-#, gcc-internal-format
-msgid "conflicting types for %<%c%s%>"
-msgstr "%<%c%s%>类型冲突"
 
 #: objc/objc-act.cc:8935
 #, gcc-internal-format
@@ -81018,44 +80824,6 @@ msgstr "[super ...] 必须出现在方法上下文中"
 msgid "method possibly missing a [super dealloc] call"
 msgstr "方法可能缺少一个 [super dealloc] 调用"
 
-#: objc/objc-act.cc:9572
-#, fuzzy, gcc-internal-format
-msgid "instance variable %qs is declared private"
-msgstr "实例变量%qE被声明为私有的"
-
-#: objc/objc-act.cc:9625
-#, gcc-internal-format
-msgid "local declaration of %qE hides instance variable"
-msgstr "%qE的局部声明隐藏了实例变量"
-
-#. This can happen if DECL_ARTIFICIAL (*expr_p), but
-#. should be impossible for real properties, which always
-#. have a getter.
-#: objc/objc-act.cc:9669
-#, gcc-internal-format
-msgid "no %qs getter found"
-msgstr "找不到 %qs 的取值器"
-
-#: objc/objc-act.cc:9916
-#, gcc-internal-format
-msgid "fast enumeration is not available in Objective-C 1.0"
-msgstr "快速枚举在 Objective-C 1.0 里不可用"
-
-#: objc/objc-act.cc:9926
-#, gcc-internal-format
-msgid "iterating variable in fast enumeration is not an object"
-msgstr "快速枚举中的迭代变量不是对象"
-
-#: objc/objc-act.cc:9932
-#, fuzzy, gcc-internal-format
-msgid "collection in fast enumeration is not an object"
-msgstr "快速枚举在 Objective-C 1.0 里不可用"
-
-#: objc/objc-encoding.cc:130
-#, gcc-internal-format
-msgid "type %qT does not have a known size"
-msgstr "类型 %qT 大小未知"
-
 #: objc/objc-encoding.cc:721
 #, fuzzy, gcc-internal-format
 msgid "unknown type %<%T%> found during Objective-C encoding"
@@ -81077,13 +80845,6 @@ msgstr "%<-fobjc-gc%>为%<-fgnu-runtime%>所忽略"
 #, gcc-internal-format
 msgid "%<-fobjc-sjlj-exceptions%> is ignored for %<-fgnu-runtime%>"
 msgstr "%<-fobjc-sjlj-exceptions%>为%<-fgnu-runtime%>所忽略"
-
-#: objc/objc-gnu-runtime-abi-01.cc:2159 objc/objc-next-runtime-abi-01.cc:2819
-#: objc/objc-next-runtime-abi-02.cc:3820
-#, fuzzy, gcc-internal-format
-#| msgid "non-objective-c type '%T' cannot be caught"
-msgid "non-objective-c type %qT cannot be caught"
-msgstr "非 Objective-C 类型‘%T’不能被捕获"
 
 #: objc/objc-next-runtime-abi-01.cc:146
 #, fuzzy, gcc-internal-format
