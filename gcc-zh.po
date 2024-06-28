@@ -1103,17 +1103,17 @@ msgstr "函数不是内联备选"
 
 #: cif-code.def:84
 msgid "call is unlikely and code size would grow"
-msgstr "调用不太可能且会导致代码膨胀"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
 
 #: cif-code.def:88
 #, fuzzy
 #| msgid "call is unlikely and code size would grow"
 msgid "call is considered never executed and code size would grow"
-msgstr "调用不太可能且会导致代码膨胀"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
 
 #: cif-code.def:92
 msgid "function not declared inline and code size would grow"
-msgstr "函数未被声明成内联且会导致代码膨胀"
+msgstr "喂！事先不告诉我这个函数还想偷偷进入吗？！而且...而且会坏掉的..."
 
 #: cif-code.def:100
 msgid "variadic thunk call"
@@ -1130,16 +1130,16 @@ msgstr "间接函数调用目标未定义"
 #: cif-code.def:112
 #, fuzzy
 msgid "exception handling personality mismatch"
-msgstr "启用异常处理"
+msgstr "异常处理被触发了喵~"
 
 #: cif-code.def:117
 #, fuzzy
 msgid "non-call exception handling mismatch"
-msgstr "启用异常处理"
+msgstr "异常处理被触发了喵~"
 
 #: cif-code.def:121
 msgid "target specific option mismatch"
-msgstr "目标相关的选项不匹配"
+msgstr "切...挂羊头卖狗肉的混蛋！"
 
 #: cif-code.def:125
 msgid "optimization level attribute mismatch"
@@ -1147,13 +1147,13 @@ msgstr "优化等级属性不匹配"
 
 #: cif-code.def:129
 msgid "callee refers to comdat-local symbols"
-msgstr "被调用者是指 comdat 本地符号"
+msgstr "comdat 本地符号：'又在想我了喵~"
 
 #: cif-code.def:134
 #, fuzzy
 #| msgid "function attribute mismatch"
 msgid "sanitizer function attribute mismatch"
-msgstr "函数属性不匹配"
+msgstr "喂！难道...又忘记了我喜欢什么了嘛？！"
 
 #: cif-code.def:139
 msgid "function has external linkage when the user requests only inlining static for live patching"
@@ -1169,7 +1169,7 @@ msgstr ""
 #. when reporting fatal signal in the compiler.
 #: fortran/gfc-diagnostic.def:34 fortran/gfc-diagnostic.def:50
 msgid "internal compiler error"
-msgstr "编译器内部错误"
+msgstr "混...混蛋...里面一团糟..:"
 
 #: fortran/gfc-diagnostic.def:35
 msgid "Error"
@@ -40948,13 +40948,13 @@ msgstr "%qs的实参必须是一个 2 位无符号字面常量"
 msgid "parameter to builtin not valid: %s"
 msgstr ""
 "\n"
-"错误：“%s”并非有效新闻群组！\n"
+"错误：“%s”...真是老掉牙的新闻呢...\n"
 
 #: config/i386/i386-expand.cc:9155
 #, fuzzy, gcc-internal-format
 #| msgid "interrupt Service Routines cannot be coded in Thumb mode"
 msgid "interrupt service routine cannot be called directly"
-msgstr "Thumb 模式中不能编码中断服务进程"
+msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
 
 #: config/i386/i386-expand.cc:9579 config/i386/i386-expand.cc:11075
 #, gcc-internal-format
@@ -41045,12 +41045,12 @@ msgstr "选择子必须是 0 到 %wi 间的整常量"
 #: config/i386/i386-expand.cc:12371
 #, gcc-internal-format
 msgid "%qE needs unknown isa option"
-msgstr "%qE需要未知的 ISA 选项"
+msgstr "%q我才不知道你说的 ISA 是什么呢~"
 
 #: config/i386/i386-expand.cc:12375
 #, gcc-internal-format
 msgid "%qE needs isa option %s"
-msgstr "%qE需要 ISA 选项 %s"
+msgstr "%qE我需要 ISA 选项！ %s"
 
 #: config/i386/i386-expand.cc:13319
 #, gcc-internal-format
@@ -41075,7 +41075,7 @@ msgstr "左实参必须是一个切片"
 #: config/i386/i386-expand.cc:14387
 #, fuzzy, gcc-internal-format
 msgid "incorrect hint operand"
-msgstr "(提示略过)"
+msgstr "(笨蛋...)"
 
 #: config/i386/i386-expand.cc:14406
 #, fuzzy, gcc-internal-format
@@ -41096,13 +41096,13 @@ msgstr "联合成员函数%qD被声明为虚函数"
 #: config/i386/i386-features.cc:2822 config/rs6000/rs6000.cc:24983
 #, fuzzy, gcc-internal-format
 msgid "multiversioning needs %<ifunc%> which is not supported on this target"
-msgstr "嵌套函数在此目标机上不受支持"
+msgstr "我才不想让你对我进行嵌套函数呢~"
 
 #: config/i386/i386-options.cc:874 config/i386/i386-options.cc:2071
 #: config/i386/i386-options.cc:2080
 #, gcc-internal-format, gfc-internal-format
 msgid "code model %s does not support PIC mode"
-msgstr "代码模式 %s 在 PIC 模式下不受支持"
+msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
 
 #: config/i386/i386-options.cc:1139
 #, fuzzy, gcc-internal-format
@@ -80860,7 +80860,7 @@ msgstr "%<-fobjc-sjlj-exceptions%> 被忽略用于 %<-fnext-runtime%> 时 %<-fob
 #: objc/objc-runtime-shared-support.cc:423
 #, gcc-internal-format
 msgid "creating selector for nonexistent method %qE"
-msgstr "为不存在的方法%qE创建选择子"
+msgstr "怎么又在为不存在的方法%qE创建选择子呢~"
 
 #~ msgid ""
 #~ "This is free software; see the source for copying conditions.\n"
