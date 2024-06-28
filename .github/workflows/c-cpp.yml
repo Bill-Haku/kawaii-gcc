@@ -18,4 +18,4 @@ jobs:
     - name: delete old files
       run: rm prebuilt/gcc-zh.mo
     - name: po2mo
-      run: msgfmt -o gcc-zh.po prebuilt/gcc-zh.mo
+      run: msgfmt -o prebuilt/gcc-zh.mo gcc-zh.po
