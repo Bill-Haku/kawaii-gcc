@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install tools
-      run: apt-get install gettext
+      run: sudo apt-get install gettext
     - name: delete old files
       run: rm prebuilt/gcc-zh.mo
     - name: po2mo
