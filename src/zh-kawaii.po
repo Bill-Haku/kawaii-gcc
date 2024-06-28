@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Poedit 2.4.3\n"
 
 msgid "function not considered for inlining"
-msgstr "不考虑内联函数(都什么年代了还在使用传统inline)"
+msgstr "我才不会考虑内联函数喵~(快放弃传统inline啊笨蛋！)"
 
 msgid "invalid conversion from type %<bfloat16_t%>"
 msgstr "从%<__fpreg%>的转换是无效的喵~"
@@ -188,9 +188,6 @@ msgstr "笨蛋！"
 msgid "error: "
 msgstr "笨蛋！"
 
-msgid "internal compiler error: "
-msgstr "坏...坏掉了："
-
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
 
@@ -298,10 +295,10 @@ msgid "size of variable %q+D is too large"
 msgstr "变量%q+D的大小太大，会撑坏内存的～"
 
 msgid "sorry, unimplemented"
-msgstr "尚未实现，真是抱歉呢～"
+msgstr "对不起~做不到~"
 
 msgid "sorry, unimplemented: "
-msgstr "真是抱歉呢，尚未实现："
+msgstr "对不起~做不到~"
 
 msgid "statement has no effect"
 msgstr "你说的对，但是语句没有作用"
@@ -474,9 +471,6 @@ msgstr "联合包含无名成员，连名字都不配有可真失败呢～"
 
 msgid "unrecoverable error"
 msgstr "不可恢复错误，寄啦～"
-
-msgid "unreachable"
-msgstr "暂时无法前往探索的"
 
 msgid "unrecognizable insn:"
 msgstr "无法识别的指令，你自己看着办吧："
@@ -1115,3 +1109,59 @@ msgstr "%qT不知道大小不可以往里面进啊！"
 
 msgid "non-objective-c type %qT cannot be caught"
 msgstr "除了Objective-C 类型‘%T’别的都抓不到啊QwQ"
+
+msgid "creating selector for nonexistent method %qE"
+msgstr "怎么又在为不存在的方法%qE创建选择子呢~"
+
+msgid "call is unlikely and code size would grow"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
+
+msgid "call is considered never executed and code size would grow"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
+
+msgid "function not declared inline and code size would grow"
+msgstr "喂！事先不告诉我这个函数还想偷偷进入吗？！而且...而且会坏掉的..."
+
+msgid "exception handling personality mismatch"
+msgstr "异常处理被触发了喵~"
+
+msgid "non-call exception handling mismatch"
+msgstr "异常处理被触发了喵~"
+
+msgid "target specific option mismatch"
+msgstr "切...挂羊头卖狗肉的混蛋！"
+
+msgid "callee refers to comdat-local symbols"
+msgstr "comdat 本地符号：'又在想我了喵~'"
+
+msgid "sanitizer function attribute mismatch"
+msgstr "喂！难道...又忘记了我喜欢什么了嘛？！"
+
+msgid "unreachable"
+msgstr "够不到~"
+
+msgid "internal compiler error: "
+msgstr "混...混蛋...里面一团糟..："
+
+msgid "interrupt service routine cannot be called directly"
+msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
+
+msgid "parameter to builtin not valid: %s"
+msgstr ""
+"\n"
+"错误：“%s”...真是老掉牙的新闻呢...\n"
+
+msgid "%qE needs unknown isa option"
+msgstr "%q我才不知道你说的 ISA 是什么呢~"
+
+msgid "%qE needs isa option %s"
+msgstr "%qE我需要 ISA 选项！ %s"
+
+msgid "incorrect hint operand"
+msgstr "(笨蛋...)"
+
+msgid "multiversioning needs %<ifunc%> which is not supported on this target"
+msgstr "我才不想让你对我进行嵌套函数呢~"
+
+msgid "code model %s does not support PIC mode"
+msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
