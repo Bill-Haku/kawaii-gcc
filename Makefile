@@ -8,6 +8,8 @@ install:
 
 merge-zh: src/zh-kawaii.po
 	msgcat -o gcc-zh.po --no-wrap --use-first src/zh-kawaii.po src/zh_CN.po
+testmo:
+	cd test && ./test.sh
 
 .PHONY: clean
 clean: gcc.mo
