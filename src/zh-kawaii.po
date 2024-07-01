@@ -1146,10 +1146,8 @@ msgstr "混...混蛋...里面一团糟..："
 msgid "interrupt service routine cannot be called directly"
 msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
 
-msgid "parameter to builtin not valid: %s"
-msgstr ""
-"\n"
-"错误：“%s”...真是老掉牙的新闻呢...\n"
+msgid "parameter to builtin not valid: %s\n"
+msgstr "错误：“%s”...真是老掉牙的新闻呢...\n"
 
 msgid "%qE needs unknown isa option"
 msgstr "%q我才不知道你说的 ISA 是什么呢~"
@@ -1165,3 +1163,87 @@ msgstr "我才不想让你对我进行嵌套函数呢~"
 
 msgid "code model %s does not support PIC mode"
 msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
+
+msgid "do not specify both -march=... and -mcpu=..."
+msgstr "不要同时指定 -march=... 和 -mcpu=...哦，不然会坏掉的"
+
+msgid " conflicting code gen style switches are used"
+msgstr "使用了相互冲突的代码生成风格呢，是不是又在Ctrl+C，Ctrl+V了呢？"
+
+msgid "rx200 cpu does not have FPU hardware"
+msgstr "RX200 CPU 是没有 FPU 硬件的呢"
+
+msgid "Warn if left shifting a negative value."
+msgstr "右移次数居然是负的呢"
+
+msgid "Deprecated.  This switch has no effect."
+msgstr "已经弃用的啦，就算开关N次也是没用的啦～"
+
+msgid "Removed in GCC 8.  This switch has no effect."
+msgstr "已经在GCC8就被丢弃的啦，为什么还在用上古的编译选项呢～"
+
+msgid "Emit debug annotations during preprocessing."
+msgstr "启用传统预处理了呢～"
+
+msgid "Enable traditional preprocessing."
+msgstr "启用传统预处理了呢～"
+
+msgid "Removed in GCC 10.  This switch has no effect."
+msgstr "已经在GCC10就被丢弃的啦，是不是才切换到新的GCC版本呢～"
+
+msgid "Deprecated in favor of -std=c++11."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "Deprecated in favor of -std=c++14."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "Deprecated in favor of -std=c99."
+msgstr "已经被弃用了喵，请使用 -std=c99谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++11."
+msgstr "已经被弃用了喵，请使用 -std=gnu++11谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++14."
+msgstr "已经被弃用了喵，请使用 -std=gnu++14谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++17."
+msgstr "已经被弃用了喵，请使用 -std=gnu+17谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu11."
+msgstr "已经被弃用了喵，请使用 -std=gnu11谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu99."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "<unknown operator>"
+msgstr "<又在写一种我看不懂的运算符呢>"
+
+msgid "<expression error>"
+msgstr "<错误的表达式>"
+
+msgid "<unparsed>"
+msgstr "<看不懂呢>"
+
+msgid "<unknown>"
+msgstr "<不知道是什么东西呢>"
+
+msgid "<missing>"
+msgstr "<是不是丢掉了>"
+
+msgid "redefinition of %<CTABLE_ENTRY %"
+msgstr "%q#T又定义了一遍哦，删掉一个吧~"
+
+msgid "function not inlinable"
+msgstr "函数不能内联的哦"
+
+msgid "operand number out of range"
+msgstr "操作数号太多了，超出了我力所能及的范围了！！！"
+
+msgid "%s:%d: confused by earlier errors, bailing out\n"
+msgstr "%s:%d：干不下去了，溜了溜了～\n"
+
+msgid "coarray argument"
+msgstr "是无效的参数呢"
+
+msgid "Expected name"
+msgstr "需要给这个家伙起个名字呢"

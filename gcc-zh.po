@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Poedit 2.4.3\n"
 
 msgid "function not considered for inlining"
-msgstr "不考虑内联函数(都什么年代了还在使用传统inline)"
+msgstr "我才不会考虑内联函数喵~(快放弃传统inline啊笨蛋！)"
 
 msgid "invalid conversion from type %<bfloat16_t%>"
 msgstr "从%<__fpreg%>的转换是无效的喵~"
@@ -181,9 +181,6 @@ msgstr "笨蛋！"
 msgid "error: "
 msgstr "笨蛋！"
 
-msgid "internal compiler error: "
-msgstr "坏...坏掉了："
-
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
 
@@ -284,10 +281,10 @@ msgid "size of variable %q+D is too large"
 msgstr "变量%q+D的大小太大，会撑坏内存的～"
 
 msgid "sorry, unimplemented"
-msgstr "尚未实现，真是抱歉呢～"
+msgstr "对不起~做不到~"
 
 msgid "sorry, unimplemented: "
-msgstr "真是抱歉呢，尚未实现："
+msgstr "对不起~做不到~"
 
 msgid "statement has no effect"
 msgstr "你说的对，但是语句没有作用"
@@ -448,9 +445,6 @@ msgstr "联合包含无名成员，连名字都不配有可真失败呢～"
 
 msgid "unrecoverable error"
 msgstr "不可恢复错误，寄啦～"
-
-msgid "unreachable"
-msgstr "暂时无法前往探索的"
 
 msgid "unrecognizable insn:"
 msgstr "无法识别的指令，你自己看着办吧："
@@ -1080,6 +1074,144 @@ msgstr "%qT不知道大小不可以往里面进啊！"
 msgid "non-objective-c type %qT cannot be caught"
 msgstr "除了Objective-C 类型‘%T’别的都抓不到啊QwQ"
 
+msgid "creating selector for nonexistent method %qE"
+msgstr "怎么又在为不存在的方法%qE创建选择子呢~"
+
+msgid "call is unlikely and code size would grow"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
+
+msgid "call is considered never executed and code size would grow"
+msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
+
+msgid "function not declared inline and code size would grow"
+msgstr "喂！事先不告诉我这个函数还想偷偷进入吗？！而且...而且会坏掉的..."
+
+msgid "exception handling personality mismatch"
+msgstr "异常处理被触发了喵~"
+
+msgid "non-call exception handling mismatch"
+msgstr "异常处理被触发了喵~"
+
+msgid "target specific option mismatch"
+msgstr "切...挂羊头卖狗肉的混蛋！"
+
+msgid "callee refers to comdat-local symbols"
+msgstr "comdat 本地符号：'又在想我了喵~'"
+
+msgid "sanitizer function attribute mismatch"
+msgstr "喂！难道...又忘记了我喜欢什么了嘛？！"
+
+msgid "unreachable"
+msgstr "够不到~"
+
+msgid "internal compiler error: "
+msgstr "混...混蛋...里面一团糟..："
+
+msgid "interrupt service routine cannot be called directly"
+msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
+
+msgid "parameter to builtin not valid: %s\n"
+msgstr "错误：“%s”...真是老掉牙的新闻呢...\n"
+
+msgid "%qE needs unknown isa option"
+msgstr "%q我才不知道你说的 ISA 是什么呢~"
+
+msgid "%qE needs isa option %s"
+msgstr "%qE我需要 ISA 选项！ %s"
+
+msgid "incorrect hint operand"
+msgstr "(笨蛋...)"
+
+msgid "multiversioning needs %<ifunc%> which is not supported on this target"
+msgstr "我才不想让你对我进行嵌套函数呢~"
+
+msgid "code model %s does not support PIC mode"
+msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
+
+msgid "do not specify both -march=... and -mcpu=..."
+msgstr "不要同时指定 -march=... 和 -mcpu=...哦，不然会坏掉的"
+
+msgid " conflicting code gen style switches are used"
+msgstr "使用了相互冲突的代码生成风格呢，是不是又在Ctrl+C，Ctrl+V了呢？"
+
+msgid "rx200 cpu does not have FPU hardware"
+msgstr "RX200 CPU 是没有 FPU 硬件的呢"
+
+msgid "Warn if left shifting a negative value."
+msgstr "右移次数居然是负的呢"
+
+msgid "Deprecated.  This switch has no effect."
+msgstr "已经弃用的啦，就算开关N次也是没用的啦～"
+
+msgid "Removed in GCC 8.  This switch has no effect."
+msgstr "已经在GCC8就被丢弃的啦，为什么还在用上古的编译选项呢～"
+
+msgid "Emit debug annotations during preprocessing."
+msgstr "启用传统预处理了呢～"
+
+msgid "Enable traditional preprocessing."
+msgstr "启用传统预处理了呢～"
+
+msgid "Removed in GCC 10.  This switch has no effect."
+msgstr "已经在GCC10就被丢弃的啦，是不是才切换到新的GCC版本呢～"
+
+msgid "Deprecated in favor of -std=c++11."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "Deprecated in favor of -std=c++14."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "Deprecated in favor of -std=c99."
+msgstr "已经被弃用了喵，请使用 -std=c99谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++11."
+msgstr "已经被弃用了喵，请使用 -std=gnu++11谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++14."
+msgstr "已经被弃用了喵，请使用 -std=gnu++14谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu++17."
+msgstr "已经被弃用了喵，请使用 -std=gnu+17谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu11."
+msgstr "已经被弃用了喵，请使用 -std=gnu11谢谢喵～"
+
+msgid "Deprecated in favor of -std=gnu99."
+msgstr "已经被弃用了喵，请使用 -std=gnu99谢谢喵～"
+
+msgid "<unknown operator>"
+msgstr "<又在写一种我看不懂的运算符呢>"
+
+msgid "<expression error>"
+msgstr "<错误的表达式>"
+
+msgid "<unparsed>"
+msgstr "<看不懂呢>"
+
+msgid "<unknown>"
+msgstr "<不知道是什么东西呢>"
+
+msgid "<missing>"
+msgstr "<是不是丢掉了>"
+
+msgid "redefinition of %<CTABLE_ENTRY %"
+msgstr "%q#T又定义了一遍哦，删掉一个吧~"
+
+msgid "function not inlinable"
+msgstr "函数不能内联的哦"
+
+msgid "operand number out of range"
+msgstr "操作数号太多了，超出了我力所能及的范围了！！！"
+
+msgid "%s:%d: confused by earlier errors, bailing out\n"
+msgstr "%s:%d：干不下去了，溜了溜了～\n"
+
+msgid "coarray argument"
+msgstr "是无效的参数呢"
+
+msgid "Expected name"
+msgstr "需要给这个家伙起个名字呢"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -1087,10 +1219,6 @@ msgstr "调用方未被优化"
 #: cif-code.def:51
 msgid "redefined extern inline functions are not considered for inlining"
 msgstr "不考虑内联重定义的外部内联函数"
-
-#: cif-code.def:56
-msgid "function not inlinable"
-msgstr "函数不能内联"
 
 #: cif-code.def:60
 #, fuzzy
@@ -1100,20 +1228,6 @@ msgstr "函数体可能在链接时被改写"
 #: cif-code.def:64
 msgid "function not inline candidate"
 msgstr "函数不是内联备选"
-
-#: cif-code.def:84
-msgid "call is unlikely and code size would grow"
-msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
-
-#: cif-code.def:88
-#, fuzzy
-#| msgid "call is unlikely and code size would grow"
-msgid "call is considered never executed and code size would grow"
-msgstr "明明这种姿势..不太可能啦！还会让我坏掉的！"
-
-#: cif-code.def:92
-msgid "function not declared inline and code size would grow"
-msgstr "喂！事先不告诉我这个函数还想偷偷进入吗？！而且...而且会坏掉的..."
 
 #: cif-code.def:100
 msgid "variadic thunk call"
@@ -1127,33 +1241,9 @@ msgstr "原本间接的函数调用不被考虑内联"
 msgid "indirect function call with a yet undetermined callee"
 msgstr "间接函数调用目标未定义"
 
-#: cif-code.def:112
-#, fuzzy
-msgid "exception handling personality mismatch"
-msgstr "异常处理被触发了喵~"
-
-#: cif-code.def:117
-#, fuzzy
-msgid "non-call exception handling mismatch"
-msgstr "异常处理被触发了喵~"
-
-#: cif-code.def:121
-msgid "target specific option mismatch"
-msgstr "切...挂羊头卖狗肉的混蛋！"
-
 #: cif-code.def:125
 msgid "optimization level attribute mismatch"
 msgstr "优化等级属性不匹配"
-
-#: cif-code.def:129
-msgid "callee refers to comdat-local symbols"
-msgstr "comdat 本地符号：'又在想我了喵~"
-
-#: cif-code.def:134
-#, fuzzy
-#| msgid "function attribute mismatch"
-msgid "sanitizer function attribute mismatch"
-msgstr "喂！难道...又忘记了我喜欢什么了嘛？！"
 
 #: cif-code.def:139
 msgid "function has external linkage when the user requests only inlining static for live patching"
@@ -1169,7 +1259,7 @@ msgstr ""
 #. when reporting fatal signal in the compiler.
 #: fortran/gfc-diagnostic.def:34 fortran/gfc-diagnostic.def:50
 msgid "internal compiler error"
-msgstr "混...混蛋...里面一团糟..:"
+msgstr "编译器内部错误"
 
 #: fortran/gfc-diagnostic.def:35
 msgid "Error"
@@ -1332,10 +1422,6 @@ msgstr "%P%F：不支持 -shared\n"
 msgid "no processor type specified for linking"
 msgstr "没有指定链接用的处理器类型"
 
-#: config/cris/cris.h:168
-msgid "do not specify both -march=... and -mcpu=..."
-msgstr "请勿同时指定 -march=... 和 -mcpu=..."
-
 #: config/i386/cygwin-w64.h:64 config/i386/cygwin.h:138
 #: config/i386/mingw-w64.h:103 config/i386/mingw32.h:160
 msgid "shared and mdll are not compatible"
@@ -1401,10 +1487,6 @@ msgstr "警告：考虑链接时使用‘-static’因为系统库"
 msgid "  profiling support are only provided in archive format"
 msgstr "取样支持只支持存档格式"
 
-#: config/rs6000/darwin.h:123
-msgid " conflicting code gen style switches are used"
-msgstr "使用了相互冲突的代码生成风格"
-
 #: config/rs6000/freebsd64.h:114
 #, fuzzy
 msgid "consider using `-pg' instead of `-p' with gprof(1)"
@@ -1413,10 +1495,6 @@ msgstr "与 gprof(1) 一起使用时请考虑使用‘-pg’以代替‘-p’"
 #: config/rs6000/rs6000.h:170
 msgid "Missing -mcpu option in ASM_CPU_SPEC?"
 msgstr ""
-
-#: config/rx/linux.h:53 config/rx/rx.h:82
-msgid "rx200 cpu does not have FPU hardware"
-msgstr "RX200 CPU 没有 FPU 硬件"
 
 #: config/rx/rx.h:80
 msgid "-mas100-syntax is incompatible with -gdwarf"
@@ -3466,11 +3544,6 @@ msgstr "右移次数为负"
 msgid "Warn if shift count >= width of type."
 msgstr "右移次数大于或等于类型宽度"
 
-#: c-family/c.opt:1250
-#, fuzzy, no-c-format
-msgid "Warn if left shifting a negative value."
-msgstr "右移次数为负"
-
 #: c-family/c.opt:1254
 #, no-c-format
 msgid "Warn if conversion of the result of arithmetic might change the value even though converting the operands cannot."
@@ -3517,12 +3590,6 @@ msgstr "当备选方法的类型签字不完全匹配时给出警告"
 #| msgid "Warn when __sync_fetch_and_nand and __sync_nand_and_fetch built-in functions are used"
 msgid "Warn when __sync_fetch_and_nand and __sync_nand_and_fetch built-in functions are used."
 msgstr "当 __sync_fetch_and_nand 和 __sync_nand_and_fetch 内建函数被使用时给出警告"
-
-#: c-family/c.opt:1298
-#, fuzzy, no-c-format
-#| msgid "Deprecated.  This switch has no effect"
-msgid "Deprecated.  This switch has no effect."
-msgstr "已弃用。此开关不起作用。"
 
 #: c-family/c.opt:1306
 #, fuzzy, no-c-format
@@ -3749,12 +3816,6 @@ msgstr ""
 msgid "Enable the char8_t fundamental type and use it as the type for UTF-8 string and character literals."
 msgstr ""
 
-#: c-family/c.opt:1603
-#, fuzzy, no-c-format
-#| msgid "Deprecated.  This switch has no effect"
-msgid "Removed in GCC 8.  This switch has no effect."
-msgstr "已弃用。此开关不起作用。"
-
 #: c-family/c.opt:1607
 #, fuzzy, no-c-format
 msgid "Enable support for C++ concepts."
@@ -3813,11 +3874,6 @@ msgstr "-ftemplate-depth=<N>\t指定模板实例化的最大深度"
 #, no-c-format
 msgid "Enable C++ coroutines (experimental)."
 msgstr ""
-
-#: c-family/c.opt:1655
-#, fuzzy, no-c-format
-msgid "Emit debug annotations during preprocessing."
-msgstr "启用传统预处理"
 
 #: c-family/c.opt:1663
 #, fuzzy, no-c-format
@@ -4189,12 +4245,6 @@ msgstr ""
 msgid "Used in Fix-and-Continue mode to indicate that object files may be swapped in at runtime."
 msgstr "指定对象文件可能在运行时被换入以允许“修复并继续”调试模式"
 
-#: c-family/c.opt:2029
-#, fuzzy, no-c-format
-#| msgid "Deprecated.  This switch has no effect"
-msgid "Removed in GCC 10.  This switch has no effect."
-msgstr "已弃用。此开关不起作用。"
-
 #: c-family/c.opt:2033
 #, fuzzy, no-c-format
 #| msgid "Generate run time type descriptor information"
@@ -4451,16 +4501,6 @@ msgstr "遵循 ISO 1998 C++ 标准于 2003 年的技术勘误版本"
 msgid "Conform to the ISO 2011 C++ standard."
 msgstr "遵循 ISO 2011 C++ 标准"
 
-#: c-family/c.opt:2282
-#, fuzzy, no-c-format
-msgid "Deprecated in favor of -std=c++11."
-msgstr "已弃用，请改用 -std=gnu99"
-
-#: c-family/c.opt:2286
-#, fuzzy, no-c-format
-msgid "Deprecated in favor of -std=c++14."
-msgstr "已弃用，请改用 -std=gnu99"
-
 #: c-family/c.opt:2290
 #, fuzzy, no-c-format
 #| msgid "Conform to the ISO 2011 C++ standard"
@@ -4526,12 +4566,6 @@ msgstr "遵循 ISO 1990 C 标准"
 msgid "Conform to the ISO 1999 C standard."
 msgstr "遵循 ISO 1999 C 标准"
 
-#: c-family/c.opt:2350
-#, fuzzy, no-c-format
-#| msgid "Deprecated in favor of -std=c99"
-msgid "Deprecated in favor of -std=c99."
-msgstr "已弃用，请改用 -std=c99"
-
 #: c-family/c.opt:2354 c-family/c.opt:2359
 #, fuzzy, no-c-format
 #| msgid "Conform to the ISO 1998 C++ standard revised by the 2003 technical corrigendum"
@@ -4544,26 +4578,11 @@ msgstr "遵循 ISO 1998 C++ 标准于 2003 年的技术勘误版本"
 msgid "Conform to the ISO 2011 C++ standard with GNU extensions."
 msgstr "遵循 ISO 1990 C 标准，也支持 GNU 扩展"
 
-#: c-family/c.opt:2368
-#, no-c-format
-msgid "Deprecated in favor of -std=gnu++11."
-msgstr "已弃用，请改用 -std=gnu++11。"
-
-#: c-family/c.opt:2372
-#, no-c-format
-msgid "Deprecated in favor of -std=gnu++14."
-msgstr "已弃用，请改用 -std=gnu++14。"
-
 #: c-family/c.opt:2376
 #, fuzzy, no-c-format
 #| msgid "Conform to the ISO 1990 C standard with GNU extensions"
 msgid "Conform to the ISO 2014 C++ standard with GNU extensions."
 msgstr "遵循 ISO 1990 C 标准，也支持 GNU 扩展"
-
-#: c-family/c.opt:2380
-#, no-c-format
-msgid "Deprecated in favor of -std=gnu++17."
-msgstr "已弃用，请改用 -std=gnu+17。"
 
 #: c-family/c.opt:2384
 #, fuzzy, no-c-format
@@ -4589,11 +4608,6 @@ msgstr "遵循 ISO 201z(7?) C++ 标准草案和 GNU 扩展(试验性质的不完
 msgid "Conform to the ISO 2011 C standard with GNU extensions."
 msgstr "遵循 ISO 1990 C 标准，也支持 GNU 扩展"
 
-#: c-family/c.opt:2408
-#, no-c-format
-msgid "Deprecated in favor of -std=gnu11."
-msgstr "已弃用，请改用 -std=gnu11。"
-
 #: c-family/c.opt:2412 c-family/c.opt:2416
 #, fuzzy, no-c-format
 #| msgid "Conform to the ISO 1990 C standard with GNU extensions"
@@ -4618,12 +4632,6 @@ msgstr "遵循 ISO 1990 C 标准，也支持 GNU 扩展"
 msgid "Conform to the ISO 1999 C standard with GNU extensions."
 msgstr "遵循 ISO 1999 C 标准，也支持 GNU 扩展"
 
-#: c-family/c.opt:2436
-#, fuzzy, no-c-format
-#| msgid "Deprecated in favor of -std=gnu99"
-msgid "Deprecated in favor of -std=gnu99."
-msgstr "已弃用，请改用 -std=gnu99"
-
 #: c-family/c.opt:2444
 #, fuzzy, no-c-format
 #| msgid "Conform to the ISO 1990 C standard as amended in 1994"
@@ -4640,11 +4648,6 @@ msgstr "已弃用，为 -std=iso9899:1999 所取代"
 #, no-c-format
 msgid "-stdlib=[libstdc++|libc++]\tThe standard library to be used for C++ headers and runtime."
 msgstr ""
-
-#: c-family/c.opt:2485
-#, no-c-format
-msgid "Enable traditional preprocessing."
-msgstr "启用传统预处理。"
 
 #: c-family/c.opt:2489
 #, no-c-format
@@ -19128,11 +19131,6 @@ msgstr ""
 msgid "imported at"
 msgstr ""
 
-#: diagnostic.cc:1362
-#, c-format
-msgid "%s:%d: confused by earlier errors, bailing out\n"
-msgstr "%s:%d：不能从先前的错误中恢复，退出\n"
-
 #: diagnostic.cc:1997
 #, fuzzy, c-format
 #| msgid "Internal compiler error: Error reporting routines re-entered.\n"
@@ -19166,11 +19164,6 @@ msgstr "未结束的汇编风格指示"
 #, c-format
 msgid "operand number missing after %%-letter"
 msgstr "%% 字母后缺少操作数号"
-
-#: final.cc:3546 final.cc:3587
-#, c-format
-msgid "operand number out of range"
-msgstr "操作数号超出范围"
 
 #: final.cc:3604
 #, c-format
@@ -22299,10 +22292,6 @@ msgstr "跳转至标号%qD"
 msgid "jump to case label"
 msgstr "跳转至 case 标号"
 
-#: cp/error.cc:456
-msgid "<missing>"
-msgstr "<丢失>"
-
 #: cp/error.cc:558
 msgid "<brace-enclosed initializer list>"
 msgstr "<花括号内的初始值列表>"
@@ -22384,11 +22373,6 @@ msgstr "<模板参数数错误>"
 msgid "<statement>"
 msgstr "<语句>"
 
-#: cp/error.cc:2219 cp/error.cc:3312 c-family/c-pretty-print.cc:2644
-#, gcc-internal-format
-msgid "<unknown>"
-msgstr "<未知>"
-
 #. While waiting for caret diagnostics, avoid printing
 #. __cxa_allocate_exception, __cxa_throw, and the like.
 #: cp/error.cc:2237
@@ -22399,10 +22383,6 @@ msgstr "<throw 表达式>"
 msgid "<ubsan routine call>"
 msgstr ""
 
-#: cp/error.cc:2829
-msgid "<unparsed>"
-msgstr "<未解析>"
-
 #: cp/error.cc:2986
 #, fuzzy
 msgid "<lambda>"
@@ -22411,14 +22391,6 @@ msgstr "<lambda"
 #: cp/error.cc:3025
 msgid "*this"
 msgstr "*this"
-
-#: cp/error.cc:3039
-msgid "<expression error>"
-msgstr "<表达式错误>"
-
-#: cp/error.cc:3054
-msgid "<unknown operator>"
-msgstr "<未知的运算符>"
 
 #: cp/error.cc:3525
 msgid "At global scope:"
@@ -22794,10 +22766,6 @@ msgstr "非预期的文件结束"
 msgid "Bad name"
 msgstr "错误的名字"
 
-#: fortran/module.cc:1628
-msgid "Expected name"
-msgstr "需要名字"
-
 #: fortran/module.cc:1631
 msgid "Expected left parenthesis"
 msgstr "需要左圆括号"
@@ -22929,11 +22897,6 @@ msgstr "%L处的非标量 FINAL 过程应当有假定外形的参数"
 #, fuzzy
 msgid "assumed-rank argument"
 msgstr "在调度器中启用秩启发"
-
-#: fortran/resolve.cc:2531
-#, fuzzy
-msgid "coarray argument"
-msgstr "无效的参数"
 
 #: fortran/resolve.cc:2536
 #, fuzzy
@@ -40948,13 +40911,7 @@ msgstr "%qs的实参必须是一个 2 位无符号字面常量"
 msgid "parameter to builtin not valid: %s"
 msgstr ""
 "\n"
-"错误：“%s”...真是老掉牙的新闻呢...\n"
-
-#: config/i386/i386-expand.cc:9155
-#, fuzzy, gcc-internal-format
-#| msgid "interrupt Service Routines cannot be coded in Thumb mode"
-msgid "interrupt service routine cannot be called directly"
-msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
+"错误：“%s”并非有效新闻群组！\n"
 
 #: config/i386/i386-expand.cc:9579 config/i386/i386-expand.cc:11075
 #, gcc-internal-format
@@ -41042,16 +40999,6 @@ msgstr "最后一个实参必须是一个 8 位立即数"
 msgid "selector must be an integer constant in the range [0, %wi]"
 msgstr "选择子必须是 0 到 %wi 间的整常量"
 
-#: config/i386/i386-expand.cc:12371
-#, gcc-internal-format
-msgid "%qE needs unknown isa option"
-msgstr "%q我才不知道你说的 ISA 是什么呢~"
-
-#: config/i386/i386-expand.cc:12375
-#, gcc-internal-format
-msgid "%qE needs isa option %s"
-msgstr "%qE我需要 ISA 选项！ %s"
-
 #: config/i386/i386-expand.cc:13319
 #, gcc-internal-format
 msgid "the last argument must be a 32-bit immediate"
@@ -41072,11 +41019,6 @@ msgstr "最后一个实参必须是一个 4 位立即数"
 msgid "the forth argument must be scale 1, 2, 4, 8"
 msgstr "左实参必须是一个切片"
 
-#: config/i386/i386-expand.cc:14387
-#, fuzzy, gcc-internal-format
-msgid "incorrect hint operand"
-msgstr "(笨蛋...)"
-
 #: config/i386/i386-expand.cc:14406
 #, fuzzy, gcc-internal-format
 #| msgid "the next to last argument must be an 8-bit immediate"
@@ -41092,17 +41034,6 @@ msgstr ""
 #, fuzzy, gcc-internal-format
 msgid "virtual function multiversioning not supported"
 msgstr "联合成员函数%qD被声明为虚函数"
-
-#: config/i386/i386-features.cc:2822 config/rs6000/rs6000.cc:24983
-#, fuzzy, gcc-internal-format
-msgid "multiversioning needs %<ifunc%> which is not supported on this target"
-msgstr "我才不想让你对我进行嵌套函数呢~"
-
-#: config/i386/i386-options.cc:874 config/i386/i386-options.cc:2071
-#: config/i386/i386-options.cc:2080
-#, gcc-internal-format, gfc-internal-format
-msgid "code model %s does not support PIC mode"
-msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
 
 #: config/i386/i386-options.cc:1139
 #, fuzzy, gcc-internal-format
@@ -43291,12 +43222,6 @@ msgstr "%<#pragma %s%>末尾有垃圾"
 #: config/pru/pru-pragma.cc:61
 msgid "%<CTABLE_ENTRY%> index %"
 msgstr ""
-
-#: config/pru/pru-pragma.cc:64
-#, fuzzy
-#| msgid "redefinition of %q#T"
-msgid "redefinition of %<CTABLE_ENTRY %"
-msgstr "%q#T重定义"
 
 #: config/pru/pru-pragma.cc:69
 #, gcc-internal-format
@@ -80856,11 +80781,6 @@ msgstr "%<-fobjc-sjlj-exceptions%> 是只有支持的异常系统用于 %<-fnext
 #| msgid "%<-fobjc-sjlj-exceptions%> is ignored for %<-fnext-runtime%> when %<-fobjc-abi-version%> >= 2"
 msgid "%<-fobjc-sjlj-exceptions%> is ignored for %<-fnext-runtime%> when %<-fobjc-abi-version%> greater than 1"
 msgstr "%<-fobjc-sjlj-exceptions%> 被忽略用于 %<-fnext-runtime%> 时 %<-fobjc-abi-version%> >=2"
-
-#: objc/objc-runtime-shared-support.cc:423
-#, gcc-internal-format
-msgid "creating selector for nonexistent method %qE"
-msgstr "怎么又在为不存在的方法%qE创建选择子呢~"
 
 #~ msgid ""
 #~ "This is free software; see the source for copying conditions.\n"
