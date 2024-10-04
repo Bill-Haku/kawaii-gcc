@@ -1221,9 +1221,8 @@ msgid "redefined extern inline functions are not considered for inlining"
 msgstr "不考虑内联重定义的外部内联函数"
 
 #: cif-code.def:60
-#, fuzzy
 msgid "function body can be overwritten at link time"
-msgstr "函数体可能在链接时被改写"
+msgstr "函数体可能在链接时被覆盖"
 
 #: cif-code.def:64
 msgid "function not inline candidate"
@@ -1231,7 +1230,7 @@ msgstr "函数不是内联备选"
 
 #: cif-code.def:100
 msgid "variadic thunk call"
-msgstr ""
+msgstr "可变参数 Thunk 调用"
 
 #: cif-code.def:104
 msgid "originally indirect function call not considered for inlining"
@@ -1246,14 +1245,15 @@ msgid "optimization level attribute mismatch"
 msgstr "优化等级属性不匹配"
 
 #: cif-code.def:139
+#, fuzzy
 msgid "function has external linkage when the user requests only inlining static for live patching"
-msgstr ""
+msgstr "在用户仅请求内联静态函数时进行实时修补具有外部联动"
 
 #. For use when using the diagnostic_show_locus machinery to show
 #. a range of events within a path.
 #: diagnostic.def:44
 msgid "path: "
-msgstr ""
+msgstr "路径: "
 
 #. This is like DK_ICE, but backtrace is not printed.  Used in the driver
 #. when reporting fatal signal in the compiler.
@@ -1270,45 +1270,36 @@ msgid "anachronism"
 msgstr "历史遗留"
 
 #: gcc.cc:829 gcc.cc:833 gcc.cc:888
-#, fuzzy
 msgid "-gz is not supported in this configuration"
-msgstr "%s 不为这个配置所支持"
+msgstr "此配置不支持 -gz"
 
 #: gcc.cc:839 gcc.cc:899
-#, fuzzy
 msgid "-gz=zlib is not supported in this configuration"
-msgstr "弱引用在此配置下不受支持"
+msgstr "此配置不支持 -gz=zlib"
 
 #: gcc.cc:1092
-#, fuzzy
 msgid "-fuse-linker-plugin is not supported in this configuration"
-msgstr "弱引用在此配置下不受支持"
+msgstr "此配置不支持 -fuse-linker-plugin"
 
 #: gcc.cc:1108
 msgid "cannot specify -static with -fsanitize=address"
-msgstr ""
+msgstr "不能将 -static 与 -fsanitize=address 一起指定"
 
 #: gcc.cc:1110
-#, fuzzy
-#| msgid "cannot specify -static with -fsanitize=thread"
 msgid "cannot specify -static with -fsanitize=hwaddress"
-msgstr "不能同时指定 -static 及 -fsanitize=thread"
+msgstr "不能同时指定 -static 及 -fsanitize=hwaddress"
 
 #: gcc.cc:1112
 msgid "cannot specify -static with -fsanitize=thread"
 msgstr "不能同时指定 -static 及 -fsanitize=thread"
 
 #: gcc.cc:1134
-#, fuzzy
-#| msgid "weakref is not supported in this configuration"
 msgid "-fvtable-verify=std is not supported in this configuration"
-msgstr "弱引用在此配置下不受支持"
+msgstr "-fvtable-verify=std 在此配置中不受支持"
 
 #: gcc.cc:1136
-#, fuzzy
-#| msgid "weakref is not supported in this configuration"
 msgid "-fvtable-verify=preinit is not supported in this configuration"
-msgstr "弱引用在此配置下不受支持"
+msgstr "-fvtable-verify=preinit 在此配置中不受支持"
 
 #: gcc.cc:1273 ada/gcc-interface/lang-specs.h:37
 msgid "-pg and -fomit-frame-pointer are incompatible"
@@ -1345,10 +1336,8 @@ msgid "-private_bundle not allowed with -dynamiclib"
 msgstr "-private_bundle 不能和 -dynamiclib 一起使用"
 
 #: config/darwin.h:177
-#, fuzzy
-#| msgid "-current_version only allowed with -dynamiclib"
 msgid "-compatibility_version only allowed with -dynamiclib"
-msgstr "-current_version 只能和 -dynamiclib 一起使用"
+msgstr "-compatibility_version 只能和 -dynamiclib 一起使用"
 
 #: config/darwin.h:179
 msgid "-current_version only allowed with -dynamiclib"
@@ -1367,10 +1356,8 @@ msgid "-force_flat_namespace not allowed with -dynamiclib"
 msgstr "-force_flat_namespace 不能和 -dynamiclib 一起使用"
 
 #: config/darwin.h:213 config/darwin.h:609
-#, fuzzy
-#| msgid "%qE attribute is not supported on this platform"
 msgid "gsplit-dwarf is not supported on this platform"
-msgstr "%qE属性在此平台上不受支持"
+msgstr "此平台不支持 gsplit-dwarf"
 
 #: config/darwin.h:277
 msgid "rdynamic is not supported"
@@ -1395,9 +1382,8 @@ msgid "does not support multilib"
 msgstr "不支持 multilib"
 
 #: config/sol2.h:449
-#, fuzzy
 msgid "-pie is not supported in this configuration"
-msgstr "%s 不为这个配置所支持"
+msgstr "此配置不支持 -pie"
 
 #: config/vxworks.h:204
 msgid "-Xbind-now and -Xbind-lazy are incompatible"
@@ -1414,9 +1400,8 @@ msgid "may not use both -EB and -EL"
 msgstr "不能同时使用 -EB 和 -EL"
 
 #: config/avr/specs.h:71 config/pru/pru.h:58
-#, fuzzy
 msgid "shared is not supported"
-msgstr "%P%F：不支持 -shared\n"
+msgstr "不支持 shared"
 
 #: config/bfin/elf.h:55
 msgid "no processor type specified for linking"
@@ -1428,19 +1413,16 @@ msgid "shared and mdll are not compatible"
 msgstr "shared 和 mdll 互不兼容"
 
 #: config/i386/darwin.h:93
-#, fuzzy
-#| msgid "%qD is not a template"
 msgid "Darwin is not an mx32 platform"
-msgstr "%qD不是一个模板"
+msgstr "Darwin 不是 mx32 平台"
 
 #: config/i386/darwin.h:94
 msgid "Darwin does not support -mfentry or associated options"
-msgstr ""
+msgstr "Darwin 不支持 -mfentry 或相关选项"
 
 #: config/i386/sol2.h:59
-#, fuzzy
 msgid "-mx32 is not supported on Solaris"
-msgstr "不支持"
+msgstr "-mx32 在 Solaris 上不受支持"
 
 #: config/mcore/mcore.h:53
 msgid "the m210 does not have little endian support"
@@ -1455,22 +1437,20 @@ msgid "-msingle-float and -msoft-float cannot both be specified"
 msgstr "不能同时指定 -msingle-float 和 -msoft-float"
 
 #: config/moxie/moxiebox.h:43
-#, fuzzy
-#| msgid "Assume target CPU is configured as little endian"
 msgid "this target is little-endian"
-msgstr "假定目标 CPU 被配置为小端在前"
+msgstr "此目标是 little-endian"
 
 #: config/msp430/msp430.h:90
 msgid "-mcode-region requires the large memory model (-mlarge)"
-msgstr ""
+msgstr "-mcode-region 需要大内存模型 (-mlarge)"
 
 #: config/msp430/msp430.h:92
 msgid "-mdata-region requires the large memory model (-mlarge)"
-msgstr ""
+msgstr "-mdata-region 需要大内存模型 (-mlarge)"
 
 #: config/nios2/elf.h:44
 msgid "You need a C startup file for -msys-crt0="
-msgstr ""
+msgstr "您需要一个 C 启动文件来表示 -msys-crt0="
 
 #: config/pa/pa-hpux10.h:102 config/pa/pa-hpux10.h:105
 #: config/pa/pa-hpux10.h:113 config/pa/pa-hpux10.h:116
@@ -1478,7 +1458,7 @@ msgstr ""
 #: config/pa/pa64-hpux.h:32 config/pa/pa64-hpux.h:41 config/pa/pa64-hpux.h:44
 #, fuzzy
 msgid "warning: consider linking with '-static' as system libraries with"
-msgstr "警告：考虑链接时使用‘-static’因为系统库"
+msgstr "警告： 考虑将 '-static' 作为系统库链接和"
 
 #: config/pa/pa-hpux10.h:103 config/pa/pa-hpux10.h:106
 #: config/pa/pa-hpux10.h:114 config/pa/pa-hpux10.h:117
@@ -1493,17 +1473,17 @@ msgid "consider using `-pg' instead of `-p' with gprof(1)"
 msgstr "与 gprof(1) 一起使用时请考虑使用‘-pg’以代替‘-p’"
 
 #: config/rs6000/rs6000.h:170
+#, fuzzy
 msgid "Missing -mcpu option in ASM_CPU_SPEC?"
-msgstr ""
+msgstr "ASM_CPU_SPEC 中缺少 -mcpu 选项？"
 
 #: config/rx/rx.h:80
 msgid "-mas100-syntax is incompatible with -gdwarf"
 msgstr "-mas100-syntax 与 -gdwarf 不兼容"
 
 #: config/rx/rx.h:81
-#, fuzzy
 msgid "rx100 cpu does not have FPU hardware"
-msgstr "RX200 CPU 没有 FPU 硬件"
+msgstr "RX100 CPU 没有 FPU 硬件"
 
 #: config/s390/tpf.h:119
 msgid "static is not supported on TPF-OS"
@@ -1514,9 +1494,8 @@ msgid "SH2a does not support little-endian"
 msgstr "SH2a 不支持小端在前"
 
 #: config/sparc/linux64.h:142
-#, fuzzy
 msgid "-fsanitize=address is not supported in this configuration"
-msgstr "%s 不为这个配置所支持"
+msgstr "-fsanitize=address 在此配置中不受支持"
 
 #: config/sparc/linux64.h:156 config/sparc/linux64.h:162
 #: config/sparc/netbsd-elf.h:108 config/sparc/netbsd-elf.h:117
@@ -1541,14 +1520,12 @@ msgid "-c or -S required for Ada"
 msgstr "Ada 需要指定 -c 或 -S"
 
 #: ada/gcc-interface/lang-specs.h:56
-#, fuzzy
 msgid "-c required for gnat2why"
-msgstr "Ada 需要指定 -c 或 -S"
+msgstr "gnat2why 需要 -c"
 
 #: ada/gcc-interface/lang-specs.h:67
-#, fuzzy
 msgid "-c required for gnat2scil"
-msgstr "Ada 需要指定 -c 或 -S"
+msgstr "gnat2scil 需要 -c"
 
 #: fortran/lang-specs.h:60 fortran/lang-specs.h:74
 msgid "gfortran does not support -E without -cpp"
@@ -1559,44 +1536,37 @@ msgid "GNU Objective C no longer supports traditional compilation"
 msgstr "GNU Objective C 不再支持传统编译"
 
 #: objc/lang-specs.h:55
-#, fuzzy
 msgid "objc-cpp-output is deprecated; please use objective-c-cpp-output instead"
-msgstr "objc-cpp-output 被不宜用；请使用 objective-c-cpp-output 作为替代"
+msgstr "objc-cpp-output 已弃用;请改用 OBJECTIVE-C-CPP-OUTPUT"
 
 #: objcp/lang-specs.h:58
-#, fuzzy
 msgid "objc++-cpp-output is deprecated; please use objective-c++-cpp-output instead"
-msgstr "objc ++-cpp-output 被不宜用；请使用 objective-c++-cpp-output 作为替代"
+msgstr "objc++-cpp-output 已弃用;请改用 objective-c++-cpp-output"
 
 #: fortran/lang.opt:146
 #, fuzzy, no-c-format
-#| msgid "-J<directory>\tPut MODULE files in 'directory'"
 msgid "-J<directory>\tPut MODULE files in 'directory'."
-msgstr "-J<目录>\t将 MODULE 文件放入目录"
+msgstr "-J<directory>\t将 MODULE 文件放在 'directory' 中"
 
 #: fortran/lang.opt:198
-#, fuzzy, no-c-format
-#| msgid "Warn about possible aliasing of dummy arguments"
+#, no-c-format
 msgid "Warn about possible aliasing of dummy arguments."
-msgstr "为可能的虚参重叠给出警告"
+msgstr "为虚拟参数可能出现的别名作警告"
 
 #: fortran/lang.opt:202
-#, fuzzy, no-c-format
-#| msgid "Warn about alignment of COMMON blocks"
+#, no-c-format
 msgid "Warn about alignment of COMMON blocks."
-msgstr "对 COMMON 块对齐的警告"
+msgstr "对 COMMON 块的对齐发出警告"
 
 #: fortran/lang.opt:206
-#, fuzzy, no-c-format
-#| msgid "Warn about missing ampersand in continued character constants"
+#, no-c-format
 msgid "Warn about missing ampersand in continued character constants."
-msgstr "若延续字符常量中缺少 & 则给出警告"
+msgstr "对连续字符常量中缺少 & 符号作出警告"
 
 #: fortran/lang.opt:210
-#, fuzzy, no-c-format
-#| msgid "Warn about creation of array temporaries"
+#, no-c-format
 msgid "Warn about creation of array temporaries."
-msgstr "创建临时数组时给出警告"
+msgstr "有关创建数组临时对象的警告"
 
 #: fortran/lang.opt:214 fortran/lang.opt:535 config/alpha/alpha.opt:31
 #: common.opt:680 common.opt:822 common.opt:1060 common.opt:1064
@@ -1610,50 +1580,45 @@ msgstr "不起作用。为向前兼容保留的选项。"
 #: fortran/lang.opt:218
 #, no-c-format
 msgid "Warn if the type of a variable might be not interoperable with C."
-msgstr ""
+msgstr "如果变量的类型可能无法与 C 互操作，则发出警告"
 
 #: fortran/lang.opt:226
-#, fuzzy, no-c-format
-#| msgid "Warn about truncated character expressions"
+#, no-c-format
 msgid "Warn about truncated character expressions."
-msgstr "对被截断的字符表达式给出警告"
+msgstr "对截断的字符表达式发出警告"
 
 #: fortran/lang.opt:230
 #, no-c-format
 msgid "Warn about equality comparisons involving REAL or COMPLEX expressions."
-msgstr ""
+msgstr "对涉及 REAL 或 COMPLEX 表达式的相等比较发出警告"
 
 #: fortran/lang.opt:238
-#, fuzzy, no-c-format
-#| msgid "Warn about most implicit conversions"
+#, no-c-format
 msgid "Warn about most implicit conversions."
 msgstr "对大多数隐式类型转换给出警告"
 
 #: fortran/lang.opt:242
-#, fuzzy, no-c-format
-#| msgid "Warn about possibly missing parentheses"
+#, no-c-format
 msgid "Warn about possibly incorrect subscripts in do loops."
 msgstr "可能缺少括号的情况下给出警告"
 
 #: fortran/lang.opt:250
 #, no-c-format
 msgid "Warn if loops have been interchanged."
-msgstr ""
+msgstr "如果循环已互换，则发出警告"
 
 #: fortran/lang.opt:254
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Warn about function call elimination."
 msgstr "当在算术表达式中使用函数指针时给出警告"
 
 #: fortran/lang.opt:258
-#, fuzzy, no-c-format
-#| msgid "Warn about calls with implicit interface"
+#, no-c-format
 msgid "Warn about calls with implicit interface."
 msgstr "对带有隐式接口的调用给出警告"
 
 #: fortran/lang.opt:262
-#, fuzzy, no-c-format
-#| msgid "Warn about called procedures not explicitly declared"
+#, no-c-format
 msgid "Warn about called procedures not explicitly declared."
 msgstr "对没有隐式声明的过程调用给出警告"
 
@@ -1683,7 +1648,7 @@ msgstr "当格式字符串不是字面量时给出警告"
 #: fortran/lang.opt:298
 #, no-c-format
 msgid "Warn that -fno-automatic may break recursion."
-msgstr ""
+msgstr "为 -fno-automatic 可能会中断递归作警告"
 
 #: fortran/lang.opt:306
 #, fuzzy, no-c-format
