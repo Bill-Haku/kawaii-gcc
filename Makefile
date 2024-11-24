@@ -1,16 +1,15 @@
-.PHONY: all
-all: merge-zh gcc.mo install
-gcc.mo: gcc-zh.po
-	msgfmt gcc-zh.po -o gcc.mo
+all: zh-origin zh-kawaii ja-kawaii
 
-install:
-	cp gcc.mo /usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo
+build:
+	mkdir -p build
 
-merge-zh: src/zh-kawaii.po
-	msgcat -o gcc-zh.po --no-wrap --use-first src/zh-kawaii.po src/zh_CN.po
-testmo:
-	cd test && ./test.sh
+%: src/%.po | build
+	msgfmt -o build/$*.mo $<
+
+src/zh-kawaii.po: src/zh-origin.po src/zh-kawaii-patch.po
+	msgcat -o src/zh-kawaii.po --no-wrap --use-first src/zh-kawaii-patch.po src/zh-origin.po
 
 .PHONY: clean
-clean: gcc.mo
-	rm -rf gcc.mo
+clean:
+	rm src/zh-kawaii.po
+	rm -rf build
