@@ -1257,3 +1257,18 @@ msgstr "-install_name 只能和 -dynamiclib 一起使用喵！"
 
 msgid "-bundle not allowed with -dynamiclib"
 msgstr "-bundle 不……不能与 -dynamiclib 在一起喵！"
+
+msgid "%s: all warnings being treated as errors"
+msgstr "%s：如你所愿，所有的警告都被当作是错误喵！"
+
+msgid "%s: some warnings being treated as errors"
+msgstr "%s：如你所愿，有些警告被当作是错误喵！"
+
+msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
+msgstr "%qE未声明(第一次使用居然不声明？杂鱼～）"
+
+msgid "Convert function return to call and return thunk."
+msgstr "函数是不能返回它自身的呢"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%2$qE的第 %1$d 个实参类型不能被强行兼容喵！会坏掉的喵！"
