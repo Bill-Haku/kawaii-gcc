@@ -1,3 +1,4 @@
+.PHONY: all
 all: zh-origin zh-kawaii ja-kawaii
 
 build:
