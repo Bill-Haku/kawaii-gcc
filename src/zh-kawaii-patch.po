@@ -86,11 +86,11 @@ msgstr "需要%<#pragma omp section%>或%<}%>，请添加上它并对它道歉�
 
 msgid ""
 "%s %<%s%.*s%> expects argument of type %<%s%s%>, but argument %d has type %qT"
-msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
+msgstr "%s %<%s%.*s%> 需要参数类型%<%s%s%>，但第 %d 个实参的类型却是%qT，长点心吧喂！！！"
 
 msgid ""
 "%s %<%s%.*s%> expects argument of type %<%T%s%>, but argument %d has type %qT"
-msgstr "格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！"
+msgstr "%s %<%s%.*s%> 需要参数类型%<%T%s%>，但第 %d 个实参的类型却是%qT，长点心吧喂！！！"
 
 msgid ""
 "call to %qE is ambiguous; argument %d has type %qs but argument %d has type "
