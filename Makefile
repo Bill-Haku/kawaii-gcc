@@ -1,3 +1,4 @@
+.PHONY: all clean src/zh-kawaii.po
 all: zh-origin zh-kawaii ja-kawaii
 
 build:
@@ -9,7 +10,6 @@ build:
 src/zh-kawaii.po: src/zh-origin.po src/zh-kawaii-patch.po
 	msgcat -o src/zh-kawaii.po --no-wrap --use-first src/zh-kawaii-patch.po src/zh-origin.po
 
-.PHONY: clean
 clean:
 	rm src/zh-kawaii.po
 	rm -rf build
