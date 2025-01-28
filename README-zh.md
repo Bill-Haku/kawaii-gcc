@@ -100,6 +100,16 @@
 
 https://github.com/Mosklia/gcc-hentai/issues/19
 
+### MinGW64
+
+可以参考[本Issue](https://github.com/Bill-Haku/kawaii-gcc/issues/25)，使用Scoop安装。
+
+```bash
+scoop bucket add hyj0824 https://github.com/hyj0824/scoop-bucket.git
+scoop update
+scoop install mingw-hentai
+```
+
 ### macOS
 
 暂未实现。欢迎贡献。
