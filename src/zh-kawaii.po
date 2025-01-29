@@ -1224,6 +1224,21 @@ msgstr "-install_name 只能和 -dynamiclib 一起使用喵！"
 msgid "-bundle not allowed with -dynamiclib"
 msgstr "-bundle 不……不能与 -dynamiclib 在一起喵！"
 
+msgid "%s: all warnings being treated as errors"
+msgstr "%s：如你所愿，所有的警告都被当作是错误喵！"
+
+msgid "%s: some warnings being treated as errors"
+msgstr "%s：如你所愿，有些警告被当作是错误喵！"
+
+msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
+msgstr "%qE未声明(第一次使用居然不声明？杂鱼～）"
+
+msgid "Convert function return to call and return thunk."
+msgstr "函数是不能返回它自身的呢"
+
+msgid "invalid memory model %wi for %qD"
+msgstr "%2$qE的第 %1$d 个实参类型不能被强行兼容喵！会坏掉的喵！"
+
 #: cif-code.def:43
 msgid "caller is not optimized"
 msgstr "调用方未被优化"
@@ -8459,12 +8474,6 @@ msgstr "当在算术表达式中使用函数指针时给出警告"
 #, no-c-format
 msgid "Convert indirect call and jump to call and return thunks."
 msgstr ""
-
-#: config/i386/i386.opt:1069
-#, fuzzy, no-c-format
-#| msgid "function return type cannot be function"
-msgid "Convert function return to call and return thunk."
-msgstr "函数不能返回函数"
 
 #: config/i386/i386.opt:1073 config/s390/s390.opt:277
 #, fuzzy, no-c-format
@@ -19002,16 +19011,6 @@ msgstr ""
 msgid "const/copy propagation disabled"
 msgstr "常量/复制传递被禁用"
 
-#: diagnostic.cc:159
-#, c-format
-msgid "%s: all warnings being treated as errors"
-msgstr "%s：所有的警告都被当作是错误"
-
-#: diagnostic.cc:164
-#, c-format
-msgid "%s: some warnings being treated as errors"
-msgstr "%s：有些警告被当作是错误"
-
 #: diagnostic.cc:464 input.cc:278 input.cc:2036 c-family/c-opts.cc:1480
 #: fortran/cpp.cc:608 fortran/error.cc:1150 fortran/error.cc:1170
 msgid "<built-in>"
@@ -28045,11 +28044,6 @@ msgstr "未知的架构‘%s’"
 msgid "invalid memory model %qs for %qD"
 msgstr "%2$qE的第 %1$d 个实参类型不兼容"
 
-#: gimple-ssa-warn-access.cc:2912
-#, fuzzy, gcc-internal-format
-msgid "invalid memory model %wi for %qD"
-msgstr "%2$qE的第 %1$d 个实参类型不兼容"
-
 #: gimple-ssa-warn-access.cc:2927 gimple-ssa-warn-access.cc:2979
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "valid models are %s"
@@ -28644,12 +28638,6 @@ msgstr "括入并行"
 #, gcc-internal-format
 msgid "%qE with %<link%> clause used in %<routine%> function"
 msgstr ""
-
-#: gimplify.cc:7763
-#, fuzzy, gcc-internal-format
-#| msgid "%qE undeclared (first use in this function)"
-msgid "%qE requires a %<declare%> directive for use in a %<routine%> function"
-msgstr "%qE未声明(在此函数内第一次使用)"
 
 #: gimplify.cc:7832
 #, fuzzy, gcc-internal-format
