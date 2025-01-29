@@ -3,86 +3,86 @@ msgstr ""
 "Project-Id-Version: gcc 13.1-b20230409\n"
 "Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
 "POT-Creation-Date: 2023-07-26 18:38+0000\n"
-"PO-Revision-Date: 2023-04-13 22:07-0400\n"
+"PO-Revision-Date: 2025-01-29 19:32+0800\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.5\n"
 
 msgid "function not considered for inlining"
-msgstr "我才不会考虑内联函数喵~(快放弃传统inline啊笨蛋！)"
+msgstr "我才不会考虑内联函数喵～(快放弃传统inline啊笨蛋！)"
 
 msgid "invalid conversion from type %<bfloat16_t%>"
-msgstr "从%<__fpreg%>的转换是无效的喵~"
+msgstr "从%<__fpreg%>的转换是无效的喵～"
 
 msgid "invalid conversion from %<__fpreg%>"
-msgstr "从%<__fpreg%>的转换是无效的喵~"
+msgstr "从%<__fpreg%>的转换是无效的喵～"
 
 msgid "invalid conversion from type %<__vector_quad%>"
-msgstr "从%<__fpreg%>的转换是无效的喵~"
+msgstr "从%<__fpreg%>的转换是无效的喵～"
 
 msgid "invalid conversion to type %<__vector_quad%>"
-msgstr "向%<__fpreg%>的转换是无效的喵~"
+msgstr "向%<__fpreg%>的转换是无效的喵～"
 
 msgid "invalid conversion from type %<__vector_pair%>"
-msgstr "从%<__fpreg%>的转换是无效的喵~"
+msgstr "从%<__fpreg%>的转换是无效的喵～"
 
 msgid "expected %<;%>"
-msgstr "需要%<;%>，请添加上它并对它道歉！"
+msgstr "需要%<;%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<]%>"
-msgstr "需要%<]%>，请添加上它并对它道歉！"
+msgstr "需要%<]%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<;%>, %<,%> or %<)%>"
-msgstr "需要 %<;%>、%<,%> 或 %<)%>，请添加上它并对它道歉！"
+msgstr "需要 %<;%>、%<,%> 或 %<)%>，果然是杂鱼这都能忘掉呢～"
 
 #. Look for the two `(' tokens.
 msgid "expected %<(%>"
-msgstr "需要%<(%>，请添加上它并对它道歉！"
+msgstr "需要%<(%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<[%>"
-msgstr "需要%<[%>，请添加上它并对它道歉！"
+msgstr "需要%<[%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<{%>"
-msgstr "需要%<{%>，请添加上它并对它道歉！"
+msgstr "需要%<{%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<:%>"
-msgstr "需要 %<:%>，请添加上它并对它道歉！"
+msgstr "需要 %<:%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<while%>"
-msgstr "需要 %<while%>，请添加上它并对它道歉！"
+msgstr "需要 %<while%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<,%>"
-msgstr "需要 %<,%>，请添加上它并对它道歉！"
+msgstr "需要 %<,%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<.%>"
-msgstr "需要%<.%>，请添加上它并对它道歉！"
+msgstr "需要%<.%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<@end%>"
-msgstr "需要 %<@end%>，请添加上它并对它道歉！"
+msgstr "需要 %<@end%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<>%>"
-msgstr "需要 %<>%>，请添加上它并对它道歉！"
+msgstr "需要 %<>%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<,%> or %<)%>"
-msgstr "需要 %<,%> 或 %<)%>，请添加上它并对它道歉！"
+msgstr "需要 %<,%> 或 %<)%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<=%>"
-msgstr "需要%<=%>，请添加上它并对它道歉！"
+msgstr "需要%<=%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<}%>"
-msgstr "需要 %<}%>，请添加上它并对它道歉！"
+msgstr "需要 %<}%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<else%>"
-msgstr "需要%<delete%>，请添加上它并对它道歉！"
+msgstr "需要%<delete%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<#pragma omp section%> or %<}%>"
-msgstr "需要%<#pragma omp section%>或%<}%>，请添加上它并对它道歉！"
+msgstr "需要%<#pragma omp section%>或%<}%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "%s %<%s%.*s%> expects argument of type %<%s%s%>, but argument %d has type %qT"
 msgstr "%s %<%s%.*s%> 需要参数类型%<%s%s%>，但第 %d 个实参的类型却是%qT，长点心吧喂！！！"
@@ -97,19 +97,19 @@ msgid "expected %qT but argument is of type %qT"
 msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
 
 msgid "invalid conversion from %qH to %qI"
-msgstr "从%qH到%qI的转换是无效的喵~"
+msgstr "从%qH到%qI的转换是无效的喵～"
 
 msgid "expected unqualified-id"
 msgstr "你可能需要指定符-限制符列表"
 
 msgid "expected %<;%> or %<{%>"
-msgstr "需要%<,%>或%<;%>,请添加上它并对它道歉！"
+msgstr "需要%<,%>或%<;%>,果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<{%> or %<:%>"
-msgstr "需要%<{%>或%<:%>，请添加上它并对它道歉！"
+msgstr "需要%<{%>或%<:%>，果然是杂鱼这都能忘掉呢～"
 
 msgid "expected %<{%> at %C"
-msgstr "需要%<{%>，请添加上它并对它道歉"
+msgstr "需要%<{%>，果然是杂鱼这都能忘掉呢～"
 
 msgid ""
 "\n"
@@ -122,7 +122,7 @@ msgid "  from here"
 msgstr "  从这里"
 
 msgid "%<::main%> must return %<int%>"
-msgstr "%<::main%>必须返回%<int%>，这你都不知道吗？"
+msgstr "%<::main%>必须返回%<int%>，真是个什么也不懂的杂鱼呢～"
 
 msgid "%<long long long%> is too long for GCC"
 msgstr "%<long long long%>对人家来说太长了啊，呜呜～"
@@ -131,7 +131,7 @@ msgid "%<long%> switch expression not converted to %<int%> in ISO C"
 msgstr "在 ISO C 中，%<long%>开关表达式不被转换为%<int%>, 建议换rust～"
 
 msgid "%q+D declared as a friend"
-msgstr "%q+D是你的朋友!"
+msgstr "%q+D是你的朋友！"
 
 msgid "Fatal Error"
 msgstr "寄了"
@@ -170,22 +170,22 @@ msgid "debug"
 msgstr "太...太羞耻了"
 
 msgid "debug: "
-msgstr "太...太羞耻了："
+msgstr "太...太羞耻了: "
 
 msgid "%qD was not declared in this scope"
 msgstr "%qD不声明就想用？你以为别的女孩子也会像我一样这样提醒你吗？"
 
 msgid "error"
-msgstr "笨蛋！"
+msgstr "杂鱼～"
 
 msgid "error: "
-msgstr "笨蛋！"
+msgstr "杂鱼～"
 
 msgid "need explicit conversion"
 msgstr "需要显式转换，才不会帮你进行呢"
 
 msgid "need explicit conversion; missing method %s%s%s"
-msgstr "需要显式转换；缺少方法%s%s%s"
+msgstr "需要显式转换; 缺少方法%s%s%s"
 
 msgid "negative insn length"
 msgstr "指令长度为负，好离谱喵～"
@@ -646,7 +646,7 @@ msgid "division by zero"
 msgstr "你的除数也是零吗？"
 
 msgid "warning: "
-msgstr "杂鱼～"
+msgstr "杂鱼"
 
 msgid "storage size of %q+D isn%'t known"
 msgstr "%q+D的存储大小未知,咱可并不喜欢你这种神秘感～"
@@ -1093,7 +1093,7 @@ msgid "non-call exception handling mismatch"
 msgstr "异常处理被触发了喵~"
 
 msgid "target specific option mismatch"
-msgstr "切...挂羊头卖狗肉的混蛋！"
+msgstr "切...挂羊头卖狗肉的杂鱼！"
 
 msgid "callee refers to comdat-local symbols"
 msgstr "comdat 本地符号：'又在想我了喵~'"
@@ -1105,7 +1105,7 @@ msgid "unreachable"
 msgstr "够不到~"
 
 msgid "internal compiler error: "
-msgstr "混...混蛋...里面一团糟..："
+msgstr "杂...杂鱼...里面一团糟..："
 
 msgid "interrupt service routine cannot be called directly"
 msgstr "想在Thumb大人的领域中捣乱吗?(不能编码中断服务进程)"
@@ -1129,10 +1129,10 @@ msgid "code model %s does not support PIC mode"
 msgstr "代码模式 %s ：我不喜欢在PIC模式下哦~"
 
 msgid "do not specify both -march=... and -mcpu=..."
-msgstr "不要同时指定 -march=... 和 -mcpu=...哦，不然会坏掉的"
+msgstr "不要同时指定 -march=... 和 -mcpu=... 哦，不然会坏掉的"
 
 msgid " conflicting code gen style switches are used"
-msgstr "使用了相互冲突的代码生成风格呢，是不是又在Ctrl+C，Ctrl+V了呢？"
+msgstr "使用了相互冲突的代码生成风格呢，真是个CV杂鱼～"
 
 msgid "rx200 cpu does not have FPU hardware"
 msgstr "RX200 CPU 是没有 FPU 硬件的呢"
