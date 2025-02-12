@@ -111,8 +111,37 @@ scoop install mingw-hentai
 ```
 
 ### macOS
+#### OrbStack：
+1.安装OrbStack，参考[OrbStack](https://docs.orbstack.dev/quick-start)
+2.下载任意的linux发行版镜像，并按照Linux版本进行设置
+* 注意一：`locale-gen`开启相应的语言版本
+    ** /etc/locale.gen文件取消你想使用语言的注释，如
+    ```/etc/locale.gen
+    zh_CN.UTF-8 UTF-8
+    ```
+    ** 执行`sudo locale-gen`
 
-    可以参考[本Issue](https://github.com/Bill-Haku/kawaii-gcc/issues/38)，使用OrbStack安装。
+* 注意二：Arch Linux用户在使用aur源的`kawaii-gcc`包时，可以考虑复制粘贴到zh_CN里面，然后一切按照仓库的说明进行
+
+* 注意三：在`~/.bashrc`,`~/.zshrc`等等目录设置`LANG``LANGUAGE`变量
+```bash
+    #'~/.bashrc'
+    export LANG="zh_CN.UTF-8"
+    export LANGUAGE="zh_CN.UTF-8"
+```
+```fish
+    # `~/.config/fish/config.fish`
+    set LANG "zh_CN.UTF-8"
+    set LANGUAGE "zh_CN.UTF-8"
+```
+
+3.在Mac宿主机这里设置`.zshrc`文件，增加alias
+```zsh
+# 设置你需要使用的gcc工具就可以了
+alias gcc='orb gcc'
+alias g++='orb g++'
+```
+---
 
 ## 如何修改/贡献
 

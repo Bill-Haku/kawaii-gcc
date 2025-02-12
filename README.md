@@ -100,8 +100,36 @@ Everyone is welcomed to contribute and add more kawaii messages!
 - Move the `gcc.mo` file in the `./prebuilt` directory of this repository to `<DIR>\usr\share\locale\ja\LC_MESSAGES`, keep naming it as `gcc.mo`. Backuping the existed `gcc.mo` file is suggested.
 
 ### macOS
+### OrbStack:
+1. Install OrbStack by following [OrbStack Quick Start](https://docs.orbstack.dev/quick-start)
+2. Download any Linux distribution image and configure according to the Linux version
+* Note 1: Enable desired locales using `locale-gen`
+    ** Uncomment your preferred language in `/etc/locale.gen`, e.g.
+    ```/etc/locale.gen
+    zh_CN.UTF-8 UTF-8
+    ```
+    ** Run `sudo locale-gen`
+* Note 2: Arch Linux users using the AUR `kawaii-gcc` package can copy-paste configurations into zh_CN directory and follow repository instructions
+* Note 3: Set `LANG` and `LANGUAGE` variables in shell configurations,for example:
+```bash
+    # ~/.bashrc
+    export LANG="zh_CN.UTF-8"
+    export LANGUAGE="zh_CN.UTF-8"
+```
+```fish
+    # ~/.config/fish/config.fish
+    set LANG "zh_CN.UTF-8"
+    set LANGUAGE "zh_CN.UTF-8"
+```
+3. Add aliases in macOS host's `.zshrc`:
+```zsh
+# Set your preferred GCC tools
+alias gcc='orb gcc'
+alias g++='orb g++'
+```
+---
 
-You can refer to [this Issue](https://github.com/Bill-Haku/kawaii-gcc/issues/38) and install it using OrbStack.
+
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=Bill-Haku/kawaii-gcc&type=Date)
