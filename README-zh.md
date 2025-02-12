@@ -120,9 +120,7 @@ scoop install mingw-hentai
     zh_CN.UTF-8 UTF-8
     ```
     ** 执行`sudo locale-gen`
-
 * 注意二：Arch Linux用户在使用aur源的`kawaii-gcc`包时，可以考虑复制粘贴到zh_CN里面，然后一切按照仓库的说明进行
-
 * 注意三：在`~/.bashrc`,`~/.zshrc`等等目录设置`LANG``LANGUAGE`变量
 ```bash
     #'~/.bashrc'
@@ -134,13 +132,14 @@ scoop install mingw-hentai
     set LANG "zh_CN.UTF-8"
     set LANGUAGE "zh_CN.UTF-8"
 ```
-
 3.在Mac宿主机这里设置`.zshrc`文件，增加alias
 ```zsh
 # 设置你需要使用的gcc工具就可以了
 alias gcc='orb gcc'
 alias g++='orb g++'
 ```
+4.环境搭建完成
+* 注意：gcc编译出来版本是linux版本，所以也应该用`orb ./`运行。
 ---
 
 ## 如何修改/贡献

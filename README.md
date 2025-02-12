@@ -127,6 +127,8 @@ Everyone is welcomed to contribute and add more kawaii messages!
 alias gcc='orb gcc'
 alias g++='orb g++'
 ```
+4. Environment setup completed
+* Note: The GCC compiled version is for Linux, so it should also be run using `orb ./`.
 ---
 
 
