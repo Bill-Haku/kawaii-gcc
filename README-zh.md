@@ -113,6 +113,7 @@ scoop install mingw-hentai
 ### macOS
 #### OrbStack：
 1.安装OrbStack，参考[OrbStack](https://docs.orbstack.dev/quick-start)
+
 2.下载任意的linux发行版镜像，并按照Linux版本进行设置
 * 注意一：`locale-gen`开启相应的语言版本
     ** /etc/locale.gen文件取消你想使用语言的注释，如

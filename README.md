@@ -128,7 +128,7 @@ alias gcc='orb gcc'
 alias g++='orb g++'
 ```
 4. Environment setup completed
-* Note: The GCC compiled version is for Linux, so it should also be run using `orb ./`.
+* Note: The compiled output from GCC targets Linux, so you should use `orb ./` to run the generated binaries.
 ---
 
 
