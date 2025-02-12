@@ -112,7 +112,7 @@ scoop install mingw-hentai
 
 ### macOS
 
-暂未实现。欢迎贡献。
+    可以参考[本Issue](https://github.com/Bill-Haku/kawaii-gcc/issues/38)，使用OrbStack安装。
 
 ## 如何修改/贡献
 

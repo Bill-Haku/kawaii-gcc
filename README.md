@@ -101,8 +101,7 @@ Everyone is welcomed to contribute and add more kawaii messages!
 
 ### macOS
 
-Not implemented yet. Contribution welcomed!
-
+You can refer to [this Issue](https://github.com/Bill-Haku/kawaii-gcc/issues/38) and install it using OrbStack.
 ## Star History
 
 ![Star History Chart](https://api.star-history.com/svg?repos=Bill-Haku/kawaii-gcc&type=Date)
