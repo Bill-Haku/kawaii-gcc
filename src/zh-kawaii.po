@@ -1375,7 +1375,8 @@ msgid "rdynamic is not supported"
 msgstr "不支持 rdynamic"
 
 #: config/dragonfly.h:76 config/i386/freebsd.h:82 config/i386/freebsd64.h:35
-#: config/ia64/freebsd.h:26 config/rs6000/sysv4.h:758 config/sparc/freebsd.h:45
+#: config/ia64/freebsd.h:26 config/rs6000/sysv4.h:758
+#: config/sparc/freebsd.h:45
 #, fuzzy
 msgid "consider using '-pg' instead of '-p' with gprof(1)"
 msgstr "与 gprof(1) 一起使用时请考虑使用‘-pg’以代替‘-p’"
@@ -1465,16 +1466,18 @@ msgstr "您需要一个 C 启动文件来表示 -msys-crt0="
 
 #: config/pa/pa-hpux10.h:102 config/pa/pa-hpux10.h:105
 #: config/pa/pa-hpux10.h:113 config/pa/pa-hpux10.h:116
-#: config/pa/pa-hpux11.h:134 config/pa/pa-hpux11.h:137 config/pa/pa64-hpux.h:29
-#: config/pa/pa64-hpux.h:32 config/pa/pa64-hpux.h:41 config/pa/pa64-hpux.h:44
+#: config/pa/pa-hpux11.h:134 config/pa/pa-hpux11.h:137
+#: config/pa/pa64-hpux.h:29 config/pa/pa64-hpux.h:32 config/pa/pa64-hpux.h:41
+#: config/pa/pa64-hpux.h:44
 #, fuzzy
 msgid "warning: consider linking with '-static' as system libraries with"
 msgstr "警告： 考虑将 '-static' 作为系统库链接和"
 
 #: config/pa/pa-hpux10.h:103 config/pa/pa-hpux10.h:106
 #: config/pa/pa-hpux10.h:114 config/pa/pa-hpux10.h:117
-#: config/pa/pa-hpux11.h:135 config/pa/pa-hpux11.h:138 config/pa/pa64-hpux.h:30
-#: config/pa/pa64-hpux.h:33 config/pa/pa64-hpux.h:42 config/pa/pa64-hpux.h:45
+#: config/pa/pa-hpux11.h:135 config/pa/pa-hpux11.h:138
+#: config/pa/pa64-hpux.h:30 config/pa/pa64-hpux.h:33 config/pa/pa64-hpux.h:42
+#: config/pa/pa64-hpux.h:45
 msgid "  profiling support are only provided in archive format"
 msgstr "取样支持只支持存档格式"
 
@@ -20735,7 +20738,8 @@ msgstr "使用‘%%&’ 时没有指定任何动态 TLS 引用"
 msgid "invalid %%J value"
 msgstr "无效 %%J 值"
 
-#: config/alpha/alpha.cc:5164 config/ia64/ia64.cc:5577 config/or1k/or1k.cc:1249
+#: config/alpha/alpha.cc:5164 config/ia64/ia64.cc:5577
+#: config/or1k/or1k.cc:1249
 #, c-format
 msgid "invalid %%r value"
 msgstr "无效 %%r 值"
@@ -23737,19 +23741,19 @@ msgstr "function_profiler 支持"
 #. Definitions for GCC.  Part of the machine description for CRIS.
 #. Copyright (C) 1998-2022 Free Software Foundation, Inc.
 #. Contributed by Axis Communications.  Written by Hans-Peter Nilsson.
-#.
+#. 
 #. This file is part of GCC.
-#.
+#. 
 #. GCC is free software; you can redistribute it and/or modify
 #. it under the terms of the GNU General Public License as published by
 #. the Free Software Foundation; either version 3, or (at your option)
 #. any later version.
-#.
+#. 
 #. GCC is distributed in the hope that it will be useful,
 #. but WITHOUT ANY WARRANTY; without even the implied warranty of
 #. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #. GNU General Public License for more details.
-#.
+#. 
 #. You should have received a copy of the GNU General Public License
 #. along with GCC; see the file COPYING3.  If not see
 #. <http://www.gnu.org/licenses/>.
@@ -23758,7 +23762,7 @@ msgstr "function_profiler 支持"
 #. Porting GCC" manual (uapgcc), in the same order as found in the "Target
 #. macros" section in the gcc-2.9x CVS edition of 2000-03-17.  FIXME: Not
 #. really, but needs an update anyway.
-#.
+#. 
 #. There is no generic copy-of-uapgcc comment, you'll have to see uapgcc
 #. for that.  If applicable, there is a CRIS-specific comment.  The order
 #. of macro definitions follow the order in the manual.  Every section in
@@ -23819,19 +23823,19 @@ msgstr "%P%F：不支持 -shared\n"
 #. for IBM RS/6000 POWER running AIX V7.1.
 #. Copyright (C) 2002-2022 Free Software Foundation, Inc.
 #. Contributed by David Edelsohn (edelsohn@gnu.org).
-#.
+#. 
 #. This file is part of GCC.
-#.
+#. 
 #. GCC is free software; you can redistribute it and/or modify it
 #. under the terms of the GNU General Public License as published
 #. by the Free Software Foundation; either version 3, or (at your
 #. option) any later version.
-#.
+#. 
 #. GCC is distributed in the hope that it will be useful, but WITHOUT
 #. ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 #. or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
 #. License for more details.
-#.
+#. 
 #. You should have received a copy of the GNU General Public License
 #. along with GCC; see the file COPYING3.  If not see
 #. <http://www.gnu.org/licenses/>.
@@ -23842,19 +23846,19 @@ msgstr "%P%F：不支持 -shared\n"
 #. for IBM RS/6000 POWER running AIX V7.2.
 #. Copyright (C) 2002-2022 Free Software Foundation, Inc.
 #. Contributed by David Edelsohn (edelsohn@gnu.org).
-#.
+#. 
 #. This file is part of GCC.
-#.
+#. 
 #. GCC is free software; you can redistribute it and/or modify it
 #. under the terms of the GNU General Public License as published
 #. by the Free Software Foundation; either version 3, or (at your
 #. option) any later version.
-#.
+#. 
 #. GCC is distributed in the hope that it will be useful, but WITHOUT
 #. ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 #. or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
 #. License for more details.
-#.
+#. 
 #. You should have received a copy of the GNU General Public License
 #. along with GCC; see the file COPYING3.  If not see
 #. <http://www.gnu.org/licenses/>.
@@ -23865,19 +23869,19 @@ msgstr "%P%F：不支持 -shared\n"
 #. for IBM RS/6000 POWER running AIX V7.3.
 #. Copyright (C) 2002-2022 Free Software Foundation, Inc.
 #. Contributed by David Edelsohn (edelsohn@gnu.org).
-#.
+#. 
 #. This file is part of GCC.
-#.
+#. 
 #. GCC is free software; you can redistribute it and/or modify it
 #. under the terms of the GNU General Public License as published
 #. by the Free Software Foundation; either version 3, or (at your
 #. option) any later version.
-#.
+#. 
 #. GCC is distributed in the hope that it will be useful, but WITHOUT
 #. ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 #. or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
 #. License for more details.
-#.
+#. 
 #. You should have received a copy of the GNU General Public License
 #. along with GCC; see the file COPYING3.  If not see
 #. <http://www.gnu.org/licenses/>.
@@ -24433,24 +24437,24 @@ msgstr "类型属性在定义后被忽略"
 #: c-family/c-attribs.cc:5687 c-family/c-common.cc:6037
 #: c-family/c-common.cc:6040 config/darwin.cc:2141 config/arm/arm.cc:7412
 #: config/arm/arm.cc:7440 config/arm/arm.cc:7457 config/avr/avr.cc:9568
-#: config/csky/csky.cc:6494 config/csky/csky.cc:6516 config/h8300/h8300.cc:4968
-#: config/h8300/h8300.cc:4992 config/i386/i386-options.cc:3375
-#: config/i386/i386-options.cc:3533 config/i386/i386-options.cc:3765
-#: config/i386/i386-options.cc:3795 config/ia64/ia64.cc:785
-#: config/rs6000/rs6000.cc:20316 ada/gcc-interface/utils.cc:6582
-#: ada/gcc-interface/utils.cc:6598 ada/gcc-interface/utils.cc:6636
-#: ada/gcc-interface/utils.cc:6653 ada/gcc-interface/utils.cc:6670
-#: ada/gcc-interface/utils.cc:6685 ada/gcc-interface/utils.cc:6701
-#: ada/gcc-interface/utils.cc:6727 ada/gcc-interface/utils.cc:6796
-#: ada/gcc-interface/utils.cc:6823 ada/gcc-interface/utils.cc:6844
-#: ada/gcc-interface/utils.cc:6865 ada/gcc-interface/utils.cc:6881
-#: ada/gcc-interface/utils.cc:6936 c/c-decl.cc:4644 c/c-decl.cc:4647
-#: c/c-decl.cc:4662 c/c-parser.cc:4973 d/d-attribs.cc:468 d/d-attribs.cc:677
-#: d/d-attribs.cc:698 d/d-attribs.cc:714 d/d-attribs.cc:731 d/d-attribs.cc:763
-#: d/d-attribs.cc:892 d/d-attribs.cc:951 d/d-attribs.cc:967 d/d-attribs.cc:983
-#: d/d-attribs.cc:1131 d/d-attribs.cc:1144 d/d-attribs.cc:1361
-#: d/d-attribs.cc:1382 d/d-attribs.cc:1406 jit/dummy-frontend.cc:185
-#: lto/lto-lang.cc:288
+#: config/csky/csky.cc:6494 config/csky/csky.cc:6516
+#: config/h8300/h8300.cc:4968 config/h8300/h8300.cc:4992
+#: config/i386/i386-options.cc:3375 config/i386/i386-options.cc:3533
+#: config/i386/i386-options.cc:3765 config/i386/i386-options.cc:3795
+#: config/ia64/ia64.cc:785 config/rs6000/rs6000.cc:20316
+#: ada/gcc-interface/utils.cc:6582 ada/gcc-interface/utils.cc:6598
+#: ada/gcc-interface/utils.cc:6636 ada/gcc-interface/utils.cc:6653
+#: ada/gcc-interface/utils.cc:6670 ada/gcc-interface/utils.cc:6685
+#: ada/gcc-interface/utils.cc:6701 ada/gcc-interface/utils.cc:6727
+#: ada/gcc-interface/utils.cc:6796 ada/gcc-interface/utils.cc:6823
+#: ada/gcc-interface/utils.cc:6844 ada/gcc-interface/utils.cc:6865
+#: ada/gcc-interface/utils.cc:6881 ada/gcc-interface/utils.cc:6936
+#: c/c-decl.cc:4644 c/c-decl.cc:4647 c/c-decl.cc:4662 c/c-parser.cc:4973
+#: d/d-attribs.cc:468 d/d-attribs.cc:677 d/d-attribs.cc:698 d/d-attribs.cc:714
+#: d/d-attribs.cc:731 d/d-attribs.cc:763 d/d-attribs.cc:892 d/d-attribs.cc:951
+#: d/d-attribs.cc:967 d/d-attribs.cc:983 d/d-attribs.cc:1131
+#: d/d-attribs.cc:1144 d/d-attribs.cc:1361 d/d-attribs.cc:1382
+#: d/d-attribs.cc:1406 jit/dummy-frontend.cc:185 lto/lto-lang.cc:288
 #, gcc-internal-format
 msgid "%qE attribute ignored"
 msgstr "%qE属性被忽略"
@@ -28204,12 +28208,12 @@ msgstr "无效的指针模式%qs"
 
 #: gimple-ssa-warn-access.cc:3946 gimple-ssa-warn-access.cc:4588
 #: gimple-ssa-warn-restrict.cc:1827 tree-ssa-uninit.cc:903
-#: tree-ssa-uninit.cc:1069 c/c-decl.cc:3893 c/c-decl.cc:4166 c/c-typeck.cc:8987
-#: c/c-typeck.cc:11696 cp/class.cc:1492 cp/class.cc:3276 cp/constexpr.cc:1013
-#: cp/decl.cc:4307 cp/decl.cc:12394 cp/decl.cc:12877 cp/decl.cc:12886
-#: cp/friend.cc:404 cp/friend.cc:414 cp/init.cc:2892 cp/parser.cc:3488
-#: cp/parser.cc:3634 cp/parser.cc:3685 cp/parser.cc:6882 cp/parser.cc:24237
-#: cp/typeck.cc:4777
+#: tree-ssa-uninit.cc:1069 c/c-decl.cc:3893 c/c-decl.cc:4166
+#: c/c-typeck.cc:8987 c/c-typeck.cc:11696 cp/class.cc:1492 cp/class.cc:3276
+#: cp/constexpr.cc:1013 cp/decl.cc:4307 cp/decl.cc:12394 cp/decl.cc:12877
+#: cp/decl.cc:12886 cp/friend.cc:404 cp/friend.cc:414 cp/init.cc:2892
+#: cp/parser.cc:3488 cp/parser.cc:3634 cp/parser.cc:3685 cp/parser.cc:6882
+#: cp/parser.cc:24237 cp/typeck.cc:4777
 #, gcc-internal-format
 msgid "%qD declared here"
 msgstr "%qD在此声明"
@@ -33365,7 +33369,7 @@ msgid "type is unavailable"
 msgstr "%qD不是一个变量"
 
 #. Type variant can differ by:
-#.
+#. 
 #. - TYPE_QUALS: TYPE_READONLY, TYPE_VOLATILE, TYPE_ATOMIC, TYPE_RESTRICT,
 #. ENCODE_QUAL_ADDR_SPACE.
 #. - main variant may be TYPE_COMPLETE_P and variant types !TYPE_COMPLETE_P
@@ -33382,7 +33386,7 @@ msgstr "%qD不是一个变量"
 #. - aggregates may have new TYPE_FIELDS list that list variants of
 #. the main variant TYPE_FIELDS.
 #. - vector types may differ by TYPE_VECTOR_OPAQUE
-#.
+#. 
 #. Convenience macro for matching individual fields.
 #: tree.cc:13134
 #, gcc-internal-format, gfc-internal-format
@@ -34187,8 +34191,9 @@ msgstr "%qE属性需要一个字符串常量作为实参"
 msgid "section attribute cannot be specified for local variables"
 msgstr "不能为局部变量指定节属性"
 
-#: c-family/c-attribs.cc:2255 config/bfin/bfin.cc:4796 config/bfin/bfin.cc:4847
-#: config/bfin/bfin.cc:4873 config/bfin/bfin.cc:4886 d/d-attribs.cc:1033
+#: c-family/c-attribs.cc:2255 config/bfin/bfin.cc:4796
+#: config/bfin/bfin.cc:4847 config/bfin/bfin.cc:4873 config/bfin/bfin.cc:4886
+#: d/d-attribs.cc:1033
 #, gcc-internal-format
 msgid "section of %q+D conflicts with previous declaration"
 msgstr "%q+D的节与早先的声明冲突"
@@ -37952,7 +37957,8 @@ msgstr "-malign-functions=%d 不在 0 和 %d 之间"
 msgid "%<-mbranch-cost=%d%> is not between 0 and 5"
 msgstr "%sbranch-cost=%d%s不在 0 和 5 之间"
 
-#: common/config/i386/i386-common.cc:1726 common/config/s390/s390-common.cc:132
+#: common/config/i386/i386-common.cc:1726
+#: common/config/s390/s390-common.cc:132
 #, gcc-internal-format
 msgid "%<-fsplit-stack%> currently only supported on GNU/Linux"
 msgstr "%<-fsplit-stack%>只在 GNU/Linux 下被支持"
@@ -39266,9 +39272,9 @@ msgstr "L%d 缓存延迟未知，对 %s 来说"
 msgid "bad value %qs for %<-mmemory-latency%>"
 msgstr "-mmemory-latency 开关的值%qs错误"
 
-#: config/alpha/alpha.cc:6651 config/alpha/alpha.cc:6654 config/arc/arc.cc:7078
-#: config/arc/arc.cc:7352 config/s390/s390.cc:876 config/tilegx/tilegx.cc:3537
-#: config/tilepro/tilepro.cc:3100
+#: config/alpha/alpha.cc:6651 config/alpha/alpha.cc:6654
+#: config/arc/arc.cc:7078 config/arc/arc.cc:7352 config/s390/s390.cc:876
+#: config/tilegx/tilegx.cc:3537 config/tilepro/tilepro.cc:3100
 #, gcc-internal-format
 msgid "bad builtin fcode"
 msgstr "错误的内建 fcode"
@@ -42107,12 +42113,14 @@ msgstr "%qs属性只能应用于函数"
 msgid "%qE cannot have both %qs and %qs attributes"
 msgstr "%qE不能同时有%<mips16%>和%<nomips16%>属性"
 
-#: config/mips/mips.cc:1475 config/mips/mips.cc:1481 config/nios2/nios2.cc:4483
+#: config/mips/mips.cc:1475 config/mips/mips.cc:1481
+#: config/nios2/nios2.cc:4483
 #, gcc-internal-format
 msgid "%qE redeclared with conflicting %qs attributes"
 msgstr "%qE重声明有冲突的属性%qs"
 
-#: config/mips/mips.cc:1513 config/mips/mips.cc:1567 config/riscv/riscv.cc:3315
+#: config/mips/mips.cc:1513 config/mips/mips.cc:1567
+#: config/riscv/riscv.cc:3315
 #, fuzzy, gcc-internal-format
 #| msgid "%qE attribute requires a string constant argument"
 msgid "%qE attribute requires a string argument"
@@ -47268,9 +47276,10 @@ msgstr "%<#pragma GCC pch_preprocess%>必须是第一个"
 #: c/c-parser.cc:12940 c/c-parser.cc:16406 c/c-parser.cc:18119
 #: c/c-parser.cc:18177 c/c-parser.cc:18184 c/c-parser.cc:18191
 #: c/c-parser.cc:22623 c/c-parser.cc:22631 c/c-parser.cc:22905
-#: c/c-parser.cc:22915 cp/parser.cc:36531 cp/parser.cc:39627 cp/parser.cc:40652
-#: cp/parser.cc:40715 cp/parser.cc:40722 cp/parser.cc:40729 cp/parser.cc:46576
-#: cp/parser.cc:46584 cp/parser.cc:46741 cp/parser.cc:46751
+#: c/c-parser.cc:22915 cp/parser.cc:36531 cp/parser.cc:39627
+#: cp/parser.cc:40652 cp/parser.cc:40715 cp/parser.cc:40722 cp/parser.cc:40729
+#: cp/parser.cc:46576 cp/parser.cc:46584 cp/parser.cc:46741
+#: cp/parser.cc:46751
 #, gcc-internal-format
 msgid "too many %qs clauses"
 msgstr "太多的%qs子句"
@@ -47549,7 +47558,8 @@ msgstr "%H折叠变量需要正整常数表达式"
 msgid "%<iterator%> modifier incompatible with %qs"
 msgstr "%qs必须与%qs一起使用"
 
-#: c/c-parser.cc:16145 cp/parser.cc:39366 cp/parser.cc:39688 cp/parser.cc:39738
+#: c/c-parser.cc:16145 cp/parser.cc:39366 cp/parser.cc:39688
+#: cp/parser.cc:39738
 #, fuzzy, gcc-internal-format
 msgid "invalid depend kind"
 msgstr "无效的调度类型"
@@ -47813,8 +47823,8 @@ msgstr "联合定义后需要%<;%>"
 msgid "expected %<==%>, %<<%> or %<>%> comparison in %<if%> condition"
 msgstr ""
 
-#: c/c-parser.cc:18483 cp/parser.cc:40990 cp/parser.cc:41271 cp/parser.cc:41365
-#: cp/parser.cc:41383
+#: c/c-parser.cc:18483 cp/parser.cc:40990 cp/parser.cc:41271
+#: cp/parser.cc:41365 cp/parser.cc:41383
 #, fuzzy, gcc-internal-format
 msgid "invalid form of %<#pragma omp atomic compare%>"
 msgstr "%<#pragma omp atomic%>运算符无效"
@@ -49251,7 +49261,8 @@ msgstr "初始值设定项末尾有多余的花括号组"
 msgid "braces around scalar initializer"
 msgstr "标量初始化带花括号"
 
-#: c/c-typeck.cc:8923 c/c-typeck.cc:10362 cp/typeck2.cc:1217 cp/typeck2.cc:1482
+#: c/c-typeck.cc:8923 c/c-typeck.cc:10362 cp/typeck2.cc:1217
+#: cp/typeck2.cc:1482
 #, gcc-internal-format
 msgid "initialization of flexible array member in a nested context"
 msgstr "在嵌套的上下文中初始化可变数组成员"
@@ -53719,7 +53730,7 @@ msgid "deleted definition of %qD is not first declaration"
 msgstr "删除了%qD的定义"
 
 #. From [temp.expl.spec]:
-#.
+#. 
 #. If a template, a member template or the member of a class
 #. template is explicitly specialized then that
 #. specialization shall be declared before the first use of
@@ -56211,10 +56222,10 @@ msgstr "%qT作为枚举被引用"
 
 #. If a class template appears as elaborated type specifier
 #. without a template header such as:
-#.
+#. 
 #. template <class T> class C {};
 #. void f(class C);		// No template header here
-#.
+#. 
 #. then the required template argument is missing.
 #: cp/decl.cc:15631
 #, gcc-internal-format
@@ -56330,7 +56341,7 @@ msgid "underlying type %qT of %qT must be an integral type"
 msgstr "%<%2$T%>的内在类型%<%1$T%>必须是整型"
 
 #. DR 377
-#.
+#. 
 #. IF no integral type can represent all the enumerator values, the
 #. enumeration is ill-formed.
 #: cp/decl.cc:16471
@@ -56635,7 +56646,7 @@ msgid "%<operator new%> must return type %qT"
 msgstr "%<operator new%>必须返回%qT"
 
 #. [basic.stc.dynamic.allocation]
-#.
+#. 
 #. The first parameter shall not have an associated default
 #. argument.
 #: cp/decl2.cc:1938
@@ -57597,7 +57608,7 @@ msgstr "%qD在此作用域中尚未声明"
 #. lookup until instantiation time rather than doing unqualified
 #. name lookup at template definition time; explain to the user what
 #. is going wrong.
-#.
+#. 
 #. Note that we have the exact wording of the following message in
 #. the manual (trouble.texi, node "Name lookup"), so they need to
 #. be kept in synch.
@@ -60825,7 +60836,7 @@ msgstr "模板参数表太少"
 
 #. Otherwise, there are too many template parameter lists.  We have
 #. something like:
-#.
+#. 
 #. template <class T> template <class U> void S::f();
 #: cp/parser.cc:30823
 #, gcc-internal-format
@@ -61613,12 +61624,12 @@ msgid "%qD is not a template function"
 msgstr "%qD不是一个模板函数"
 
 #. From [temp.expl.spec]:
-#.
+#. 
 #. If such an explicit specialization for the member
 #. of a class template names an implicitly-declared
 #. special member function (clause _special_), the
 #. program is ill-formed.
-#.
+#. 
 #. Similar language is found in [temp.explicit].
 #: cp/pt.cc:3101
 #, gcc-internal-format
@@ -61833,7 +61844,7 @@ msgid "member template %qD may not have virt-specifiers"
 msgstr "非成员函数%qD不能拥有 cv 限定符"
 
 #. [basic.stc.dynamic.allocation]
-#.
+#. 
 #. An allocation function can be a function
 #. template. ... Template allocation functions shall
 #. have two or more parameters.
@@ -62630,7 +62641,7 @@ msgid "exception specification of %qD depends on itself"
 msgstr "在初次使用后显式特例化%qD"
 
 #. [temp.explicit]
-#.
+#. 
 #. The definition of a non-exported function template, a
 #. non-exported member function template, or a non-exported
 #. member function or static data member of a class template

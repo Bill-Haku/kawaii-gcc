@@ -1259,16 +1259,31 @@ msgid "-bundle not allowed with -dynamiclib"
 msgstr "-bundle 不……不能与 -dynamiclib 在一起喵！"
 
 msgid "%s: all warnings being treated as errors" 
- msgstr "%s：如你所愿，所有的警告都被当作是错误喵！" 
+msgstr "%s：如你所愿，所有的警告都被当作是错误喵！" 
   
- msgid "%s: some warnings being treated as errors" 
- msgstr "%s：如你所愿，有些警告被当作是错误喵！" 
+msgid "%s: some warnings being treated as errors" 
+msgstr "%s：如你所愿，有些警告被当作是错误喵！" 
   
- msgid "%qE requires a %<declare%> directive for use in a %<routine%> function" 
- msgstr "%qE未声明(第一次使用居然不声明？杂鱼～）" 
+msgid "%qE requires a %<declare%> directive for use in a %<routine%> function" 
+msgstr "%qE未声明（第一次使用居然不声明？杂鱼～）" 
   
- msgid "Convert function return to call and return thunk." 
- msgstr "函数是不能返回它自身的呢" 
+msgid "Convert function return to call and return thunk." 
+msgstr "函数是不能返回它自身的呢" 
   
- msgid "invalid memory model %wi for %qD" 
- msgstr "%2$qE的第 %1$d 个实参类型不能被强行兼容喵！会坏掉的喵！"
+msgid "invalid memory model %wi for %qD" 
+msgstr "%2$qE的第 %1$d 个实参类型不能被强行兼容喵！会坏掉的喵！"
+
+msgid "Assigning value other than 0 or 1 to LOGICAL has undefined result at %L"
+msgstr "喂喂，你居然敢在 %L 给 LOGICAL 赋 0 或 1 以外的值？真是愚蠢啊！这种操作可是未定义的哦！"
+
+msgid "COMMON %qs at %L does not exist"
+msgstr "哈？%L 这里的 COMMON 竟然不存在？不会吧不会吧，你不会连这个都搞丢了吧？"
+
+msgid "COMMON %qs at %L requires %d bytes of padding; reorder elements or use %<-fno-align-commons%>"
+msgstr "什么啊，在 %L 还要填充 %d 字节？这排布方式有够蠢的，重排一下啊，还是说你不会？"
+
+msgid "Unused PRIVATE module variable %qs declared at %L"
+msgstr "居然在 %L 声明了变量 %qs，结果完全没用？你是打算给编译器看笑话吗？"
+
+msgid "Return value of function %qs at %L not set"
+msgstr "你这函数 %qs 在 %L 居然没设置返回值？咋了，不会写函数还是写了个寂寞？"
