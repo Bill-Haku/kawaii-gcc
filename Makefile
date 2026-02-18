@@ -1,5 +1,5 @@
 .PHONY: all clean src/zh-kawaii.po
-all: zh-origin zh-kawaii ja-kawaii
+all: zh-origin zh_CN-kawaii ja-kawaii
 
 build:
 	mkdir -p build
@@ -7,9 +7,9 @@ build:
 %: src/%.po | build
 	msgfmt -o build/$*.mo $<
 
-src/zh-kawaii.po: src/zh-origin.po src/zh-kawaii-patch.po
-	msgcat -o src/zh-kawaii.po --no-wrap --use-first src/zh-kawaii-patch.po src/zh-origin.po
+src/zh_CN-kawaii.po: src/zh-origin.po src/zh_CN-kawaii-patch.po
+	msgcat -o src/zh_CN-kawaii.po --no-wrap --use-first src/zh_CN-kawaii-patch.po src/zh-origin.po
 
 clean:
-	rm src/zh-kawaii.po
+	rm src/zh_CN-kawaii.po
 	rm -rf build
